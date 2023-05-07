@@ -1,0 +1,11 @@
+﻿test,protocol,table,column_name
+unique_observation,seagrass-biomass,sample-metadata,sample_event_id
+unique_observation,seagrass-biomass,sample-metadata,observatory_code
+unique_observation,seagrass-biomass,sample-metadata,location_name
+unique_observation,seagrass-biomass,sample-metadata,transect
+unique_observation,seagrass-biomass,sample-data,sample_event_id
+unique_observation,seagrass-biomass,sample-data,observatory_code
+unique_observation,seagrass-biomass,sample-data,location_name
+unique_observation,seagrass-biomass,sample-data,transect
+unique_observation,seagrass-biomass,sample-data,quadrat
+unique_observation,seagrass-biomass,sample-data,scientific_name

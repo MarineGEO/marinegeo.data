@@ -1,0 +1,4 @@
+test,protocol,table,column_name,minimum,maximum
+integer_range,seagrass-biomass,sample-metadata,transect,1,3
+integer_range,seagrass-biomass,sample-data,transect,1,3
+integer_range,seagrass-biomass,sample-data,quadrat,1,50

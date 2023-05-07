@@ -1,0 +1,7 @@
+test,protocol,table,column_name,minimum,maximum
+integer_range,seagrass-epifauna,sample-metadata,transect,1,3
+integer_range,seagrass-epifauna,macrophyte-mass-data,transect,1,3
+integer_range,seagrass-epifauna,macrophyte-mass-data,quadrat,1,50
+integer_range,seagrass-epifauna,epifauna-data,transect,1,3
+integer_range,seagrass-epifauna,epifauna-data,quadrat,1,50
+integer_range,seagrass-epifauna,epifauna-data,count,1,500

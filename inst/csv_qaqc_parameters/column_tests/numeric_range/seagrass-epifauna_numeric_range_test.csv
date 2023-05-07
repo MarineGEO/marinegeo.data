@@ -1,0 +1,5 @@
+test,protocol,table,column_name,minimum,maximum,type
+numeric_range,seagrass-epifauna,sample-metadata,mesh_bag_length,0,100,exclusive
+numeric_range,seagrass-epifauna,sample-metadata,mesh_bag_width,0,100,exclusive
+numeric_range,seagrass-epifauna,sample-metadata,mesh_size,0,100,exclusive
+numeric_range,seagrass-epifauna,macrophyte-mass-data,sample_dry_mass_g,0,5000,exclusive

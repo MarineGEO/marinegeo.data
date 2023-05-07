@@ -1,0 +1,306 @@
+sample_event_id,observatory_code,location_name,transect,quadrat,sample_collection_date,scientific_name,taxonomic_id,cover_code,sediment_type,cover_sample_notes
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,1,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,1,2022-07-19,Syringodium filiforme,374715,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,1,2022-07-19,Halodule wrightii,208925,B,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,1,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,2,2022-07-19,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,2,2022-07-19,Syringodium filiforme,374715,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,2,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,2,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,3,2022-07-19,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,3,2022-07-19,Syringodium filiforme,374715,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,3,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,3,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,4,2022-07-19,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,4,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,4,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,5,2022-07-19,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,5,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,5,2022-07-19,Syringodium filiforme,374715,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,5,2022-07-19,Halophila ovalis,208930,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,5,2022-07-19,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,6,2022-07-19,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,6,2022-07-19,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,6,2022-07-19,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,7,2022-07-19,unidentified macroalgae,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,7,2022-07-19,NA,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,8,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,8,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,8,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,9,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,9,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,9,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,10,2022-07-19,unidentified macroalgae,NA,B,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,10,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,10,2022-07-19,Syringodium filiforme,374715,B,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,10,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,11,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,11,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,11,2022-07-19,Syringodium filiforme,374715,B,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,11,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,12,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,12,2022-07-19,Syringodium filiforme,374715,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,1,12,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,1,2022-07-19,Halodule wrightii,208925,B,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,1,2022-07-19,Syringodium filiforme,374715,B,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,1,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,1,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,2,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,2,2022-07-19,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,3,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,3,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,3,2022-07-19,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,4,2022-07-19,Halodule wrightii,208925,B,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,4,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,5,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,5,2022-07-19,unidentified macroalgae,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,5,2022-07-19,NA,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,6,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,6,2022-07-19,unidentified macroalgae,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,6,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,7,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,7,2022-07-19,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,7,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,8,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,8,2022-07-19,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,9,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,9,2022-07-19,unidentified macroalgae,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,9,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,10,2022-07-19,unidentified macroalgae,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,10,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,11,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,11,2022-07-19,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,11,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,12,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,2,12,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,1,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,1,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,1,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,2,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,2,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,3,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,3,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,4,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,4,2022-07-19,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,5,2022-07-19,Thalassia testudinum,374720,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,5,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,5,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,6,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,6,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,6,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,7,2022-07-19,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,7,2022-07-19,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,7,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,8,2022-07-19,Syringodium filiforme,374715,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,8,2022-07-19,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,8,2022-07-19,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,9,2022-07-19,unidentified macroalgae,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,9,2022-07-19,NA,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,10,2022-07-19,Syringodium filiforme,374715,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,10,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,11,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,11,2022-07-19,Syringodium filiforme,374715,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,11,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,11,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,12,2022-07-19,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,12,2022-07-19,Syringodium filiforme,374715,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,12,2022-07-19,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Bear Point Seagrass,3,12,2022-07-19,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,1,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,1,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,2,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,2,2022-07-14,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,2,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,3,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,3,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,4,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,4,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,4,2022-07-14,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,5,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,5,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,5,2022-07-14,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,6,2022-07-14,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,6,2022-07-14,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,6,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,7,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,7,2022-07-14,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,7,2022-07-14,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,8,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,8,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,9,2022-07-14,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,9,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,10,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,10,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,11,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,11,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,12,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,1,12,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,12,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,12,2022-07-14,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,11,2022-07-14,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,11,2022-07-14,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,10,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,10,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,9,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,9,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,9,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,8,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,8,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,8,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,7,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,7,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,7,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,6,2022-07-14,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,6,2022-07-14,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,5,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,5,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,5,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,4,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,4,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,4,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,3,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,3,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,3,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,2,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,2,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,2,2022-07-14,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,1,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,1,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,2,1,2022-07-14,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,1,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,1,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,1,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,2,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,2,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,2,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,3,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,3,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,4,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,4,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,4,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,5,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,5,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,5,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,6,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,6,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,6,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,7,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,7,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,7,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,8,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,8,2022-07-14,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,8,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,9,2022-07-14,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,9,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,10,2022-07-14,Halodule wrightii,208925,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,10,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,10,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,11,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,11,2022-07-14,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,11,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,12,2022-07-14,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Round Island Seagrass,3,12,2022-07-14,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,1,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,1,2022-07-21,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,1,2022-07-21,Ulothrix speciosa,145930,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,1,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,2,2022-07-21,Ulothrix speciosa,145930,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,2,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,3,2022-07-21,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,3,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,3,2022-07-21,Ulothrix speciosa,145930,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,3,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,4,2022-07-21,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,4,2022-07-21,Ulothrix speciosa,145930,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,4,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,4,2022-07-21,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,5,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,5,2022-07-21,Ulothrix speciosa,145930,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,5,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,6,2022-07-21,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,6,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,6,2022-07-21,Ulothrix speciosa,145930,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,6,2022-07-21,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,7,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,7,2022-07-21,Ulothrix speciosa,145930,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,7,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,8,2022-07-21,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,8,2022-07-21,Ulothrix speciosa,145930,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,8,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,8,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,9,2022-07-21,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,9,2022-07-21,Ulothrix speciosa,145930,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,9,2022-07-21,NA,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,10,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,10,2022-07-21,Ulothrix speciosa,145930,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,10,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,10,2022-07-21,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,11,2022-07-21,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,11,2022-07-21,Ulothrix speciosa,145930,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,11,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,12,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,12,2022-07-21,Ulothrix speciosa,145930,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,1,12,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,1,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,1,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,1,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,2,2022-07-21,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,2,2022-07-21,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,3,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,3,2022-07-21,NA,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,4,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,4,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,5,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,5,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,5,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,6,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,6,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,6,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,7,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,7,2022-07-21,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,7,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,8,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,8,2022-07-21,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,8,2022-07-21,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,9,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,9,2022-07-21,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,9,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,10,2022-07-21,unidentified macroalgae,NA,G,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,11,2022-07-21,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,11,2022-07-21,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,12,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,12,2022-07-21,unidentified macroalgae,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,2,12,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,1,2022-07-21,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,1,2022-07-21,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,2,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,2,2022-07-21,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,2,2022-07-21,NA,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,3,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,3,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,3,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,4,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,4,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,4,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,5,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,5,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,5,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,6,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,6,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,6,2022-07-21,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,7,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,7,2022-07-21,unidentified macroalgae,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,7,2022-07-21,NA,NA,E,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,8,2022-07-21,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,8,2022-07-21,NA,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,9,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,9,2022-07-21,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,9,2022-07-21,NA,NA,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,10,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,10,2022-07-21,unidentified macroalgae,NA,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,10,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,11,2022-07-21,Halodule wrightii,208925,C,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,11,2022-07-21,NA,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,12,2022-07-21,Halodule wrightii,208925,D,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,12,2022-07-21,unidentified macroalgae,NA,F,mud,NA
+USA-IRL_seagrass_2022,USA-IRL,Harbor Branch Seagrass,3,12,2022-07-21,NA,NA,C,mud,NA

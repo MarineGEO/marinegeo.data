@@ -1,0 +1,17 @@
+﻿test,protocol,table,column_name
+unique_observation,seagrass-epifauna,sample-metadata,sample_event_id
+unique_observation,seagrass-epifauna,sample-metadata,observatory_code
+unique_observation,seagrass-epifauna,sample-metadata,location_name
+unique_observation,seagrass-epifauna,sample-metadata,transect
+unique_observation,seagrass-epifauna,macrophyte-mass-data,sample_event_id
+unique_observation,seagrass-epifauna,macrophyte-mass-data,observatory_code
+unique_observation,seagrass-epifauna,macrophyte-mass-data,location_name
+unique_observation,seagrass-epifauna,macrophyte-mass-data,transect
+unique_observation,seagrass-epifauna,macrophyte-mass-data,quadrat
+unique_observation,seagrass-epifauna,macrophyte-mass-data,macrophyte_id
+unique_observation,seagrass-epifauna,epifauna-data,sample_event_id
+unique_observation,seagrass-epifauna,epifauna-data,observatory_code
+unique_observation,seagrass-epifauna,epifauna-data,location_name
+unique_observation,seagrass-epifauna,epifauna-data,transect
+unique_observation,seagrass-epifauna,epifauna-data,quadrat
+unique_observation,seagrass-epifauna,epifauna-data,epifauna_id

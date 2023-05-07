@@ -1,0 +1,2 @@
+test,protocol,table,column_name,minimum,maximum,type
+numeric_range,seagrass-density,macro-invert-sample-data,size_mm,0,100,exclusive

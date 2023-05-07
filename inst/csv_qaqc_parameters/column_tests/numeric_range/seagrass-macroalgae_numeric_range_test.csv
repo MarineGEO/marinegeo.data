@@ -1,0 +1,3 @@
+test,protocol,table,column_name,minimum,maximum,type
+numeric_range,seagrass-macroalgae,sample-data,tin_mass_macroalgae_g,0,5000,exclusive
+numeric_range,seagrass-macroalgae,sample-data,tin_and_macroalgae_dry_mass_g,0,5000,exclusive

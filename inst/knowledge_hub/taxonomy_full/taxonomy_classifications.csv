@@ -1,0 +1,277 @@
+aphia_id,Kingdom,Class,Order,Family,Genus,Species,Phylum,highest_classification
+1492694,Plantae,Pinopsida,Cupressales,Cupressaceae,Juniperus,Juniperus virginiana,NA,species
+1492216,Plantae,Magnoliopsida,Fagales,Myricaceae,Morella,Morella cerifera,NA,species
+1491747,Plantae,Magnoliopsida,Dipsacales,Caprifoliaceae,Lonicera,Lonicera japonica,NA,species
+1491603,Plantae,Magnoliopsida,Apiales,Apiaceae,Hydrocotyle,Hydrocotyle umbellata,NA,species
+1435889,Plantae,Magnoliopsida,Alismatales,Alismataceae,Sagittaria,Sagittaria latifolia,NA,species
+1433670,Plantae,Magnoliopsida,Poales,Poaceae,Distichlis,Distichlis spicata,NA,species
+1415753,Plantae,Magnoliopsida,Poales,Typhaceae,Typha,Typha angustifolia,NA,species
+1403980,Animalia,Gymnolaemata,Cheilostomatida,Hippopodinidae,Hippopodina,Hippopodina indicata,Bryozoa,species
+1327608,Plantae,Florideophyceae,Gracilariales,Gracilariaceae,Crassiphycus,Crassiphycus usneoides,NA,species
+1258715,Animalia,Malacostraca,Decapoda,Mithracidae,Amphithrax,Amphithrax hemphilli,Arthropoda,species
+1096320,Plantae,Magnoliopsida,Asterales,Compositae,Aster,Aster subulatus,NA,species
+1021266,Animalia,Polychaeta,Sabellida,Spirorbidae,NA,NA,Annelida,family
+932401,Animalia,Malacostraca,Decapoda,Palaemonidae,Palaemon,Palaemon pugio,Arthropoda,species
+888530,Animalia,Teleostei,Esociformes,Esocidae,Esox,Esox niger,Chordata,species
+877061,Animalia,Gastropoda,Neogastropoda,Nassariidae,Phrontis,Phrontis vibex,Mollusca,species
+865834,Animalia,Gastropoda,Cycloneritida,Neritidae,Vitta,Vitta virginea,Mollusca,species
+851581,Animalia,Gymnolaemata,Ctenostomatida,Vesiculariidae,Amathia,Amathia verticillata,Bryozoa,species
+834018,Animalia,Gymnolaemata,Cheilostomatida,Bugulidae,Bugulina,Bugulina stolonifera,Bryozoa,species
+760385,Animalia,Gymnolaemata,Cheilostomatida,Candidae,Licornia,Licornia regularis,Bryozoa,species
+738973,Animalia,Gymnolaemata,Cheilostomatida,Candidae,Cradoscrupocellaria,Cradoscrupocellaria bertholletii,Bryozoa,species
+738972,Animalia,Gymnolaemata,Cheilostomatida,Candidae,Cradoscrupocellaria,Cradoscrupocellaria atlantica,Bryozoa,species
+578001,Plantae,Magnoliopsida,Asterales,Compositae,Baccharis,Baccharis halimifolia,NA,species
+577501,Plantae,Magnoliopsida,Poales,Cyperaceae,Schoenoplectus,Schoenoplectus americanus,NA,species
+532891,Animalia,Gastropoda,Neogastropoda,Granulinidae,Granulina,Granulina ovuliformis,Mollusca,species
+532293,Animalia,Gastropoda,Cephalaspidea,Haminoeidae,Haminoea,Haminoea petitii,Mollusca,species
+514508,Animalia,Malacostraca,Decapoda,Palaemonidae,Cuapetes,Cuapetes americanus,Arthropoda,species
+469112,Animalia,Gymnolaemata,Cheilostomatida,Bitectiporidae,Hippoporina,Hippoporina indica,Bryozoa,species
+448282,Animalia,Gymnolaemata,Cheilostomatida,Bugulidae,Caulibugula,Caulibugula armata,Bryozoa,species
+431340,Animalia,Malacostraca,Amphipoda,Corophiidae,Chelicorophium,Chelicorophium spinulosum,Arthropoda,species
+422677,Animalia,Malacostraca,Amphipoda,Aoridae,Lembos,Lembos unifasciatus,Arthropoda,species
+422418,Animalia,Gymnolaemata,Ctenostomatida,Vesiculariidae,Amathia,Amathia alternata,Bryozoa,species
+422363,Animalia,Gymnolaemata,Cheilostomatida,Schizoporellidae,Schizoporella,Schizoporella pungens,Bryozoa,species
+422348,Animalia,Gymnolaemata,Cheilostomatida,Smittinidae,Parasmittina,Parasmittina nitida,Bryozoa,species
+422314,Animalia,Gymnolaemata,Cheilostomatida,Catenicellidae,Catenicella,Catenicella uberrima,Bryozoa,species
+422187,Animalia,Malacostraca,Decapoda,Grapsidae,Goniopsis,Goniopsis cruentata,Arthropoda,species
+422113,Animalia,Malacostraca,Decapoda,Pseudorhombilidae,Nanoplax,Nanoplax xanthiformis,Arthropoda,species
+422086,Animalia,Malacostraca,Decapoda,Panopeidae,Panopeus,Panopeus occidentalis,Arthropoda,species
+422081,Animalia,Malacostraca,Decapoda,Panopeidae,Hexapanopeus,Hexapanopeus paulensis,Arthropoda,species
+422070,Animalia,Malacostraca,Decapoda,Menippidae,Menippe,Menippe mercenaria,Arthropoda,species
+421589,Animalia,Malacostraca,Amphipoda,Ischyroceridae,Cerapus,Cerapus cudjoe,Arthropoda,species
+421581,Animalia,Malacostraca,Amphipoda,Caprellidae,Deutella,Deutella incerta,Arthropoda,species
+421523,Animalia,Malacostraca,Amphipoda,Maeridae,Quadrimaera,Quadrimaera quadrimana,Arthropoda,species
+421504,Animalia,Malacostraca,Amphipoda,Melitidae,Dulichiella,Dulichiella appendiculata,Arthropoda,species
+421142,Animalia,Thecostraca,Balanomorpha,Balanidae,Amphibalanus,Amphibalanus venustus,Arthropoda,species
+421140,Animalia,Thecostraca,Balanomorpha,Balanidae,Amphibalanus,Amphibalanus reticulatus,Arthropoda,species
+421138,Animalia,Thecostraca,Balanomorpha,Balanidae,Amphibalanus,Amphibalanus eburneus,Arthropoda,species
+421070,Animalia,Polychaeta,Sabellida,Sabellidae,Branchiomma,Branchiomma bairdi,Annelida,species
+420736,Animalia,Bivalvia,Ostreida,Isognomonidae,Isognomon,Isognomon alatus,Mollusca,species
+420734,Animalia,Bivalvia,Ostreida,Margaritidae,Pinctada,Pinctada longisquamosa,Mollusca,species
+420707,Animalia,Bivalvia,Mytilida,Mytilidae,Musculus,Musculus lateralis,Mollusca,species
+420524,Animalia,Gastropoda,Cephalaspidea,Haminoeidae,Haminoea,Haminoea antillarum,Mollusca,species
+420514,Animalia,Gastropoda,NA,Acteonidae,Japonactaeon,Japonactaeon punctostriatus,Mollusca,species
+420483,Animalia,Gastropoda,NA,Pyramidellidae,Turbonilla,Turbonilla dalli,Mollusca,species
+420437,Animalia,Gastropoda,NA,Pyramidellidae,Boonea,Boonea impressa,Mollusca,species
+420149,Animalia,Gastropoda,Neogastropoda,Marginellidae,Prunum,Prunum apicinum,Mollusca,species
+419806,Animalia,Gastropoda,[unassigned] Caenogastropoda,Epitoniidae,Epitonium,Epitonium candeanum,Mollusca,species
+419588,Animalia,Gastropoda,Littorinimorpha,Caecidae,Caecum,Caecum floridanum,Mollusca,species
+419523,Animalia,Gastropoda,[unassigned] Caenogastropoda,Cerithiidae,Cerithium,Cerithium muscarum,Mollusca,species
+419522,Animalia,Gastropoda,[unassigned] Caenogastropoda,Cerithiidae,Cerithium,Cerithium lutosum,Mollusca,species
+418820,Plantae,Magnoliopsida,Poales,Poaceae,Spartina,Spartina cynosuroides,NA,species
+418816,Plantae,Magnoliopsida,Poales,Poaceae,Panicum,Panicum virgatum,NA,species
+418793,Plantae,Magnoliopsida,Asterales,Compositae,Symphyotrichum,Symphyotrichum tenuifolium,NA,species
+418790,Plantae,Magnoliopsida,Asterales,Compositae,Solidago,Solidago sempervirens,NA,species
+418788,Plantae,Magnoliopsida,Asterales,Compositae,Pluchea,Pluchea odorata,NA,species
+418784,Plantae,Magnoliopsida,Asterales,Compositae,Iva,Iva frutescens,NA,species
+418730,Plantae,Magnoliopsida,Malvales,Malvaceae,Kosteletzkya,Kosteletzkya virginica,NA,species
+418727,Plantae,Magnoliopsida,Malvales,Malvaceae,Hibiscus,Hibiscus moscheutos,NA,species
+418655,Plantae,Magnoliopsida,Caryophyllales,Amaranthaceae,Amaranthus,Amaranthus cannabinus,NA,species
+418650,Plantae,Magnoliopsida,Vitales,Vitaceae,Parthenocissus,Parthenocissus quinquefolia,NA,species
+416222,Plantae,Magnoliopsida,Alismatales,Potamogetonaceae,Zannichellia,Zannichellia palustris,NA,species
+416209,Plantae,Magnoliopsida,Poales,Poaceae,Phragmites,Phragmites australis,NA,species
+415991,Plantae,Magnoliopsida,Asterales,Compositae,Solidago,NA,NA,genus
+415505,Plantae,Magnoliopsida,Aquifoliales,Aquifoliaceae,Ilex,NA,NA,genus
+397026,Animalia,Bivalvia,Mytilida,Mytilidae,Brachidontes,Brachidontes exustus,Mollusca,species
+396707,Animalia,Malacostraca,Decapoda,Porcellanidae,Petrolisthes,Petrolisthes armatus,Arthropoda,species
+395045,Plantae,Magnoliopsida,Poales,Poaceae,Spartina,Spartina patens,NA,species
+394868,Animalia,Gymnolaemata,Cheilostomatida,Celleporidae,Celleporaria,Celleporaria brunnea,Bryozoa,species
+394039,Bacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Nereida,NA,Proteobacteria,genus
+374722,Plantae,Magnoliopsida,Alismatales,Hydrocharitaceae,Halophila,Halophila engelmannii,NA,species
+374720,Plantae,Magnoliopsida,Alismatales,Hydrocharitaceae,Thalassia,Thalassia testudinum,NA,species
+374715,Plantae,Magnoliopsida,Alismatales,Cymodoceaceae,Syringodium,Syringodium filiforme,NA,species
+367850,Animalia,Echinoidea,Camarodonta,Toxopneustidae,Lytechinus,Lytechinus variegatus,Echinodermata,species
+346012,Animalia,Copepoda,Siphonostomatoida,Dissonidae,NA,NA,Arthropoda,family
+334445,Animalia,Polychaeta,Phyllodocida,Nereididae,Perinereis,Perinereis monterea,Annelida,species
+333453,Animalia,Polychaeta,Phyllodocida,Syllidae,Exogone,Exogone dispar,Annelida,species
+328104,Animalia,Polychaeta,Phyllodocida,Glyceridae,Glycera,Glycera brevicirris,Annelida,species
+325958,Animalia,Polychaeta,Sabellida,Sabellidae,Parasabella,NA,Annelida,genus
+283419,Animalia,Anthozoa,Actiniaria,Actiniidae,Condylactis,Condylactis gigantea,Cnidaria,species
+281120,Animalia,Teleostei,Perciformes,Serranidae,Hypoplectrus,Hypoplectrus puella,Chordata,species
+277493,Animalia,Teleostei,Gobiiformes,Gobiidae,Gnatholepis,Gnatholepis thompsoni,Chordata,species
+276426,Animalia,Teleostei,Gobiiformes,Gobiidae,Coryphopterus,Coryphopterus eidolon,Chordata,species
+261817,Animalia,Malacostraca,Isopoda,Sphaeromatidae,Paracerceis,Paracerceis caudata,Arthropoda,species
+260565,Animalia,Malacostraca,Isopoda,Sphaeromatidae,Harrieta,Harrieta faxoni,Arthropoda,species
+254754,Animalia,Malacostraca,Amphipoda,Photidae,Photis,Photis spasskii,Arthropoda,species
+252853,Animalia,Ascidiacea,Aplousobranchia,Didemnidae,Didemnum,Didemnum psammatodes,Chordata,species
+252289,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Botrylloides,Botrylloides niger,Chordata,species
+251435,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Symplegma,Symplegma brakenhielmi,Chordata,species
+250697,Animalia,Ascidiacea,Stolidobranchia,Pyuridae,Herdmania,Herdmania pallida,Chordata,species
+250323,Animalia,Ascidiacea,Aplousobranchia,Clavelinidae,Clavelina,Clavelina picta,Chordata,species
+250236,Animalia,Ascidiacea,Aplousobranchia,Polycitoridae,Eudistoma,Eudistoma olivaceum,Chordata,species
+250134,Animalia,Ascidiacea,Aplousobranchia,Didemnidae,Diplosoma,Diplosoma glandulosum,Chordata,species
+249981,Animalia,Ascidiacea,Phlebobranchia,Ascidiidae,Ascidia,Ascidia curvata,Chordata,species
+247538,Animalia,Malacostraca,Tanaidacea,Leptocheliidae,Hargeria,Hargeria rapax,Arthropoda,species
+246346,Animalia,Malacostraca,Decapoda,Pseudorhombilidae,Micropanope,NA,Arthropoda,genus
+240777,Animalia,Echinoidea,Camarodonta,Toxopneustidae,Lytechinus,NA,Echinodermata,genus
+234105,Animalia,Teleostei,Tetraodontiformes,Tetraodontidae,Canthigaster,Canthigaster capistrata,Chordata,species
+234072,Plantae,Magnoliopsida,Poales,Poaceae,Spartina,Spartina alterniflora,NA,species
+231441,Animalia,Teleostei,Eupercaria incertae sedis,Scaridae,Sparisoma,Sparisoma cretense,Chordata,species
+225814,Animalia,Malacostraca,Amphipoda,Corophiidae,Monocorophium,Monocorophium acherusicum,Arthropoda,species
+224572,Animalia,Gastropoda,[unassigned] Caenogastropoda,Cerithiidae,Cerithium,Cerithium atratum,Mollusca,species
+216687,Animalia,Gastropoda,[unassigned] Caenogastropoda,Cerithiidae,Cerithium,Cerithium litteratum,Mollusca,species
+215992,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Botryllus,Botryllus planus,Chordata,species
+215940,Animalia,Ascidiacea,Phlebobranchia,Ascidiidae,Ascidia,Ascidia sydneiensis,Chordata,species
+215891,Animalia,Ascidiacea,Aplousobranchia,Polyclinidae,Polyclinum,Polyclinum constellatum,Chordata,species
+212500,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Symplegma,Symplegma rubra,Chordata,species
+211768,Plantae,Florideophyceae,Ceramiales,Rhodomelaceae,Acanthophora,Acanthophora spicifera,NA,species
+211405,Animalia,Malacostraca,Amphipoda,Aoridae,Grandidierella,Grandidierella bonnieroides,Arthropoda,species
+210522,Animalia,Malacostraca,Decapoda,Alpheidae,Alpheus,Alpheus paracrinitus,Arthropoda,species
+208930,Plantae,Magnoliopsida,Alismatales,Hydrocharitaceae,Halophila,Halophila ovalis,NA,species
+208925,Plantae,Magnoliopsida,Alismatales,Cymodoceaceae,Halodule,Halodule wrightii,NA,species
+196285,Animalia,Gastropoda,[unassigned] Caenogastropoda,Modulidae,NA,NA,Mollusca,family
+192555,Animalia,Demospongiae,Poecilosclerida,Mycalidae,Mycale,Mycale microsigmatosa,Porifera,species
+191436,Animalia,Demospongiae,Suberitida,Halichondriidae,Halichondria,Halichondria magniconulosa,Porifera,species
+168590,Animalia,Demospongiae,Poecilosclerida,Mycalidae,Mycale,Mycale (Carmia) microsigmatosa,Porifera,species
+160476,Animalia,Gastropoda,Neogastropoda,Mangeliidae,Pyrgocythara,Pyrgocythara plicosa,Mollusca,species
+160440,Animalia,Gastropoda,Neogastropoda,Columbellidae,Parvanachis,Parvanachis obesa,Mollusca,species
+160395,Animalia,Gastropoda,Neogastropoda,Nassariidae,Nassarius,Nassarius acutus,Mollusca,species
+160363,Animalia,Gastropoda,[unassigned] Caenogastropoda,Triphoridae,Marshallora,Marshallora nigrocincta,Mollusca,species
+160228,Animalia,Gastropoda,Littorinimorpha,Calyptraeidae,Crepidula,Crepidula convexa,Mollusca,species
+160222,Animalia,Gastropoda,Neogastropoda,Columbellidae,Costoanachis,Costoanachis avara,Mollusca,species
+160174,Animalia,Gastropoda,[unassigned] Caenogastropoda,Cerithiidae,Bittiolum,Bittiolum varium,Mollusca,species
+160102,Animalia,Gastropoda,Neogastropoda,Columbellidae,Astyris,Astyris lunata,Mollusca,species
+160091,Animalia,Gastropoda,NA,Pyramidellidae,Turbonilla,Turbonilla toyatani,Mollusca,species
+160065,Animalia,Gastropoda,Cephalaspidea,Tornatinidae,Acteocina,Acteocina canaliculata,Mollusca,species
+160028,Animalia,Malacostraca,Amphipoda,Caprellidae,Paracaprella,Paracaprella tenuis,Arthropoda,species
+159791,Animalia,Teleostei,Eupercaria incertae sedis,Lutjanidae,Lutjanus,NA,Chordata,genus
+159661,Animalia,Teleostei,Acanthuriformes,Chaetodontidae,Chaetodon,Chaetodon capistratus,Chordata,species
+159451,Animalia,Teleostei,Syngnathiformes,Syngnathidae,Syngnathus,Syngnathus fuscus,Chordata,species
+159322,Animalia,Teleostei,Eupercaria incertae sedis,Sciaenidae,Leiostomus,Leiostomus xanthurus,Chordata,species
+159308,Animalia,Teleostei,Cyprinodontiformes,Fundulidae,Fundulus,Fundulus majalis,Chordata,species
+159306,Animalia,Teleostei,Cyprinodontiformes,Fundulidae,Fundulus,Fundulus heteroclitus,Chordata,species
+159228,Animalia,Teleostei,Atheriniformes,Atherinopsidae,Menidia,Menidia menidia,Chordata,species
+159227,Animalia,Teleostei,Atheriniformes,Atherinopsidae,Menidia,Menidia beryllina,Chordata,species
+158815,Animalia,Teleostei,Eupercaria incertae sedis,Labridae,Halichoeres,Halichoeres bivittatus,Chordata,species
+158808,Animalia,Teleostei,Eupercaria incertae sedis,Haemulidae,Haemulon,Haemulon plumierii,Chordata,species
+158699,Animalia,Teleostei,Clupeiformes,Engraulidae,Anchoa,Anchoa mitchilli,Chordata,species
+158436,Animalia,Malacostraca,Decapoda,Panopeidae,Panopeus,Panopeus herbstii,Arthropoda,species
+158428,Animalia,Malacostraca,Decapoda,Mithracidae,Mithrax,NA,Arthropoda,genus
+158416,Animalia,Malacostraca,Decapoda,Panopeidae,Eurypanopeus,Eurypanopeus depressus,Arthropoda,species
+158361,Animalia,Malacostraca,Decapoda,Hippolytidae,Hippolyte,Hippolyte zostericola,Arthropoda,species
+158360,Animalia,Malacostraca,Decapoda,Hippolytidae,Hippolyte,Hippolyte pleuracantha,Arthropoda,species
+158348,Animalia,Malacostraca,Decapoda,Alpheidae,Alpheus,Alpheus heterochaelis,Arthropoda,species
+158082,Animalia,Malacostraca,Amphipoda,Ampithoidae,Cymadusa,Cymadusa compta,Arthropoda,species
+158036,Animalia,Malacostraca,Amphipoda,Lysianassidae,Lysianopsis,Lysianopsis alba,Arthropoda,species
+158026,Animalia,Malacostraca,Amphipoda,Ampithoidae,Ampithoe,Ampithoe longimana,Arthropoda,species
+158023,Animalia,Malacostraca,Amphipoda,Ampeliscidae,Ampelisca,Ampelisca verrilli,Arthropoda,species
+157887,Animalia,Malacostraca,Isopoda,Idoteidae,Erichsonella,Erichsonella attenuata,Arthropoda,species
+157483,Animalia,Polychaeta,NA,Capitellidae,Mediomastus,Mediomastus californiensis,Annelida,species
+157179,Animalia,Polychaeta,Spionida,Spionidae,Aonides,Aonides mayaguezensis,Annelida,species
+156861,Animalia,Bivalvia,Mytilida,Mytilidae,Ischadium,Ischadium recurvum,Mollusca,species
+156737,Animalia,Bivalvia,Pectinida,Anomiidae,Anomia,Anomia simplex,Mollusca,species
+151267,Animalia,Gastropoda,Trochida,Phasianellidae,NA,NA,Mollusca,family
+151177,Animalia,Teleostei,Eupercaria incertae sedis,Moronidae,Morone,Morone americana,Chordata,species
+151158,Animalia,Teleostei,Eupercaria incertae sedis,Sciaenidae,Micropogonias,Micropogonias undulatus,Chordata,species
+149668,Animalia,Malacostraca,Mysida,NA,NA,NA,Arthropoda,order
+145930,Plantae,Ulvophyceae,Ulotrichales,Ulotrichaceae,Ulothrix,Ulothrix speciosa,NA,species
+145793,Plantae,Magnoliopsida,Alismatales,Cymodoceaceae,Cymodocea,Cymodocea nodosa,NA,species
+145713,Plantae,Magnoliopsida,Alismatales,Hydrocharitaceae,Halophila,Halophila decipiens,NA,species
+145635,Plantae,Florideophyceae,Gigartinales,Cystocloniaceae,Hypnea,Hypnea spinella,NA,species
+145634,Plantae,Florideophyceae,Gigartinales,Cystocloniaceae,Hypnea,Hypnea musciformis,NA,species
+144482,Plantae,Ulvophyceae,Bryopsidales,Halimedaceae,Halimeda,Halimeda opuntia,NA,species
+144474,Plantae,Ulvophyceae,Bryopsidales,Caulerpaceae,Caulerpa,Caulerpa sertularioides,NA,species
+144188,Plantae,Florideophyceae,Gracilariales,Gracilariaceae,Gracilaria,NA,NA,genus
+144086,Chromista,Phaeophyceae,Dictyotales,Dictyotaceae,Dictyota,NA,Ochrophyta,genus
+143820,Plantae,Ulvophyceae,Bryopsidales,Halimedaceae,Halimeda,NA,NA,genus
+143816,Plantae,Ulvophyceae,Bryopsidales,Caulerpaceae,Caulerpa,NA,NA,genus
+140657,Animalia,Bivalvia,Ostreida,Ostreidae,Crassostrea,Crassostrea virginica,Mollusca,species
+140570,Animalia,Gastropoda,Cycloneritida,Neritidae,Smaragdia,Smaragdia viridis,Mollusca,species
+138940,Animalia,Gastropoda,Cephalaspidea,Bullidae,Bulla,Bulla striata,Mollusca,species
+138650,Animalia,Gastropoda,Littorinimorpha,Vermetidae,Petaloconchus,NA,Mollusca,genus
+137722,Animalia,Gastropoda,Littorinimorpha,Calyptraeidae,Crepidula,NA,Mollusca,genus
+136999,Animalia,NA,Testudines,Cheloniidae,NA,NA,Chordata,family
+136025,Animalia,NA,Sipuncula,Golfingiidae,Phascolion,NA,Annelida,genus
+135295,Animalia,Scyphozoa,Rhizostomeae,Cassiopeidae,Cassiopea,Cassiopea andromeda,Cnidaria,species
+132251,Animalia,Calcarea,Leucosolenida,Syconidae,Sycon,Sycon ciliatum,Porifera,species
+131868,Animalia,Demospongiae,Poecilosclerida,Microcionidae,Clathria,NA,Porifera,genus
+131143,Animalia,Polychaeta,Spionida,Spionidae,Polydora,Polydora cornuta,Annelida,species
+131001,Animalia,Polychaeta,Sabellida,Serpulidae,Hydroides,Hydroides dirampha,Annelida,species
+131000,Animalia,Polychaeta,Sabellida,Serpulidae,Hydroides,Hydroides dianthus,Annelida,species
+130372,Animalia,Polychaeta,Phyllodocida,Nereididae,Ceratonereis,Ceratonereis mirabilis,Annelida,species
+129620,Animalia,Polychaeta,Spionida,Spionidae,Prionospio,NA,Annelida,genus
+129566,Animalia,Polychaeta,Sabellida,Serpulidae,Hydroides,NA,Annelida,genus
+129245,Animalia,Polychaeta,Terebellida,Cirratulidae,Cirriformia,NA,Annelida,genus
+129211,Animalia,Polychaeta,NA,Capitellidae,Capitella,NA,Annelida,genus
+127416,Animalia,Teleostei,Tetraodontiformes,Tetraodontidae,Sphoeroides,Sphoeroides marmoratus,Chordata,species
+127066,Animalia,Teleostei,Eupercaria incertae sedis,Sparidae,Spondyliosoma,Spondyliosoma cantharus,Chordata,species
+127060,Animalia,Teleostei,Eupercaria incertae sedis,Sparidae,Pagellus,Pagellus erythrinus,Chordata,species
+126986,Animalia,Teleostei,Mulliformes,Mullidae,Mullus,Mullus surmuletus,Chordata,species
+126971,Animalia,Teleostei,Eupercaria incertae sedis,Labridae,Xyrichtys,Xyrichtys novacula,Chordata,species
+126288,Animalia,Teleostei,Anguilliformes,Congridae,Heteroconger,Heteroconger longissimus,Chordata,species
+126224,Animalia,Teleostei,Syngnathiformes,Syngnathidae,Hippocampus,NA,Chordata,genus
+125726,Animalia,Teleostei,Elopiformes,Megalopidae,Megalops,NA,Chordata,genus
+125464,Animalia,Teleostei,Clupeiformes,Clupeidae,NA,NA,Chordata,family
+123856,Animalia,Asteroidea,Paxillosida,Astropectinidae,Astropecten,Astropecten aranciacus,Echinodermata,species
+123456,Animalia,Holothuroidea,Holothuriida,Holothuriidae,Holothuria,NA,Echinodermata,genus
+111795,Animalia,NA,NA,Barentsiidae,Barentsia,NA,Entoprocta,genus
+111673,Animalia,Gymnolaemata,Ctenostomatida,Victorellidae,Victorella,Victorella pavida,Bryozoa,species
+111663,Animalia,Gymnolaemata,Ctenostomatida,Vesiculariidae,Amathia,Amathia vidovici,Bryozoa,species
+111636,Animalia,Gymnolaemata,Ctenostomatida,Nolellidae,Nolella,Nolella stipata,Bryozoa,species
+111592,Animalia,Gymnolaemata,Cheilostomatida,Watersiporidae,Watersipora,Watersipora subtorquata,Bryozoa,species
+111512,Animalia,Gymnolaemata,Cheilostomatida,Savignyellidae,Savignyella,Savignyella lafontii,Bryozoa,species
+111389,Animalia,Gymnolaemata,Cheilostomatida,Hippopodinidae,Hippopodina,Hippopodina feegeensis,Bryozoa,species
+111158,Animalia,Gymnolaemata,Cheilostomatida,Bugulidae,Bugula,Bugula neritina,Bryozoa,species
+107414,Animalia,Malacostraca,Decapoda,Panopeidae,Rhithropanopeus,Rhithropanopeus harrisii,Arthropoda,species
+107335,Animalia,Malacostraca,Decapoda,Epialtidae,Libinia,Libinia dubia,Arthropoda,species
+107272,Animalia,Malacostraca,Decapoda,Calappidae,Cryptosoma,Cryptosoma cristatum,Arthropoda,species
+107032,Animalia,Malacostraca,Decapoda,Palaemonidae,Palaemon,NA,Arthropoda,genus
+106921,Animalia,Malacostraca,Decapoda,Portunidae,Callinectes,NA,Arthropoda,genus
+106906,Animalia,Malacostraca,Decapoda,Epialtidae,Libinia,NA,Arthropoda,genus
+106844,Animalia,Malacostraca,Decapoda,Diogenidae,Paguristes,NA,Arthropoda,genus
+106674,Animalia,Malacostraca,Decapoda,NA,NA,NA,Arthropoda,order
+106223,Animalia,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus trigonus,Arthropoda,species
+103936,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Styela,Styela plicata,Chordata,species
+103926,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Styela,Styela canopus,Chordata,species
+103895,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Polyandrocarpa,Polyandrocarpa zorritensis,Chordata,species
+103838,Animalia,Ascidiacea,Stolidobranchia,Pyuridae,Microcosmus,Microcosmus exasperatus,Chordata,species
+103830,Animalia,Ascidiacea,Stolidobranchia,Pyuridae,Herdmania,Herdmania momus,Chordata,species
+103788,Animalia,Ascidiacea,Stolidobranchia,Molgulidae,Molgula,Molgula manhattensis,Chordata,species
+103761,Animalia,Ascidiacea,Phlebobranchia,Perophoridae,Perophora,Perophora viridis,Chordata,species
+103756,Animalia,Ascidiacea,Phlebobranchia,Perophoridae,Ecteinascidia,Ecteinascidia turbinata,Chordata,species
+103725,Animalia,Ascidiacea,Phlebobranchia,Ascidiidae,Phallusia,Phallusia nigra,Chordata,species
+103604,Animalia,Ascidiacea,Aplousobranchia,Holozoidae,Distaplia,Distaplia bermudensis,Chordata,species
+103582,Animalia,Ascidiacea,Aplousobranchia,Didemnidae,Diplosoma,Diplosoma spongiforme,Chordata,species
+103579,Animalia,Ascidiacea,Aplousobranchia,Didemnidae,Diplosoma,Diplosoma listerianum,Chordata,species
+103554,Animalia,Ascidiacea,Aplousobranchia,Clavelinidae,Clavelina,Clavelina oblonga,Chordata,species
+103529,Animalia,Ascidiacea,Stolidobranchia,Styelidae,Botryllus,NA,Chordata,genus
+103483,Animalia,Ascidiacea,Phlebobranchia,Ascidiidae,Ascidia,NA,Chordata,genus
+103465,Animalia,Ascidiacea,Aplousobranchia,Polycitoridae,Eudistoma,NA,Chordata,genus
+103456,Animalia,Ascidiacea,Aplousobranchia,Didemnidae,Didemnum,NA,Chordata,genus
+102401,Animalia,Malacostraca,Amphipoda,Ischyroceridae,Ericthonius,Ericthonius brasiliensis,Arthropoda,species
+102033,Animalia,Malacostraca,Amphipoda,Aoridae,Lembos,Lembos websteri,Arthropoda,species
+102000,Animalia,Malacostraca,Amphipoda,Ampithoidae,Ampithoe,Ampithoe ramondi,Arthropoda,species
+101563,Animalia,Malacostraca,Amphipoda,Photidae,Photis,NA,Arthropoda,genus
+101489,Animalia,Malacostraca,Amphipoda,Corophiidae,Corophium,NA,Arthropoda,genus
+101474,Animalia,Malacostraca,Amphipoda,Unciolidae,Unciola,NA,Arthropoda,genus
+101398,Animalia,Malacostraca,Amphipoda,Melphidippidae,NA,NA,Arthropoda,family
+23023,Animalia,Gastropoda,Neogastropoda,Cystiscidae,NA,NA,Mollusca,family
+23022,Animalia,Gastropoda,Littorinimorpha,Cypraeidae,NA,NA,Mollusca,family
+1821,Animalia,NA,NA,NA,NA,NA,Chordata,phylum
+1762,Animalia,Gastropoda,Nudibranchia,NA,NA,NA,Mollusca,order
+1360,Animalia,Anthozoa,Actiniaria,NA,NA,NA,Cnidaria,order
+1337,Animalia,Hydrozoa,NA,NA,NA,NA,Cnidaria,class
+1302,Animalia,Pycnogonida,NA,NA,NA,NA,Arthropoda,class
+1268,Animalia,NA,Sipuncula,NA,NA,NA,Annelida,order
+1137,Animalia,Malacostraca,Cumacea,NA,NA,NA,Arthropoda,order
+1135,Animalia,Malacostraca,Amphipoda,NA,NA,NA,Arthropoda,order
+1133,Animalia,Malacostraca,Tanaidacea,NA,NA,NA,Arthropoda,order
+1131,Animalia,Malacostraca,Isopoda,NA,NA,NA,Arthropoda,order
+1130,Animalia,Malacostraca,Decapoda,NA,NA,NA,Arthropoda,order
+1082,Animalia,Thecostraca,NA,NA,NA,NA,Arthropoda,class
+1065,Animalia,NA,NA,NA,NA,NA,Arthropoda,phylum
+985,Animalia,Polychaeta,Sabellida,Sabellidae,NA,NA,Annelida,family
+982,Animalia,Polychaeta,Terebellida,Terebellidae,NA,NA,Annelida,family
+902,Animalia,Polychaeta,NA,Orbiniidae,NA,NA,Annelida,family
+901,Animalia,Polychaeta,Sabellida,NA,NA,NA,Annelida,order
+900,Animalia,Polychaeta,Terebellida,NA,NA,NA,Annelida,order
+883,Animalia,Polychaeta,NA,NA,NA,NA,Annelida,class
+852,Plantae,NA,NA,NA,NA,NA,NA,kingdom
+830,Chromista,Phaeophyceae,NA,NA,NA,NA,Ochrophyta,class
+801,Plantae,NA,NA,NA,NA,NA,NA,kingdom
+558,Animalia,NA,NA,NA,NA,NA,Porifera,phylum
+111,Animalia,Gastropoda,Lepetellida,Fissurellidae,NA,NA,Mollusca,family
+105,Animalia,Bivalvia,NA,NA,NA,NA,Mollusca,class
+101,Animalia,Gastropoda,NA,NA,NA,NA,Mollusca,class
+55,Animalia,Polyplacophora,NA,NA,NA,NA,Mollusca,class
+51,Animalia,NA,NA,NA,NA,NA,Mollusca,phylum

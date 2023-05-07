@@ -1,0 +1,8 @@
+test,protocol,table,column_name,minimum,maximum
+integer_range,seagrass-shoots,sample-metadata,transect,1,3
+integer_range,seagrass-shoots,blade-measurement-data,transect,1,3
+integer_range,seagrass-shoots,blade-measurement-data,quadrat,1,50
+integer_range,seagrass-shoots,blade-measurement-data,blade_rank,1,10
+integer_range,seagrass-shoots,sheath-and-epibiont-data,transect,1,3
+integer_range,seagrass-shoots,sheath-and-epibiont-data,quadrat,1,50
+integer_range,seagrass-shoots,sheath-and-epibiont-data,number_grazing_scars,0,100

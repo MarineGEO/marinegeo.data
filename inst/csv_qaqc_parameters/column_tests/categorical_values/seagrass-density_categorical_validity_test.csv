@@ -1,0 +1,13 @@
+test,protocol,table,column_name,value
+categorical_values,seagrass-density,sample-metadata,cover_method,Braun-Blanquet
+categorical_values,seagrass-density,sample-metadata,cover_method,percent bins
+categorical_values,seagrass-density,sample-metadata,cover_method,point count
+categorical_values,seagrass-density,cover-sample-data,cover_code,A
+categorical_values,seagrass-density,cover-sample-data,cover_code,B
+categorical_values,seagrass-density,cover-sample-data,cover_code,C
+categorical_values,seagrass-density,cover-sample-data,cover_code,D
+categorical_values,seagrass-density,cover-sample-data,cover_code,E
+categorical_values,seagrass-density,cover-sample-data,cover_code,F
+categorical_values,seagrass-density,cover-sample-data,cover_code,G
+categorical_values,seagrass-density,cover-sample-data,sediment_type,sand
+categorical_values,seagrass-density,cover-sample-data,sediment_type,mud

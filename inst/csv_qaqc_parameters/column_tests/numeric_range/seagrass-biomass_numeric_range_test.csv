@@ -1,0 +1,3 @@
+test,protocol,table,column_name,minimum,maximum,type
+numeric_range,seagrass-biomass,sample-data,tin_mass_g,0,5000,exclusive
+numeric_range,seagrass-biomass,sample-data,tin_sample_dry_mass_g,0,5000,exclusive

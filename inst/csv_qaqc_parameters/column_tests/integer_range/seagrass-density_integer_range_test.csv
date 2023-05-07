@@ -1,0 +1,12 @@
+test,protocol,table,column_name,minimum,maximum
+integer_range,seagrass-density,sample-metadata,transect,1,3
+integer_range,seagrass-density,sample-metadata,points_in_quadrat,5,1000
+integer_range,seagrass-density,cover-sample-data,transect,1,3
+integer_range,seagrass-density,cover-sample-data,quadrat,1,50
+integer_range,seagrass-density,macro-invert-sample-data,transect,1,3
+integer_range,seagrass-density,macro-invert-sample-data,quadrat,1,50
+integer_range,seagrass-density,shoot-count-sample-data,transect,1,3
+integer_range,seagrass-density,shoot-count-sample-data,quadrat,1,50
+integer_range,seagrass-density,shoot-count-sample-data,shoots_count,0,500
+integer_range,seagrass-density,shoot-count-sample-data,flowers_count,0,500
+integer_range,seagrass-density,shoot-count-sample-data,fruits_count,0,500

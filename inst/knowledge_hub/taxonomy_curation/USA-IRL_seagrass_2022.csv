@@ -1,0 +1,66 @@
+sample_event_id,scientific_name,updated_scientific_name,taxonomic_id,id_type
+USA-IRL_seagrass_2022,Halophila ovalis,Halophila ovalis,208930,Aphia ID
+USA-IRL_seagrass_2022,Lyngbya sp,Ulothrix speciosa,145930,Aphia ID
+USA-IRL_seagrass_2022,Nassarius vibex,Phrontis vibex,877061,Aphia ID
+USA-IRL_seagrass_2022,Hermit crab,Arthropoda,1065,Aphia ID
+USA-IRL_seagrass_2022,Alpheus paracrinitus,Alpheus paracrinitus,210522,Aphia ID
+USA-IRL_seagrass_2022,Phascolion sp,Phascolion,136025,Aphia ID
+USA-IRL_seagrass_2022,Nanoplax xanthiformis,Nanoplax xanthiformis,422113,Aphia ID
+USA-IRL_seagrass_2022,Hagaria rapax,Hargeria rapax,247538,Aphia ID
+USA-IRL_seagrass_2022,Erichthonius brasiliensis,Ericthonius brasiliensis,102401,Aphia ID
+USA-IRL_seagrass_2022,Corophium sp,Chelicorophium spinulosum,431340,Aphia ID
+USA-IRL_seagrass_2022,Exogone dispar,Exogone dispar,333453,Aphia ID
+USA-IRL_seagrass_2022,Costoanachis avara,Costoanachis avara,160222,Aphia ID
+USA-IRL_seagrass_2022,Neritina virginea,Vitta virginea,865834,Aphia ID
+USA-IRL_seagrass_2022,Nereis sp,Perinereis monterea,334445,Aphia ID
+USA-IRL_seagrass_2022,Periclimenes americanus,Cuapetes americanus,514508,Aphia ID
+USA-IRL_seagrass_2022,Libinia dubia,Libinia dubia,107335,Aphia ID
+USA-IRL_seagrass_2022,Rictaxis punctostriatus,Japonactaeon punctostriatus,420514,Aphia ID
+USA-IRL_seagrass_2022,crab_juvenile,Arthropoda,1065,Aphia ID
+USA-IRL_seagrass_2022,mysid,Mysida,149668,Aphia ID
+USA-IRL_seagrass_2022,Turbonilla toyatani,Turbonilla toyatani,160091,Aphia ID
+USA-IRL_seagrass_2022,tanaid,Tanaidacea,1133,Aphia ID
+USA-IRL_seagrass_2022,Photis sp,Photis spasskii,254754,Aphia ID
+USA-IRL_seagrass_2022,gastropod_clear,Gastropoda,101,Aphia ID
+USA-IRL_seagrass_2022,Mithrax hemphilli,Amphithrax hemphilli,1258715,Aphia ID
+USA-IRL_seagrass_2022,brittle star,Hargeria rapax,247538,Aphia ID
+USA-IRL_seagrass_2022,Cerithium atratum,Cerithium atratum,224572,Aphia ID
+USA-IRL_seagrass_2022,Ampithoe ramondi,Ampithoe ramondi,102000,Aphia ID
+USA-IRL_seagrass_2022,Prionospio sp,Prionospio,129620,Aphia ID
+USA-IRL_seagrass_2022,Mediomastus cali,Mediomastus californiensis,157483,Aphia ID
+USA-IRL_seagrass_2022,Haminoea petitii,Haminoea petitii,532293,Aphia ID
+USA-IRL_seagrass_2022,Glycera sp,Glycera brevicirris,328104,Aphia ID
+USA-IRL_seagrass_2022,Cymadusa cf compta,Cymadusa compta,158082,Aphia ID
+USA-IRL_seagrass_2022,Astryis lunata,Astyris lunata,160102,Aphia ID
+USA-IRL_seagrass_2022,Pycnogonad,Pycnogonida,1302,Aphia ID
+USA-IRL_seagrass_2022,Panopeus herbsii,Panopeus herbstii,158436,Aphia ID
+USA-IRL_seagrass_2022,Ampithoe longimanna,Ampithoe longimana,158026,Aphia ID
+USA-IRL_seagrass_2022,Callinectes sp,Callinectes,106921,Aphia ID
+USA-IRL_seagrass_2022,Paleomonetes sp,Palaemon,107032,Aphia ID
+USA-IRL_seagrass_2022,Syringodium filiforme,Syringodium filiforme,374715,Aphia ID
+USA-IRL_seagrass_2022,Thalassia testudinum,Thalassia testudinum,374720,Aphia ID
+USA-IRL_seagrass_2022,Erichsonella attenuata,Erichsonella attenuata,157887,Aphia ID
+USA-IRL_seagrass_2022,Bittiolum varium,Bittiolum varium,160174,Aphia ID
+USA-IRL_seagrass_2022,Nassarius acutus,Nassarius acutus,160395,Aphia ID
+USA-IRL_seagrass_2022,Cerapus cudjoe,Cerapus cudjoe,421589,Aphia ID
+USA-IRL_seagrass_2022,Crepidula convexa,Crepidula convexa,160228,Aphia ID
+USA-IRL_seagrass_2022,Acteocina canaliculata,Acteocina canaliculata,160065,Aphia ID
+USA-IRL_seagrass_2022,Caecum floridanum,Caecum floridanum,419588,Aphia ID
+USA-IRL_seagrass_2022,Grandidierella bonnieroides,Grandidierella bonnieroides,211405,Aphia ID
+USA-IRL_seagrass_2022,Turbonilla dalli,Turbonilla dalli,420483,Aphia ID
+USA-IRL_seagrass_2022,Bulla striata,Bulla striata,138940,Aphia ID
+USA-IRL_seagrass_2022,Hippolyte zostericola,Hippolyte zostericola,158361,Aphia ID
+USA-IRL_seagrass_2022,Eurypanopeus depressus,Eurypanopeus depressus,158416,Aphia ID
+USA-IRL_seagrass_2022,Paracerceis caudata,Paracerceis caudata,261817,Aphia ID
+USA-IRL_seagrass_2022,Parvanachis obesa,Parvanachis obesa,160440,Aphia ID
+USA-IRL_seagrass_2022,Rhithropanopeus harrisii,Rhithropanopeus harrisii,107414,Aphia ID
+USA-IRL_seagrass_2022,Dulichiella appendiculata,Dulichiella appendiculata,421504,Aphia ID
+USA-IRL_seagrass_2022,Cerithium lutosum,Cerithium lutosum,419522,Aphia ID
+USA-IRL_seagrass_2022,Lysianopsis alba,Lysianopsis alba,158036,Aphia ID
+USA-IRL_seagrass_2022,Paracaprella tenuis,Paracaprella tenuis,160028,Aphia ID
+USA-IRL_seagrass_2022,Prunum apicinum,Prunum apicinum,420149,Aphia ID
+USA-IRL_seagrass_2022,Ampelisca verrilli,Ampelisca verrilli,158023,Aphia ID
+USA-IRL_seagrass_2022,Granulina ovuliformis,Granulina ovuliformis,532891,Aphia ID
+USA-IRL_seagrass_2022,Marshallora nigrocincta,Marshallora nigrocincta,160363,Aphia ID
+USA-IRL_seagrass_2022,Halodule wrightii,Halodule wrightii,208925,Aphia ID
+USA-IRL_seagrass_2022,Acanthophora spicifera,Acanthophora spicifera,211768,Aphia ID
