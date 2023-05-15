@@ -33,6 +33,7 @@ location_names <- function(df, p){
 
     results <- left_join(df, p, by = c("observatory_code", "location_name")) %>%
       mutate(result = case_when(
+        is.na(rowid) & (is.na(location_name) | is.na(observatory_code)) ~ 0,
         is.na(rowid) ~ -3,
         T ~ 0
       )) %>%

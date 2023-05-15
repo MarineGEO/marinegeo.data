@@ -61,6 +61,7 @@ run_value_tests <- function(df, table_parameters){
   #   test name list
   #     column name = results
   #     column name = results
+
   results <- lapply(test_names, function(x){
     if(existsFunction(x)){
       get(x)(df, parameters_test[[x]])
