@@ -9,32 +9,37 @@
 #           test b
 #         b
 
-#' Write Schema JSON
-#'
-#' @param schema
-#' @param knowledge_hub_list
-#'
-#' @return
-#' @export
-#'
-#' @examples
-write_schema_json <- function(schema, knowledge_hub_list){
+# library(data.table)
+# library(tidyverse)
+# library(jsonlite)
 
-  write_json(list_combo,
+create_schema <- function(){
+
+  empty_schema <- create_schema_list("./inst/marinegeo_data_structure/")
+  schema_table_tests <- populate_table_parameters(empty_schema)
+  output <- populate_column_parameters(schema_table_tests)
+  knowledge_hub_list <- create_knowledge_hub_list()
+  protocol_grouping_list <- protocol_grouping_list()
+
+  schema <- c(output, list(knowledge_hub = knowledge_hub_list,
+                           protocol_grouping = protocol_grouping_list))
+
+  write_schema(schema)
+
+  return(schema)
+}
+
+write_schema <- function(schema){
+
+  saveRDS(schema, "./inst/marinegeo_schema/marinegeo_schema.rds")
+
+  write_json(schema,
              pretty = T,
              auto_unbox = T,
-             path = "./inst/marinegeo_schema.json")
+             path = "./inst/marinegeo_schema/marinegeo_schema.json")
 
 }
 
-#' Create schema list
-#'
-#' @param filepath_to_data_structure
-#'
-#' @return
-#' @export
-#'
-#' @examples
 create_schema_list <- function(filepath_to_data_structure){
 
   # Load CSV data structure files
@@ -109,14 +114,6 @@ create_schema_list <- function(filepath_to_data_structure){
   return(empty_schema)
 }
 
-#' Populate Table Parameters
-#'
-#' @param schema
-#'
-#' @return
-#' @export
-#'
-#' @examples
 populate_table_parameters <- function(schema){
 
   # Load QC parameters CSVs to list
@@ -195,14 +192,6 @@ populate_table_parameters <- function(schema){
 
 }
 
-#' Populate Column Parameters
-#'
-#' @param schema
-#'
-#' @return
-#' @export
-#'
-#' @examples
 populate_column_parameters <- function(schema){
 
   # Load QC parameters CSVs to list
@@ -310,12 +299,6 @@ populate_column_parameters <- function(schema){
 
 
 
-#' Create Knowledge List
-#'
-#' @return
-#' @export
-#'
-#' @examples
 create_knowledge_hub_list <- function(){
 
   knowledge_hub_list <- list(
@@ -356,4 +339,37 @@ create_knowledge_hub_list <- function(){
   )
 
   return(knowledge_hub_list)
+}
+
+protocol_grouping_list <- function(){
+
+  protocol_grouping <- list(
+
+    seagrass = list(
+
+      tests = list(
+        shared_transect = list(
+          protocols = c("seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass"),
+          columns = c("sample_event_id", "observatory_code","sample_collection_date", "location_name", "transect")
+        ),
+
+        transect_dates = list(
+          protocols = c("seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass"),
+          columns = c("sample_event_id", "observatory_code", "location_name", "transect"),
+          date_column = "sample_collection_date"
+        )
+
+        # mandatory_protocols = list(
+        #   exclusive_protocols = c(),
+        #   shared_protocols = c()
+        # ),
+        #
+        # optional_protocols = list(
+        #   exclusive_protocols = c(),
+        #   shared_protocols = c()
+        # )
+
+      )
+    )
+  )
 }
