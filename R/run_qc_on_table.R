@@ -1,4 +1,15 @@
 
+
+get_table_qc <- function(df, protocol, table){
+
+  output <- run_qc_on_table(df, protocol, table)
+
+  summary <- create_quality_control_summary(output)
+
+  return(summary)
+
+}
+
 #' Run QC tests on tables
 #'
 #' @param df
@@ -42,7 +53,11 @@ run_qc_on_table <- function(df, protocol, table){
 #' @examples
 create_quality_control_summary <- function(quality_control_results){
 
-  summary <- bind_rows(
+  # Number of rows in the data
+  num_rows <- length(quality_control_results[[1]][[1]][[1]])
+
+  # Extract non-0 flags and convert to a dataframe for all tests
+  summary_raw <- bind_rows(
     lapply(quality_control_results, function(test_type){
 
       test_names <- names(test_type)
@@ -69,27 +84,72 @@ create_quality_control_summary <- function(quality_control_results){
                 }))
             }))
         }))
-    })) %>%
-    group_by(column, test, result) %>%
-    summarize(invalid_rows = case_when(
-      length(id) > 5 ~ "> 5 rows",
-      T ~ paste(id, collapse=",")
-    ))
+    }))
+
+  # If all tests passed, then nrow == 0
+  if(nrow(summary_raw) > 0){
+    summary <- summary_raw %>%
+        group_by(column, test, result) %>%
+        summarize(invalid_rows = case_when(
+          length(id) == num_rows ~ "All rows",
+          length(id) > 5 ~ "> 5 rows",
+          T ~ paste(id, collapse=",")
+        )) %>%
+        mutate(result = case_when(
+          result == -6 ~ "Unexpected number of quadrats",
+          result == -5 ~ "Above maximum range",
+          result == -4 ~ "Below minimum range",
+          result == -3 ~ "Invalid Categorical Value",
+          result == -2 ~ "Missing Value",
+          T ~ NA_character_
+        ))
+
+  } else {
+    summary <- tibble(
+      result = "All tests passed"
+    )
+  }
+
+  return(summary)
+
 }
 
+extract_table_warnings <- function(df, protocol, table){
 
-# tibble(numeric_result = results) %>%
-#   filter(numeric_result != 0) %>%
-#   mutate(result = case_when(
-#     numeric_result == "-6" ~ "Unexpected number of quadrats",
-#     numeric_result == "-5" ~ "Above maximum range",
-#     numeric_result == "-4" ~ "Below minimum range",
-#     numeric_result == "-3" ~ "Invalid Categorical Value",
-#     numeric_result == "-2" ~ "Missing Value",
-#     T ~ NA_character_
-#   )) %>%
-#   count(result) %>%
-#   mutate(
-#     column = column_name,
-#     test = test_name
-#   )
+  raw_qc <- run_qc_on_table(df, protocol, table)
+
+  # Values or Table test
+  output <- lapply(raw_qc, function(test_type){
+
+    compact(
+      # Tests
+      setNames(
+        lapply(names(test_type), function(test){
+
+          # For each column, extract row numbers that had non-0 status
+          rowids <- unname(unlist(
+            lapply(test_type[[test]], function(column_results){
+              which(column_results != 0)
+            })
+          ))
+
+          if(length(rowids) > 0){
+            df %>%
+              rowid_to_column("id") %>%
+              filter(id %in% rowids)
+          } else {
+            NULL
+          }
+        }),
+
+        names(test_type)
+      )
+    )
+  })
+
+  # Remove tables and values hierarchical level
+  output <- unlist(output, recursive = F)
+
+  return(output)
+
+}

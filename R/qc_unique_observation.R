@@ -28,7 +28,7 @@ unique_observation <- function(df, p){
       count(across(all_of(grouping_cols))) %>%
       filter(n > 1)
 
-    evaluation <- left_join(df, invalid_results) %>%
+    evaluation <- left_join(df, invalid_results, by = grouping_cols) %>%
       mutate(result = case_when(
         !is.na(n) ~ -3,
         T ~ 0

@@ -15,3 +15,4 @@ unique_observation,seagrass-epifauna,epifauna-data,location_name
 unique_observation,seagrass-epifauna,epifauna-data,transect
 unique_observation,seagrass-epifauna,epifauna-data,quadrat
 unique_observation,seagrass-epifauna,epifauna-data,epifauna_id
+unique_observation,seagrass-epifauna,epifauna-data,size_class
