@@ -29,15 +29,15 @@ location_names <- function(df, p){
   } else {
 
     p <- p$location_name$values %>%
-      rowid_to_column("rowid")
+      tibble::rowid_to_column("rowid")
 
-    results <- left_join(df, p, by = c("observatory_code", "location_name")) %>%
-      mutate(result = case_when(
+    results <- dplyr::left_join(df, p, by = c("observatory_code", "location_name")) %>%
+      dplyr::mutate(result = dplyr::case_when(
         is.na(rowid) & (is.na(location_name) | is.na(observatory_code)) ~ 0,
         is.na(rowid) ~ -3,
         T ~ 0
       )) %>%
-      pull(result)
+      dplyr::pull(result)
 
     return(list(
       location_name = results

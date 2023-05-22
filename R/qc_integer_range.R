@@ -38,7 +38,7 @@ integer_range <- function(df, p){
   # return validity where -4 = below min range, -5 = above max range, -3 = in range but not integer, 0 = valid for each table
   # Values must be within the range and also an integer value
   return(
-    pmap(input,  ~ case_when(
+    purrr::pmap(input,  ~ dplyr::case_when(
       ..1 %in% ..2:..3 ~ 0,
       is.na(..1) ~ 0, # Missing values are separate test
       ..1 < ..2 ~ -4,

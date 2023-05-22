@@ -1369,14 +1369,9 @@
   "protocol_grouping": {
     "seagrass": {
       "tests": {
-        "shared_transect": {
+        "sample_event_summary": {
           "protocols": ["seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass"],
           "columns": ["sample_event_id", "observatory_code", "sample_collection_date", "location_name", "transect"]
-        },
-        "transect_dates": {
-          "protocols": ["seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass"],
-          "columns": ["sample_event_id", "observatory_code", "location_name", "transect"],
-          "date_column": "sample_collection_date"
         }
       }
     }

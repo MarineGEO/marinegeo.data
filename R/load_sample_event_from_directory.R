@@ -1,4 +1,12 @@
 
+#' Load Sample Event from directory
+#'
+#' @param directory
+#'
+#' @return
+#' @export
+#'
+#' @examples
 load_sample_event_data <- function(directory){
 
   # creates tibble that includes filepath, and split of protocol, table, and filename

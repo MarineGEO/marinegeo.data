@@ -348,22 +348,17 @@ protocol_grouping_list <- function(){
     seagrass = list(
 
       tests = list(
-        shared_transect = list(
+
+        sample_event_summary = list(
           protocols = c("seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass"),
           columns = c("sample_event_id", "observatory_code","sample_collection_date", "location_name", "transect")
-        ),
-
-        transect_dates = list(
-          protocols = c("seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass"),
-          columns = c("sample_event_id", "observatory_code", "location_name", "transect"),
-          date_column = "sample_collection_date"
         )
 
         # mandatory_protocols = list(
         #   exclusive_protocols = c(),
         #   shared_protocols = c()
         # ),
-        #
+
         # optional_protocols = list(
         #   exclusive_protocols = c(),
         #   shared_protocols = c()

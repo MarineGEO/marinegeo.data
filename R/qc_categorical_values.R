@@ -32,7 +32,7 @@ categorical_values <- function(df, p){
 
   # return validity where -3 = invalid categorical variable, -2 = missing or NA, 0 = valid for each table
   return(
-    pmap(input,  ~ case_when(
+    purrr::pmap(input,  ~ dplyr::case_when(
       is.na(..1) ~ 0, # missing values are now a separate test
       !(..1 %in% ..2) ~ -3,
       T ~ 0

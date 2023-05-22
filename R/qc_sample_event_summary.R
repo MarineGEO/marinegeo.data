@@ -1,12 +1,20 @@
-# For each transect, expect 1 sample collection date
-transect_dates <- function(data_list, p){
+
+#' Summarize sample event
+#'
+#' @param data_list
+#' @param p
+#'
+#' @return
+#' @export
+#'
+#' @examples
+sample_event_summary <- function(data_list, p){
 
   # Subset data list by target protocols
   target_protocols <- data_list[names(data_list) %in% p$protocols]
+  target_columns <- p$columns
 
-  target_columns <- c(p$columns, p$date_column)
-
-  flagged_dates <- dplyr::bind_rows(
+  se_summary <- dplyr::bind_rows(
     lapply(names(target_protocols), function(protocol_name){
 
       dplyr::bind_rows(
@@ -30,10 +38,10 @@ transect_dates <- function(data_list, p){
       )
     })
   ) %>%
-    group_by(across(all_of(p$columns))) %>%
-    summarize(total_dates = n_distinct({ p$date_column }),
-              tables = paste(protocol, " ", table, collapse = ", ")) %>%
-    filter(total_dates > 1)
+    mutate(protocol = gsub("-", "_", paste0(protocol, "_", table)),
+           status = T) %>%
+    select(-table) %>%
+    pivot_wider(names_from = protocol, values_from = status)
 
-  return(flagged_dates)
+  return(se_summary)
 }

@@ -1,16 +1,11 @@
-get_sample_event_qc <- function(data_list, grouping){
-
-  table_output <- run_qc_on_sample_event(data_list)
-
-  # Join in with grouping test
-  grouping_output <- run_qc_multi_protocol(data_list, grouping)
-
-  combined_output <- bind_rows(table_output, grouping_output)
-
-  return(combined_output)
-
-}
-
+#' Run QC on sample event
+#'
+#' @param data_list
+#'
+#' @return
+#' @export
+#'
+#' @examples
 run_qc_on_sample_event <- function(data_list){
 
   # Loop over each protocol and table
@@ -36,7 +31,16 @@ run_qc_on_sample_event <- function(data_list){
 
 }
 
-run_qc_multi_protocol <- function(data_list, grouping){
+#' Conduct sample event summary
+#'
+#' @param data_list
+#' @param grouping
+#'
+#' @return
+#' @export
+#'
+#' @examples
+run_sample_event_summary <- function(data_list, grouping){
 
   test_parameters <- marinegeo_schema$protocol_grouping[[grouping]]$tests
   test_names <- names(test_parameters)
