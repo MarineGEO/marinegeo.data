@@ -1,7 +1,3 @@
-test_that("multiplication works", {
-  expect_equal(2 * 2, 4)
-})
-
 # List of 2
 # $ transect:List of 1
 # ..$ fail_range: num [1:2] 1 3
