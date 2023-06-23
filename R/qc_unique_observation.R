@@ -25,15 +25,15 @@ unique_observation <- function(df, p){
   } else {
 
     invalid_results <- df %>%
-      count(across(all_of(grouping_cols))) %>%
-      filter(n > 1)
+      dplyr::count(dplyr::across(tidyselect::all_of(grouping_cols))) %>%
+      dplyr::filter(n > 1)
 
-    evaluation <- left_join(df, invalid_results, by = grouping_cols) %>%
-      mutate(result = case_when(
+    evaluation <- dplyr::left_join(df, invalid_results, by = grouping_cols) %>%
+      dplyr::mutate(result = dplyr::case_when(
         !is.na(n) ~ -3,
         T ~ 0
       )) %>%
-      pull(result)
+      dplyr::pull(result)
 
     # The return vector is the name of the final grouping variable
     # This should possibly be altered to a vector for each grouping var

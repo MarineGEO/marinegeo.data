@@ -2,7 +2,7 @@
 % Please edit documentation in R/run_qc_on_table.R
 \name{run_qc_on_table}
 \alias{run_qc_on_table}
-\title{Run QC tests on tables}
+\title{Title}
 \usage{
 run_qc_on_table(df, protocol, table)
 }
@@ -10,5 +10,5 @@ run_qc_on_table(df, protocol, table)
 \item{table}{}
 }
 \description{
-Run QC tests on tables
+Title
 }

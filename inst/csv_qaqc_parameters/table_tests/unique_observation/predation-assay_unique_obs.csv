@@ -1,0 +1,5 @@
+﻿test,protocol,table,column_name
+unique_observation,predation-assay,sample-data,sample_event_id
+unique_observation,predation-assay,sample-data,observatory_code
+unique_observation,predation-assay,sample-data,location_name
+unique_observation,predation-assay,sample-data,transect

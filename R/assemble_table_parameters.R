@@ -10,7 +10,7 @@
 #' @examples
 assemble_table_parameters <- function(parameters, protocol, table){
 
-  table_parameters <- parameters[[protocol]]$tables[[table]]
+  table_parameters <- parameters[["protocols"]][[protocol]]$tables[[table]]
 
   if("observatory_code" %in% names(table_parameters$columns)){
 

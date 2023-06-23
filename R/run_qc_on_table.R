@@ -1,13 +1,28 @@
 
 
-get_table_qc <- function(df, protocol, table){
+#' Title
+#'
+#' @param df
+#' @param protocol
+#' @param table
+#'
+#' @return
+#' @export
+#'
+#' @examples
+run_qc_on_table <- function(df, protocol, table){
 
-  output <- run_qc_on_table(df, protocol, table)
+  # Test if table exists
+  if(!check_table_name(protocol, table)){
+    return(tibble(result = "Unknown table"))
 
-  summary <- create_quality_control_summary(output)
+  } else {
+    output <- table_test_controller(df, protocol, table)
 
-  return(summary)
+    summary <- create_quality_control_summary(output)
 
+    return(summary)
+  }
 }
 
 #' Run QC tests on tables
@@ -20,7 +35,7 @@ get_table_qc <- function(df, protocol, table){
 #' @export
 #'
 #' @examples
-run_qc_on_table <- function(df, protocol, table){
+table_test_controller <- function(df, protocol, table){
 
   # Assemble parameters by injecting knowledge hub vars into table params
   # and removing all other protocol-table combos
@@ -114,9 +129,32 @@ create_quality_control_summary <- function(quality_control_results){
 
 }
 
+#' Check that protocol table is defined in schema
+#'
+#' @param protocol
+#' @param table
+#'
+#' @return
+#'
+#' @examples
+check_table_name <- function(protocol, table){
+
+  if(protocol %in% names(marinegeo_schema$protocols)){
+
+    if(table %in% names(marinegeo_schema$protocols[[protocol]]$tables)){
+      return(TRUE)
+    } else {
+      return(FALSE)
+    }
+  } else {
+    return(FALSE)
+  }
+
+}
+
 extract_table_warnings <- function(df, protocol, table){
 
-  raw_qc <- run_qc_on_table(df, protocol, table)
+  raw_qc <- table_test_controller(df, protocol, table)
 
   # Values or Table test
   output <- lapply(raw_qc, function(test_type){

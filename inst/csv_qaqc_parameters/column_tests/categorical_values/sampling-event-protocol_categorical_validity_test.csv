@@ -1,0 +1,19 @@
+﻿test,protocol,table,column_name,value
+categorical_values,sampling-event-protocol,site-metadata,event_type,deployment
+categorical_values,sampling-event-protocol,site-metadata,event_type,retrieval
+categorical_values,sampling-event-protocol,site-metadata,event_type,collection
+categorical_values,sampling-event-protocol,site-metadata,event_type,calibration
+categorical_values,sampling-event-protocol,site-metadata,habitat_type,seagrass
+categorical_values,sampling-event-protocol,site-metadata,habitat_type,coral reef
+categorical_values,sampling-event-protocol,site-metadata,habitat_type,oyster reef
+categorical_values,sampling-event-protocol,site-metadata,habitat_type,rocky reef
+categorical_values,sampling-event-protocol,site-metadata,habitat_type,mangrove
+categorical_values,sampling-event-protocol,site-metadata,habitat_type,salt marsh
+categorical_values,sampling-event-protocol,site-metadata,habitat_type,artificial
+categorical_values,sampling-event-protocol,transect-metadata,coordinate_type,transect begin
+categorical_values,sampling-event-protocol,transect-metadata,coordinate_type,transect end
+categorical_values,sampling-event-protocol,transect-metadata,coordinate_type,deployment
+categorical_values,sampling-event-protocol,transect-metadata,coordinate_type,location
+categorical_values,sampling-event-protocol,transect-metadata,protocol_id,seagrass
+categorical_values,sampling-event-protocol,transect-metadata,protocol_id,predation-assay
+categorical_values,sampling-event-protocol,transect-metadata,protocol_id,beach-seines

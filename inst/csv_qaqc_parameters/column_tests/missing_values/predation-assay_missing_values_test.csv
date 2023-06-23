@@ -1,0 +1,12 @@
+﻿test,protocol,table,column_name
+missing_values,predation-assay,sample-data,sample_event_id
+missing_values,predation-assay,sample-data,observatory_code
+missing_values,predation-assay,sample-data,location_name
+missing_values,predation-assay,sample-data,transect
+missing_values,predation-assay,sample-data,sample_deployment_date
+missing_values,predation-assay,sample-data,number_deployed
+missing_values,predation-assay,sample-data,bait_type
+missing_values,predation-assay,sample-data,bait_missing_1_hr
+missing_values,predation-assay,sample-data,stakes_missing_1_hr
+missing_values,predation-assay,sample-data,bait_missing_24_hr
+missing_values,predation-assay,sample-data,stakes_missing_24_hr

@@ -19,10 +19,11 @@ create_schema <- function(){
   schema_table_tests <- populate_table_parameters(empty_schema)
   output <- populate_column_parameters(schema_table_tests)
   knowledge_hub_list <- create_knowledge_hub_list()
-  protocol_grouping_list <- protocol_grouping_list()
+  cross_protocol_list <- cross_protocol_tests()
 
-  schema <- c(output, list(knowledge_hub = knowledge_hub_list,
-                           protocol_grouping = protocol_grouping_list))
+  schema <- list(protocols = output,
+                 knowledge_hub = knowledge_hub_list,
+                 cross_protocol_tests = cross_protocol_list)
 
   write_schema(schema)
 
@@ -341,30 +342,27 @@ create_knowledge_hub_list <- function(){
   return(knowledge_hub_list)
 }
 
-protocol_grouping_list <- function(){
+cross_protocol_tests <- function(){
 
-  protocol_grouping <- list(
+  cross_protocol_tests <- list(
 
-    seagrass = list(
+    sample_event_summary = list(
+      grouping = "seagrass",
 
-      tests = list(
-
-        sample_event_summary = list(
-          protocols = c("seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass"),
-          columns = c("sample_event_id", "observatory_code","sample_collection_date", "location_name", "transect")
-        )
-
-        # mandatory_protocols = list(
-        #   exclusive_protocols = c(),
-        #   shared_protocols = c()
-        # ),
-
-        # optional_protocols = list(
-        #   exclusive_protocols = c(),
-        #   shared_protocols = c()
-        # )
-
+      parameters = list(
+        type = "transect",
+        protocols = c("seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass",
+                      "sediment-organic-matter"),
+        columns = c("sample_event_id", "observatory_code","sample_collection_date", "location_name", "transect")
       )
-    )
+    )#,
+
+    # coordinates_present = list(
+    #   grouping = "cross-protocol",
+    #
+    #   parameters = list()
+    # )
+
   )
+
 }

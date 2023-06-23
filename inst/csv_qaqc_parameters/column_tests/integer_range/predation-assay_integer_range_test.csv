@@ -1,0 +1,7 @@
+﻿test,protocol,table,column_name,minimum,maximum
+integer_range,predation-assay,sample-data,transect,1,3
+integer_range,predation-assay,sample-data,number_deployed,20,25
+integer_range,predation-assay,sample-data,bait_missing_1_hr,0,25
+integer_range,predation-assay,sample-data,stakes_missing_1_hr,0,25
+integer_range,predation-assay,sample-data,bait_missing_24_hr,0,25
+integer_range,predation-assay,sample-data,stakes_missing_24_hr,0,25

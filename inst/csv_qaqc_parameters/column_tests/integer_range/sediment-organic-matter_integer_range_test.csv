@@ -1,0 +1,4 @@
+test,protocol,table,column_name,minimum,maximum
+integer_range,sediment-organic-matter,sample-metadata,transect,1,3
+integer_range,sediment-organic-matter,sample-data,transect,1,3
+integer_range,sediment-organic-matter,sample-data,quadrat,1,50

@@ -41,7 +41,7 @@ numeric_range <- function(df, p){
 
   # return validity where -4 = below min range, -5 = above max range, 0 = valid for each table
   return(
-    pmap(input,  ~ case_when(
+    purrr::pmap(input,  ~ dplyr::case_when(
       is.na(..1) ~ 0,
       ..1 < ..2 & ..4 == "inclusive" ~ -4,
       ..1 > ..3 & ..4 == "inclusive" ~ -5,

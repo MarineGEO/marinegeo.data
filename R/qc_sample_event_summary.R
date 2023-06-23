@@ -10,6 +10,8 @@
 #' @examples
 sample_event_summary <- function(data_list, p){
 
+  #browser()
+
   # Subset data list by target protocols
   target_protocols <- data_list[names(data_list) %in% p$protocols]
   target_columns <- p$columns
