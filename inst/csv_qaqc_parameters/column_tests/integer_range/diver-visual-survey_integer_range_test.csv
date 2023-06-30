@@ -1,0 +1,6 @@
+﻿test,protocol,table,column_name,minimum,maximum
+integer_range,diver-visual-survey,sample-metadata,transect,1,3
+integer_range,diver-visual-survey,fish-survey-data,transect,1,3
+integer_range,diver-visual-survey,fish-survey-data,block,1,2
+integer_range,diver-visual-survey,fish-survey-data,method,0,2
+integer_range,diver-visual-survey,fish-survey-data,abundance,1,100

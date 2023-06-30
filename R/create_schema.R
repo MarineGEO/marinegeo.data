@@ -47,7 +47,8 @@ create_schema_list <- function(filepath_to_data_structure){
   data_structure <- read_csv(list.files(
     filepath_to_data_structure,
     full.names = T
-  ), show_col_types = F)
+  ), show_col_types = F) %>%
+    filter(level == 2)
 
   # Create index of all protocol-tables
   protocol_index <- data_structure %>%

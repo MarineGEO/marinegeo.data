@@ -13,7 +13,7 @@
 run_qc_on_table <- function(df, protocol, table){
 
   # Test if table exists
-  if(!check_table_name(protocol, table)){
+  if(!is_table(protocol, table)){
     return(tibble(result = "Unknown table"))
 
   } else {
@@ -129,28 +129,6 @@ create_quality_control_summary <- function(quality_control_results){
 
 }
 
-#' Check that protocol table is defined in schema
-#'
-#' @param protocol
-#' @param table
-#'
-#' @return
-#'
-#' @examples
-check_table_name <- function(protocol, table){
-
-  if(protocol %in% names(marinegeo_schema$protocols)){
-
-    if(table %in% names(marinegeo_schema$protocols[[protocol]]$tables)){
-      return(TRUE)
-    } else {
-      return(FALSE)
-    }
-  } else {
-    return(FALSE)
-  }
-
-}
 
 extract_table_warnings <- function(df, protocol, table){
 

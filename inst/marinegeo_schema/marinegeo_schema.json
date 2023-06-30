@@ -1,5 +1,187 @@
 {
   "protocols": {
+    "diver-visual-survey": {
+      "tables": {
+        "fish-survey-data": {
+          "columns": {
+            "sample_event_id": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "observatory_code": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "location_name": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "transect": {
+              "tests": {
+                "integer_range": {
+                  "fail_range": [1, 3]
+                },
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "sample_collection_date": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "block": {
+              "tests": {
+                "integer_range": {
+                  "fail_range": [1, 2]
+                },
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "method": {
+              "tests": {
+                "integer_range": {
+                  "fail_range": [0, 2]
+                },
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "scientific_name": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "taxonomic_id": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "fish_id": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "size_class": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "abundance": {
+              "tests": {
+                "integer_range": {
+                  "fail_range": [1, 100]
+                },
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "fish_survey_notes": {}
+          },
+          "tests": {
+            "unique_observation": {
+              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "sample_collection_date", "block", "method", "scientific_name", "taxonomic_id", "fish_id", "size_class"]
+            }
+          }
+        },
+        "sample-metadata": {
+          "columns": {
+            "sample_event_id": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "observatory_code": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "location_name": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "transect": {
+              "tests": {
+                "integer_range": {
+                  "fail_range": [1, 3]
+                },
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "sample_collection_date": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "sample_collection_time": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "direction": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "RLS_trained": {
+              "tests": {
+                "categorical_values": {
+                  "values": ["T", "F"]
+                },
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
+            "sample_metadata_notes": {}
+          },
+          "tests": {
+            "unique_observation": {
+              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "sample_collection_date"]
+            }
+          }
+        }
+      }
+    },
     "predation-assay": {
       "tables": {
         "sample-data": {
@@ -211,7 +393,13 @@
                 }
               }
             },
-            "transect": {},
+            "transect": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                }
+              }
+            },
             "protocol_id": {
               "tests": {
                 "categorical_values": {
@@ -222,12 +410,55 @@
                 }
               }
             },
-            "transect_begin_decimal_latitude": {},
-            "transect_begin_decimal_longitude": {},
-            "transect_end_decimal_latitude": {},
-            "transect_end_decimal_longitude": {},
+            "transect_begin_decimal_latitude": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                },
+                "numeric_range": {
+                  "fail_range": [-180, 180],
+                  "type": "exclusive"
+                }
+              }
+            },
+            "transect_begin_decimal_longitude": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                },
+                "numeric_range": {
+                  "fail_range": [-180, 180],
+                  "type": "exclusive"
+                }
+              }
+            },
+            "transect_end_decimal_latitude": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                },
+                "numeric_range": {
+                  "fail_range": [-180, 180],
+                  "type": "exclusive"
+                }
+              }
+            },
+            "transect_end_decimal_longitude": {
+              "tests": {
+                "missing_values": {
+                  "value_required": true
+                },
+                "numeric_range": {
+                  "fail_range": [-180, 180],
+                  "type": "exclusive"
+                }
+              }
+            },
             "depth_min_m": {
               "tests": {
+                "missing_values": {
+                  "value_required": true
+                },
                 "numeric_range": {
                   "fail_range": [-10, 20],
                   "type": "exclusive"
@@ -236,47 +467,20 @@
             },
             "depth_max_m": {
               "tests": {
+                "missing_values": {
+                  "value_required": true
+                },
                 "numeric_range": {
                   "fail_range": [-10, 20],
                   "type": "exclusive"
                 }
               }
             },
-            "transect_notes": {},
-            "coordinate_type": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["transect begin", "transect end", "deployment", "location"]
-                }
-              }
-            },
-            "id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "latitude": {
-              "tests": {
-                "numeric_range": {
-                  "fail_range": [-180, 180],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "longitude": {
-              "tests": {
-                "numeric_range": {
-                  "fail_range": [-180, 180],
-                  "type": "exclusive"
-                }
-              }
-            }
+            "transect_notes": {}
           },
           "tests": {
             "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "id", "protocol_id", "coordinate_type"]
+              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "protocol_id"]
             }
           }
         }
@@ -1290,7 +1494,7 @@
           },
           "tests": {
             "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
+              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name", "blade_rank"]
             }
           }
         },

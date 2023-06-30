@@ -5,6 +5,5 @@ unique_observation,sampling-event-protocol,site-metadata,location_name
 unique_observation,sampling-event-protocol,transect-metadata,sample_event_id
 unique_observation,sampling-event-protocol,transect-metadata,observatory_code
 unique_observation,sampling-event-protocol,transect-metadata,location_name
-unique_observation,sampling-event-protocol,transect-metadata,id
+unique_observation,sampling-event-protocol,transect-metadata,transect
 unique_observation,sampling-event-protocol,transect-metadata,protocol_id
-unique_observation,sampling-event-protocol,transect-metadata,coordinate_type

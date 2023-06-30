@@ -9,6 +9,7 @@ unique_observation,seagrass-shoots,blade-measurement-data,location_name
 unique_observation,seagrass-shoots,blade-measurement-data,transect
 unique_observation,seagrass-shoots,blade-measurement-data,quadrat
 unique_observation,seagrass-shoots,blade-measurement-data,scientific_name
+unique_observation,seagrass-shoots,blade-measurement-data,blade_rank
 unique_observation,seagrass-shoots,sheath-and-epibiont-data,sample_event_id
 unique_observation,seagrass-shoots,sheath-and-epibiont-data,observatory_code
 unique_observation,seagrass-shoots,sheath-and-epibiont-data,location_name

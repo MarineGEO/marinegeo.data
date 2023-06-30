@@ -8,5 +8,11 @@ missing_values,sampling-event-protocol,site-metadata,event_type
 missing_values,sampling-event-protocol,transect-metadata,sample_event_id
 missing_values,sampling-event-protocol,transect-metadata,observatory_code
 missing_values,sampling-event-protocol,transect-metadata,location_name
-missing_values,sampling-event-protocol,transect-metadata,id
+missing_values,sampling-event-protocol,transect-metadata,transect
 missing_values,sampling-event-protocol,transect-metadata,protocol_id
+missing_values,sampling-event-protocol,transect-metadata,transect_begin_decimal_latitude
+missing_values,sampling-event-protocol,transect-metadata,transect_begin_decimal_longitude
+missing_values,sampling-event-protocol,transect-metadata,transect_end_decimal_latitude
+missing_values,sampling-event-protocol,transect-metadata,transect_end_decimal_longitude
+missing_values,sampling-event-protocol,transect-metadata,depth_min_m
+missing_values,sampling-event-protocol,transect-metadata,depth_max_m
