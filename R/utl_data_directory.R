@@ -15,7 +15,17 @@ inventory_L2_data <- function(directory){
   return(inventory)
 }
 
-write_data_directory_to_L3 <- function(destination, file_inventory){
+#' Title
+#'
+#' @param destination
+#' @param file_inventory
+#' @param sample_event_id
+#'
+#' @return
+#' @export
+#'
+#' @examples
+write_data_directory_to_L3 <- function(destination, file_inventory, sample_event_id){
 
   files_to_copy <- file_inventory %>%
     filter(!is.na(filename))
@@ -36,19 +46,22 @@ write_data_directory_to_L3 <- function(destination, file_inventory){
       column_order <- marinegeo.data::get_column_order(protocol, table)
 
       if(all(colnames(data) == column_order)){
+
+        updated_filename <- paste0(sample_event_id, "_", table, "_", protocol, ".csv")
+
         destination_filepath <- paste0(destination, "/", protocol, "/", table,
-                                       "/", filename)
+                                       "/", updated_filename)
 
         print(destination_filepath)
 
-        # if(file.exists(destination_filepath)){
-        #   file.remove(destination_filepath)
-        # }
-        #
-        # file.copy(
-        #   from = filepath,
-        #   to = destination_filepath
-        # )
+        if(file.exists(destination_filepath)){
+          file.remove(destination_filepath)
+        }
+
+        file.copy(
+          from = filepath,
+          to = destination_filepath
+        )
 
       } else {
 

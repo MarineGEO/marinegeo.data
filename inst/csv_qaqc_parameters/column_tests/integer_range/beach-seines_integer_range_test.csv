@@ -1,0 +1,5 @@
+﻿test,protocol,table,column_name,minimum,maximum
+integer_range,beach-seines,sample-metadata,transect,1,3
+integer_range,beach-seines,abundance-data,transect,1,3
+integer_range,beach-seines,length-data,transect,1,3
+integer_range,beach-seines,abundance-data,abundance,1,100
