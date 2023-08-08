@@ -1,83 +1,83 @@
-﻿version,level,protocol,table,column_name,data_type
-1,1,seagrass-epifauna,sample-metadata,sample_collection_year,
-1,1,seagrass-epifauna,sample-metadata,sample_collection_month,
-1,1,seagrass-epifauna,sample-metadata,sample_collection_day,
-1,1,seagrass-epifauna,sample-metadata,site_code,
-1,1,seagrass-epifauna,sample-metadata,location_name,
-1,1,seagrass-epifauna,sample-metadata,transect,
-1,1,seagrass-epifauna,sample-metadata,mesh_bag_length,
-1,1,seagrass-epifauna,sample-metadata,mesh_bag_width,
-1,1,seagrass-epifauna,sample-metadata,mesh_size,
-1,1,seagrass-epifauna,sample-metadata,sample_processing_year,
-1,1,seagrass-epifauna,sample-metadata,sample_processing_month,
-1,1,seagrass-epifauna,sample-metadata,sample_processing_day,
-1,1,seagrass-epifauna,sample-metadata,data_collector,
-1,1,seagrass-epifauna,sample-metadata,data_entry_person,
-1,1,seagrass-epifauna,sample-metadata,sample_metadata_notes,
-1,1,seagrass-epifauna,macrophyte-mass-data,sample_collection_year,
-1,1,seagrass-epifauna,macrophyte-mass-data,sample_collection_month,
-1,1,seagrass-epifauna,macrophyte-mass-data,sample_collection_day,
-1,1,seagrass-epifauna,macrophyte-mass-data,site_code,
-1,1,seagrass-epifauna,macrophyte-mass-data,location_name,
-1,1,seagrass-epifauna,macrophyte-mass-data,transect,
-1,1,seagrass-epifauna,macrophyte-mass-data,quadrat,
-1,1,seagrass-epifauna,macrophyte-mass-data,scientific_name,
-1,1,seagrass-epifauna,macrophyte-mass-data,identification_notes,
-1,1,seagrass-epifauna,macrophyte-mass-data,sample_processing_person,
-1,1,seagrass-epifauna,macrophyte-mass-data,tin_mass_g,
-1,1,seagrass-epifauna,macrophyte-mass-data,tin_sample_dry_mass_g,
-1,1,seagrass-epifauna,macrophyte-mass-data,macrophyte_mass_notes,
-1,1,seagrass-epifauna,epifauna-data,sample_collection_year,
-1,1,seagrass-epifauna,epifauna-data,sample_collection_month,
-1,1,seagrass-epifauna,epifauna-data,sample_collection_day,
-1,1,seagrass-epifauna,epifauna-data,site_code,
-1,1,seagrass-epifauna,epifauna-data,location_name,
-1,1,seagrass-epifauna,epifauna-data,transect,
-1,1,seagrass-epifauna,epifauna-data,quadrat,
-1,1,seagrass-epifauna,epifauna-data,scientific_name,
-1,1,seagrass-epifauna,epifauna-data,identification_notes,
-1,1,seagrass-epifauna,epifauna-data,sample_processing_person,
-1,1,seagrass-epifauna,epifauna-data,8.0mm,
-1,1,seagrass-epifauna,epifauna-data,5.6mm,
-1,1,seagrass-epifauna,epifauna-data,4.0mm,
-1,1,seagrass-epifauna,epifauna-data,2.8mm,
-1,1,seagrass-epifauna,epifauna-data,2.0mm,
-1,1,seagrass-epifauna,epifauna-data,1.4mm,
-1,1,seagrass-epifauna,epifauna-data,1.0mm,
-1,1,seagrass-epifauna,epifauna-data,0.71mm,
-1,1,seagrass-epifauna,epifauna-data,0.5mm,
-1,1,seagrass-epifauna,epifauna-data,individuals_not_sieved,
-1,1,seagrass-epifauna,epifauna-data,epifauna_notes,
-1,2,seagrass-epifauna,sample-metadata,sample_event_id,STRING
-1,2,seagrass-epifauna,sample-metadata,observatory_code,STRING
-1,2,seagrass-epifauna,sample-metadata,location_name,STRING
-1,2,seagrass-epifauna,sample-metadata,transect,TINYINT
-1,2,seagrass-epifauna,sample-metadata,sample_collection_date,DATE
-1,2,seagrass-epifauna,sample-metadata,mesh_bag_length,DOUBLE
-1,2,seagrass-epifauna,sample-metadata,mesh_bag_width,DOUBLE
-1,2,seagrass-epifauna,sample-metadata,mesh_size,DOUBLE
-1,2,seagrass-epifauna,sample-metadata,sample_processing_date,DATE
-1,2,seagrass-epifauna,sample-metadata,sample_metadata_notes,STRING
-1,2,seagrass-epifauna,macrophyte-mass-data,sample_event_id,STRING
-1,2,seagrass-epifauna,macrophyte-mass-data,observatory_code,STRING
-1,2,seagrass-epifauna,macrophyte-mass-data,location_name,STRING
-1,2,seagrass-epifauna,macrophyte-mass-data,transect,TINYINT
-1,2,seagrass-epifauna,macrophyte-mass-data,quadrat,INT
-1,2,seagrass-epifauna,macrophyte-mass-data,sample_collection_date,DATE
-1,2,seagrass-epifauna,macrophyte-mass-data,scientific_name,STRING
-1,2,seagrass-epifauna,macrophyte-mass-data,taxonomic_id,STRING
-1,2,seagrass-epifauna,macrophyte-mass-data,macrophyte_id,STRING
-1,2,seagrass-epifauna,macrophyte-mass-data,sample_dry_mass_g,DOUBLE
-1,2,seagrass-epifauna,macrophyte-mass-data,macrophyte_mass_notes,STRING
-1,2,seagrass-epifauna,epifauna-data,sample_event_id,STRING
-1,2,seagrass-epifauna,epifauna-data,observatory_code,STRING
-1,2,seagrass-epifauna,epifauna-data,location_name,STRING
-1,2,seagrass-epifauna,epifauna-data,transect,TINYINT
-1,2,seagrass-epifauna,epifauna-data,quadrat,INT
-1,2,seagrass-epifauna,epifauna-data,sample_collection_date,DATE
-1,2,seagrass-epifauna,epifauna-data,scientific_name,STRING
-1,2,seagrass-epifauna,epifauna-data,taxonomic_id,STRING
-1,2,seagrass-epifauna,epifauna-data,epifauna_id,STRING
-1,2,seagrass-epifauna,epifauna-data,size_class,STRING
-1,2,seagrass-epifauna,epifauna-data,count,INT
-1,2,seagrass-epifauna,epifauna-data,epifauna_notes,STRING
+﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,site_code,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,location_name,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,transect,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,mesh_bag_length,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,mesh_bag_width,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,mesh_size,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,sample_processing_year,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,sample_processing_month,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,sample_processing_day,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,data_collector,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,data_entry_person,,1
+Seagrass Monitoring,,1,seagrass-epifauna,sample-metadata,sample_metadata_notes,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,site_code,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,location_name,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,transect,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,quadrat,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,scientific_name,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,identification_notes,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,sample_processing_person,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,tin_mass_g,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,tin_sample_dry_mass_g,,1
+Seagrass Monitoring,,1,seagrass-epifauna,macrophyte-mass-data,macrophyte_mass_notes,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,site_code,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,location_name,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,transect,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,quadrat,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,scientific_name,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,identification_notes,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,sample_processing_person,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,8.0mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,5.6mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,4.0mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,2.8mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,2.0mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,1.4mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,1.0mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,0.71mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,0.5mm,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,individuals_not_sieved,,1
+Seagrass Monitoring,,1,seagrass-epifauna,epifauna-data,epifauna_notes,,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,mesh_bag_length,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,mesh_bag_width,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,mesh_size,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,sample_processing_date,DATE,1
+Seagrass Monitoring,,2,seagrass-epifauna,sample-metadata,sample_metadata_notes,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,quadrat,INT,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,scientific_name,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,taxonomic_id,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,macrophyte_id,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,sample_dry_mass_g,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-epifauna,macrophyte-mass-data,macrophyte_mass_notes,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,quadrat,INT,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,scientific_name,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,taxonomic_id,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,epifauna_id,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,size_class,STRING,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,count,INT,1
+Seagrass Monitoring,,2,seagrass-epifauna,epifauna-data,epifauna_notes,STRING,1

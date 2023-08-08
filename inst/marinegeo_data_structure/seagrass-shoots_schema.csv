@@ -1,76 +1,76 @@
-﻿version,level,protocol,table,column_name,data_type
-1,1,seagrass-shoots,sample-metadata,sample_collection_year,
-1,1,seagrass-shoots,sample-metadata,sample_collection_month,
-1,1,seagrass-shoots,sample-metadata,sample_collection_day,
-1,1,seagrass-shoots,sample-metadata,site_code,
-1,1,seagrass-shoots,sample-metadata,location_name,
-1,1,seagrass-shoots,sample-metadata,transect,
-1,1,seagrass-shoots,sample-metadata,sample_processing_year,
-1,1,seagrass-shoots,sample-metadata,sample_processing_month,
-1,1,seagrass-shoots,sample-metadata,sample_processing_day,
-1,1,seagrass-shoots,sample-metadata,data_collector,
-1,1,seagrass-shoots,sample-metadata,data_entry_person,
-1,1,seagrass-shoots,sample-metadata,sample_metadata_notes,
-1,1,seagrass-shoots,blade-measurement-data,sample_collection_year,
-1,1,seagrass-shoots,blade-measurement-data,sample_collection_month,
-1,1,seagrass-shoots,blade-measurement-data,sample_collection_day,
-1,1,seagrass-shoots,blade-measurement-data,site_code,
-1,1,seagrass-shoots,blade-measurement-data,location_name,
-1,1,seagrass-shoots,blade-measurement-data,transect,
-1,1,seagrass-shoots,blade-measurement-data,quadrat,
-1,1,seagrass-shoots,blade-measurement-data,scientific_name,
-1,1,seagrass-shoots,blade-measurement-data,identification_notes,
-1,1,seagrass-shoots,blade-measurement-data,sample_processing_person,
-1,1,seagrass-shoots,blade-measurement-data,blade_rank,
-1,1,seagrass-shoots,blade-measurement-data,blade_length_mm,
-1,1,seagrass-shoots,blade-measurement-data,blade_width_mm,
-1,1,seagrass-shoots,blade-measurement-data,blade_measurement_data_notes,
-1,1,seagrass-shoots,sheath-and-epibiont-data,sample_collection_year,
-1,1,seagrass-shoots,sheath-and-epibiont-data,sample_collection_month,
-1,1,seagrass-shoots,sheath-and-epibiont-data,sample_collection_day,
-1,1,seagrass-shoots,sheath-and-epibiont-data,site_code,
-1,1,seagrass-shoots,sheath-and-epibiont-data,location_name,
-1,1,seagrass-shoots,sheath-and-epibiont-data,transect,
-1,1,seagrass-shoots,sheath-and-epibiont-data,quadrat,
-1,1,seagrass-shoots,sheath-and-epibiont-data,scientific_name,
-1,1,seagrass-shoots,sheath-and-epibiont-data,identification_notes,
-1,1,seagrass-shoots,sheath-and-epibiont-data,sample_processing_person,
-1,1,seagrass-shoots,sheath-and-epibiont-data,sheath_length_mm,
-1,1,seagrass-shoots,sheath-and-epibiont-data,number_grazing_scars,
-1,1,seagrass-shoots,sheath-and-epibiont-data,tin_mass_epibiont_g,
-1,1,seagrass-shoots,sheath-and-epibiont-data,tin_and_epibiont_dry_mass_g,
-1,1,seagrass-shoots,sheath-and-epibiont-data,tin_mass_blades_g,
-1,1,seagrass-shoots,sheath-and-epibiont-data,tin_and_blades_dry_mass_g,
-1,1,seagrass-shoots,sheath-and-epibiont-data,sheath_and_epibiont_data_notes,
-1,2,seagrass-shoots,sample-metadata,sample_event_id,STRING
-1,2,seagrass-shoots,sample-metadata,observatory_code,STRING
-1,2,seagrass-shoots,sample-metadata,location_name,STRING
-1,2,seagrass-shoots,sample-metadata,transect,TINYINT
-1,2,seagrass-shoots,sample-metadata,sample_collection_date,DATE
-1,2,seagrass-shoots,sample-metadata,sample_processing_date,DATE
-1,2,seagrass-shoots,sample-metadata,sample_metadata_notes,STRING
-1,2,seagrass-shoots,blade-measurement-data,sample_event_id,STRING
-1,2,seagrass-shoots,blade-measurement-data,observatory_code,STRING
-1,2,seagrass-shoots,blade-measurement-data,location_name,STRING
-1,2,seagrass-shoots,blade-measurement-data,transect,TINYINT
-1,2,seagrass-shoots,blade-measurement-data,quadrat,INT
-1,2,seagrass-shoots,blade-measurement-data,sample_collection_date,DATE
-1,2,seagrass-shoots,blade-measurement-data,scientific_name,STRING
-1,2,seagrass-shoots,blade-measurement-data,taxonomic_id,STRING
-1,2,seagrass-shoots,blade-measurement-data,blade_rank,INT
-1,2,seagrass-shoots,blade-measurement-data,blade_length_mm,DOUBLE
-1,2,seagrass-shoots,blade-measurement-data,blade_width_mm,DOUBLE
-1,2,seagrass-shoots,blade-measurement-data,blade_measurement_data_notes,STRING
-1,2,seagrass-shoots,sheath-and-epibiont-data,sample_event_id,STRING
-1,2,seagrass-shoots,sheath-and-epibiont-data,observatory_code,STRING
-1,2,seagrass-shoots,sheath-and-epibiont-data,location_name,STRING
-1,2,seagrass-shoots,sheath-and-epibiont-data,transect,TINYINT
-1,2,seagrass-shoots,sheath-and-epibiont-data,quadrat,INT
-1,2,seagrass-shoots,sheath-and-epibiont-data,sample_collection_date,DATE
-1,2,seagrass-shoots,sheath-and-epibiont-data,scientific_name,STRING
-1,2,seagrass-shoots,sheath-and-epibiont-data,taxonomic_id,STRING
-1,2,seagrass-shoots,sheath-and-epibiont-data,sheath_length_mm,DOUBLE
-1,2,seagrass-shoots,sheath-and-epibiont-data,number_grazing_scars,INT
-1,2,seagrass-shoots,sheath-and-epibiont-data,epibiont_dry_mass_g,DOUBLE
-1,2,seagrass-shoots,sheath-and-epibiont-data,blades_dry_mass_g,DOUBLE
-1,2,seagrass-shoots,sheath-and-epibiont-data,sheath_and_epibiont_data_notes,STRING
+﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,site_code,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,location_name,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,transect,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,sample_processing_year,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,sample_processing_month,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,sample_processing_day,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,data_collector,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,data_entry_person,,1
+Seagrass Monitoring,,1,seagrass-shoots,sample-metadata,sample_metadata_notes,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,site_code,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,location_name,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,transect,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,quadrat,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,scientific_name,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,identification_notes,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,sample_processing_person,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,blade_rank,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,blade_length_mm,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,blade_width_mm,,1
+Seagrass Monitoring,,1,seagrass-shoots,blade-measurement-data,blade_measurement_data_notes,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,site_code,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,location_name,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,transect,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,quadrat,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,scientific_name,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,identification_notes,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,sample_processing_person,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,sheath_length_mm,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,number_grazing_scars,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,tin_mass_epibiont_g,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,tin_and_epibiont_dry_mass_g,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,tin_mass_blades_g,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,tin_and_blades_dry_mass_g,,1
+Seagrass Monitoring,,1,seagrass-shoots,sheath-and-epibiont-data,sheath_and_epibiont_data_notes,,1
+Seagrass Monitoring,,2,seagrass-shoots,sample-metadata,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sample-metadata,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sample-metadata,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sample-metadata,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-shoots,sample-metadata,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-shoots,sample-metadata,sample_processing_date,DATE,1
+Seagrass Monitoring,,2,seagrass-shoots,sample-metadata,sample_metadata_notes,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,quadrat,INT,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,scientific_name,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,taxonomic_id,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,blade_rank,INT,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,blade_length_mm,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,blade_width_mm,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-shoots,blade-measurement-data,blade_measurement_data_notes,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,quadrat,INT,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,scientific_name,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,taxonomic_id,STRING,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,sheath_length_mm,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,number_grazing_scars,INT,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,epibiont_dry_mass_g,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,blades_dry_mass_g,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-shoots,sheath-and-epibiont-data,sheath_and_epibiont_data_notes,STRING,1

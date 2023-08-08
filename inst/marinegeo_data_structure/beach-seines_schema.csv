@@ -1,64 +1,64 @@
-﻿version,level,protocol,table,column_name,data_type
-1,1,beach-seines,sample-metadata,site_code,
-1,1,beach-seines,sample-metadata,location_name,
-1,1,beach-seines,sample-metadata,transect,
-1,1,beach-seines,sample-metadata,sample_collection_year,
-1,1,beach-seines,sample-metadata,sample_collection_month,
-1,1,beach-seines,sample-metadata,sample_collection_day,
-1,1,beach-seines,sample-metadata,seine_mesh_size_mm,
-1,1,beach-seines,sample-metadata,seine_width_m,
-1,1,beach-seines,sample-metadata,seine_height_m,
-1,1,beach-seines,sample-metadata,seine_distance_m,
-1,1,beach-seines,sample-metadata,data_collector,
-1,1,beach-seines,sample-metadata,data_entry_person,
-1,1,beach-seines,sample-metadata,sample_metadata_notes,
-1,2,beach-seines,sample-metadata,sample_event_id,STRING
-1,2,beach-seines,sample-metadata,observatory_code,STRING
-1,2,beach-seines,sample-metadata,location_name,STRING
-1,2,beach-seines,sample-metadata,transect,TINYINT
-1,2,beach-seines,sample-metadata,sample_collection_date,DATE
-1,2,beach-seines,sample-metadata,seine_mesh_size_mm,DOUBLE
-1,2,beach-seines,sample-metadata,seine_width_m,DOUBLE
-1,2,beach-seines,sample-metadata,seine_height_m,DOUBLE
-1,2,beach-seines,sample-metadata,seine_distance_m,DOUBLE
-1,2,beach-seines,sample-metadata,sample_metadata_notes,STRING
-1,1,beach-seines,abundance-data,site_code,
-1,1,beach-seines,abundance-data,location_name,
-1,1,beach-seines,abundance-data,transect,
-1,1,beach-seines,abundance-data,sample_collection_year,
-1,1,beach-seines,abundance-data,sample_collection_month,
-1,1,beach-seines,abundance-data,sample_collection_day,
-1,1,beach-seines,abundance-data,scientific_name,
-1,1,beach-seines,abundance-data,identification_notes,
-1,1,beach-seines,abundance-data,abundance,
-1,1,beach-seines,abundance-data,abundance_notes,
-1,2,beach-seines,abundance-data,sample_event_id,STRING
-1,2,beach-seines,abundance-data,observatory_code,STRING
-1,2,beach-seines,abundance-data,location_name,STRING
-1,2,beach-seines,abundance-data,transect,TINYINT
-1,2,beach-seines,abundance-data,sample_collection_date,DATE
-1,2,beach-seines,abundance-data,scientific_name,STRING
-1,2,beach-seines,abundance-data,taxonomic_id,STRING
-1,2,beach-seines,abundance-data,species_id,STRING
-1,2,beach-seines,abundance-data,abundance,INT
-1,2,beach-seines,abundance-data,abundance_notes,STRING
-1,1,beach-seines,length-data,site_code,
-1,1,beach-seines,length-data,location_name,
-1,1,beach-seines,length-data,transect,
-1,1,beach-seines,length-data,sample_collection_year,
-1,1,beach-seines,length-data,sample_collection_month,
-1,1,beach-seines,length-data,sample_collection_day,
-1,1,beach-seines,length-data,scientific_name,
-1,1,beach-seines,length-data,identification_notes,
-1,1,beach-seines,length-data,length_mm,
-1,1,beach-seines,length-data,length_notes,
-1,2,beach-seines,length-data,sample_event_id,STRING
-1,2,beach-seines,length-data,observatory_code,STRING
-1,2,beach-seines,length-data,location_name,STRING
-1,2,beach-seines,length-data,transect,TINYINT
-1,2,beach-seines,length-data,sample_collection_date,DATE
-1,2,beach-seines,length-data,scientific_name,STRING
-1,2,beach-seines,length-data,taxonomic_id,STRING
-1,2,beach-seines,length-data,species_id,STRING
-1,2,beach-seines,length-data,length_mm,DOUBLE
-1,2,beach-seines,length-data,length_notes,STRING
+﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+Beach Seines,,1,beach-seines,sample-metadata,site_code,,1
+Beach Seines,,1,beach-seines,sample-metadata,location_name,,1
+Beach Seines,,1,beach-seines,sample-metadata,transect,,1
+Beach Seines,,1,beach-seines,sample-metadata,sample_collection_year,,1
+Beach Seines,,1,beach-seines,sample-metadata,sample_collection_month,,1
+Beach Seines,,1,beach-seines,sample-metadata,sample_collection_day,,1
+Beach Seines,,1,beach-seines,sample-metadata,seine_mesh_size_mm,,1
+Beach Seines,,1,beach-seines,sample-metadata,seine_width_m,,1
+Beach Seines,,1,beach-seines,sample-metadata,seine_height_m,,1
+Beach Seines,,1,beach-seines,sample-metadata,seine_distance_m,,1
+Beach Seines,,1,beach-seines,sample-metadata,data_collector,,1
+Beach Seines,,1,beach-seines,sample-metadata,data_entry_person,,1
+Beach Seines,,1,beach-seines,sample-metadata,sample_metadata_notes,,1
+Beach Seines,,2,beach-seines,sample-metadata,sample_event_id,STRING,1
+Beach Seines,,2,beach-seines,sample-metadata,observatory_code,STRING,1
+Beach Seines,,2,beach-seines,sample-metadata,location_name,STRING,1
+Beach Seines,,2,beach-seines,sample-metadata,transect,TINYINT,1
+Beach Seines,,2,beach-seines,sample-metadata,sample_collection_date,DATE,1
+Beach Seines,,2,beach-seines,sample-metadata,seine_mesh_size_mm,DOUBLE,1
+Beach Seines,,2,beach-seines,sample-metadata,seine_width_m,DOUBLE,1
+Beach Seines,,2,beach-seines,sample-metadata,seine_height_m,DOUBLE,1
+Beach Seines,,2,beach-seines,sample-metadata,seine_distance_m,DOUBLE,1
+Beach Seines,,2,beach-seines,sample-metadata,sample_metadata_notes,STRING,1
+Beach Seines,,1,beach-seines,abundance-data,site_code,,1
+Beach Seines,,1,beach-seines,abundance-data,location_name,,1
+Beach Seines,,1,beach-seines,abundance-data,transect,,1
+Beach Seines,,1,beach-seines,abundance-data,sample_collection_year,,1
+Beach Seines,,1,beach-seines,abundance-data,sample_collection_month,,1
+Beach Seines,,1,beach-seines,abundance-data,sample_collection_day,,1
+Beach Seines,,1,beach-seines,abundance-data,scientific_name,,1
+Beach Seines,,1,beach-seines,abundance-data,identification_notes,,1
+Beach Seines,,1,beach-seines,abundance-data,abundance,,1
+Beach Seines,,1,beach-seines,abundance-data,abundance_notes,,1
+Beach Seines,,2,beach-seines,abundance-data,sample_event_id,STRING,1
+Beach Seines,,2,beach-seines,abundance-data,observatory_code,STRING,1
+Beach Seines,,2,beach-seines,abundance-data,location_name,STRING,1
+Beach Seines,,2,beach-seines,abundance-data,transect,TINYINT,1
+Beach Seines,,2,beach-seines,abundance-data,sample_collection_date,DATE,1
+Beach Seines,,2,beach-seines,abundance-data,scientific_name,STRING,1
+Beach Seines,,2,beach-seines,abundance-data,taxonomic_id,STRING,1
+Beach Seines,,2,beach-seines,abundance-data,species_id,STRING,1
+Beach Seines,,2,beach-seines,abundance-data,abundance,INT,1
+Beach Seines,,2,beach-seines,abundance-data,abundance_notes,STRING,1
+Beach Seines,,1,beach-seines,length-data,site_code,,1
+Beach Seines,,1,beach-seines,length-data,location_name,,1
+Beach Seines,,1,beach-seines,length-data,transect,,1
+Beach Seines,,1,beach-seines,length-data,sample_collection_year,,1
+Beach Seines,,1,beach-seines,length-data,sample_collection_month,,1
+Beach Seines,,1,beach-seines,length-data,sample_collection_day,,1
+Beach Seines,,1,beach-seines,length-data,scientific_name,,1
+Beach Seines,,1,beach-seines,length-data,identification_notes,,1
+Beach Seines,,1,beach-seines,length-data,length_mm,,1
+Beach Seines,,1,beach-seines,length-data,length_notes,,1
+Beach Seines,,2,beach-seines,length-data,sample_event_id,STRING,1
+Beach Seines,,2,beach-seines,length-data,observatory_code,STRING,1
+Beach Seines,,2,beach-seines,length-data,location_name,STRING,1
+Beach Seines,,2,beach-seines,length-data,transect,TINYINT,1
+Beach Seines,,2,beach-seines,length-data,sample_collection_date,DATE,1
+Beach Seines,,2,beach-seines,length-data,scientific_name,STRING,1
+Beach Seines,,2,beach-seines,length-data,taxonomic_id,STRING,1
+Beach Seines,,2,beach-seines,length-data,species_id,STRING,1
+Beach Seines,,2,beach-seines,length-data,length_mm,DOUBLE,1
+Beach Seines,,2,beach-seines,length-data,length_notes,STRING,1

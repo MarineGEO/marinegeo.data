@@ -1,44 +1,44 @@
-﻿version,level,protocol,table,column_name,data_type
-1,1,seagrass-macroalgae,sample-metadata,sample_collection_year,
-1,1,seagrass-macroalgae,sample-metadata,sample_collection_month,
-1,1,seagrass-macroalgae,sample-metadata,sample_collection_day,
-1,1,seagrass-macroalgae,sample-metadata,site_code,
-1,1,seagrass-macroalgae,sample-metadata,location_name,
-1,1,seagrass-macroalgae,sample-metadata,transect,
-1,1,seagrass-macroalgae,sample-metadata,sample_processing_year,
-1,1,seagrass-macroalgae,sample-metadata,sample_processing_month,
-1,1,seagrass-macroalgae,sample-metadata,sample_processing_day,
-1,1,seagrass-macroalgae,sample-metadata,data_collector,
-1,1,seagrass-macroalgae,sample-metadata,data_entry_person,
-1,1,seagrass-macroalgae,sample-metadata,sample_metadata_notes,
-1,1,seagrass-macroalgae,sample-data,sample_collection_year,
-1,1,seagrass-macroalgae,sample-data,sample_collection_month,
-1,1,seagrass-macroalgae,sample-data,sample_collection_day,
-1,1,seagrass-macroalgae,sample-data,site_code,
-1,1,seagrass-macroalgae,sample-data,location_name,
-1,1,seagrass-macroalgae,sample-data,transect,
-1,1,seagrass-macroalgae,sample-data,quadrat,
-1,1,seagrass-macroalgae,sample-data,macroalgae_id,
-1,1,seagrass-macroalgae,sample-data,sample_processing_person,
-1,1,seagrass-macroalgae,sample-data,tin_mass_macroalgae_g,
-1,1,seagrass-macroalgae,sample-data,tin_and_macroalgae_dry_mass_g,
-1,1,seagrass-macroalgae,sample-data,sample_data_notes,
-1,2,seagrass-macroalgae,sample-metadata,sample_event_id,STRING
-1,2,seagrass-macroalgae,sample-metadata,observatory_code,STRING
-1,2,seagrass-macroalgae,sample-metadata,location_name,STRING
-1,2,seagrass-macroalgae,sample-metadata,transect,TINYINT
-1,2,seagrass-macroalgae,sample-metadata,sample_collection_date,DATE
-1,2,seagrass-macroalgae,sample-metadata,sample_processing_date,DATE
-1,2,seagrass-macroalgae,sample-metadata,sample_metadata_notes,STRING
-1,2,seagrass-macroalgae,sample-data,sample_event_id,STRING
-1,2,seagrass-macroalgae,sample-data,observatory_code,STRING
-1,2,seagrass-macroalgae,sample-data,location_name,STRING
-1,2,seagrass-macroalgae,sample-data,transect,TINYINT
-1,2,seagrass-macroalgae,sample-data,quadrat,INT
-1,2,seagrass-macroalgae,sample-data,sample_collection_date,DATE
-1,2,seagrass-macroalgae,sample-data,scientific_name,STRING
-1,2,seagrass-macroalgae,sample-data,taxonomic_id,STRING
-1,2,seagrass-macroalgae,sample-data,macroalgae_id,STRING
-1,2,seagrass-macroalgae,sample-data,tin_mass_macroalgae_g,DOUBLE
-1,2,seagrass-macroalgae,sample-data,tin_and_macroalgae_dry_mass_g,DOUBLE
-1,2,seagrass-macroalgae,sample-data,sample_data_notes,STRING
+﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,site_code,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,location_name,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,transect,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,sample_processing_year,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,sample_processing_month,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,sample_processing_day,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,data_collector,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,data_entry_person,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-metadata,sample_metadata_notes,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,sample_collection_year,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,sample_collection_month,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,sample_collection_day,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,site_code,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,location_name,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,transect,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,quadrat,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,macroalgae_id,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,sample_processing_person,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,tin_mass_macroalgae_g,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,tin_and_macroalgae_dry_mass_g,,1
+Seagrass Monitoring,,1,seagrass-macroalgae,sample-data,sample_data_notes,,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-metadata,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-metadata,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-metadata,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-metadata,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-metadata,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-metadata,sample_processing_date,DATE,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-metadata,sample_metadata_notes,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,sample_event_id,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,observatory_code,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,location_name,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,transect,TINYINT,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,quadrat,INT,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,sample_collection_date,DATE,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,scientific_name,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,taxonomic_id,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,macroalgae_id,STRING,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,tin_mass_macroalgae_g,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,tin_and_macroalgae_dry_mass_g,DOUBLE,1
+Seagrass Monitoring,,2,seagrass-macroalgae,sample-data,sample_data_notes,STRING,1

@@ -1,35 +1,35 @@
-﻿version,level,protocol,table,column_name,data_type
-1,1,predation-assay,sample-data,deployment_year,
-1,1,predation-assay,sample-data,deployment_month,
-1,1,predation-assay,sample-data,deployment_day,
-1,1,predation-assay,sample-data,observatory_code,
-1,1,predation-assay,sample-data,location_name,
-1,1,predation-assay,sample-data,transect,
-1,1,predation-assay,sample-data,sample_deployment_time,
-1,1,predation-assay,sample-data,number_deployed,
-1,1,predation-assay,sample-data,bait_type,
-1,1,predation-assay,sample-data,bait_missing_1_hr,
-1,1,predation-assay,sample-data,stakes_missing_1_hr,
-1,1,predation-assay,sample-data,bait_missing_24_hr,
-1,1,predation-assay,sample-data,stakes_missing_24_hr,
-1,1,predation-assay,sample-data,sample_check_time_1_hr,
-1,1,predation-assay,sample-data,sample_check_date_24_hr,
-1,1,predation-assay,sample-data,sample_check_time_24_hr,
-1,1,predation-assay,sample-data,data_entry_person,
-1,1,predation-assay,sample-data,sample_data_notes,
-1,2,predation-assay,sample-data,sample_event_id,STRING
-1,2,predation-assay,sample-data,observatory_code,STRING
-1,2,predation-assay,sample-data,location_name,STRING
-1,2,predation-assay,sample-data,transect,TINYINT
-1,2,predation-assay,sample-data,sample_deployment_date,DATE
-1,2,predation-assay,sample-data,sample_deployment_time,STRING
-1,2,predation-assay,sample-data,number_deployed,INT
-1,2,predation-assay,sample-data,bait_type,STRING
-1,2,predation-assay,sample-data,bait_missing_1_hr,INT
-1,2,predation-assay,sample-data,stakes_missing_1_hr,INT
-1,2,predation-assay,sample-data,bait_missing_24_hr,INT
-1,2,predation-assay,sample-data,stakes_missing_24_hr,INT
-1,2,predation-assay,sample-data,sample_check_time_1_hr,STRING
-1,2,predation-assay,sample-data,sample_check_date_24_hr,DATE
-1,2,predation-assay,sample-data,sample_check_time_24_hr,STRING
-1,2,predation-assay,sample-data,sample_data_notes,STRING
+﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+Predation Assay,,1,predation-assay,sample-data,deployment_year,,1
+Predation Assay,,1,predation-assay,sample-data,deployment_month,,1
+Predation Assay,,1,predation-assay,sample-data,deployment_day,,1
+Predation Assay,,1,predation-assay,sample-data,observatory_code,,1
+Predation Assay,,1,predation-assay,sample-data,location_name,,1
+Predation Assay,,1,predation-assay,sample-data,transect,,1
+Predation Assay,,1,predation-assay,sample-data,sample_deployment_time,,1
+Predation Assay,,1,predation-assay,sample-data,number_deployed,,1
+Predation Assay,,1,predation-assay,sample-data,bait_type,,1
+Predation Assay,,1,predation-assay,sample-data,bait_missing_1_hr,,1
+Predation Assay,,1,predation-assay,sample-data,stakes_missing_1_hr,,1
+Predation Assay,,1,predation-assay,sample-data,bait_missing_24_hr,,1
+Predation Assay,,1,predation-assay,sample-data,stakes_missing_24_hr,,1
+Predation Assay,,1,predation-assay,sample-data,sample_check_time_1_hr,,1
+Predation Assay,,1,predation-assay,sample-data,sample_check_date_24_hr,,1
+Predation Assay,,1,predation-assay,sample-data,sample_check_time_24_hr,,1
+Predation Assay,,1,predation-assay,sample-data,data_entry_person,,1
+Predation Assay,,1,predation-assay,sample-data,sample_data_notes,,1
+Predation Assay,,2,predation-assay,sample-data,sample_event_id,STRING,1
+Predation Assay,,2,predation-assay,sample-data,observatory_code,STRING,1
+Predation Assay,,2,predation-assay,sample-data,location_name,STRING,1
+Predation Assay,,2,predation-assay,sample-data,transect,TINYINT,1
+Predation Assay,,2,predation-assay,sample-data,sample_deployment_date,DATE,1
+Predation Assay,,2,predation-assay,sample-data,sample_deployment_time,STRING,1
+Predation Assay,,2,predation-assay,sample-data,number_deployed,INT,1
+Predation Assay,,2,predation-assay,sample-data,bait_type,STRING,1
+Predation Assay,,2,predation-assay,sample-data,bait_missing_1_hr,INT,1
+Predation Assay,,2,predation-assay,sample-data,stakes_missing_1_hr,INT,1
+Predation Assay,,2,predation-assay,sample-data,bait_missing_24_hr,INT,1
+Predation Assay,,2,predation-assay,sample-data,stakes_missing_24_hr,INT,1
+Predation Assay,,2,predation-assay,sample-data,sample_check_time_1_hr,STRING,1
+Predation Assay,,2,predation-assay,sample-data,sample_check_date_24_hr,DATE,1
+Predation Assay,,2,predation-assay,sample-data,sample_check_time_24_hr,STRING,1
+Predation Assay,,2,predation-assay,sample-data,sample_data_notes,STRING,1
