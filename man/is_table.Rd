@@ -4,7 +4,7 @@
 \alias{is_table}
 \title{Title}
 \usage{
-is_table(protocol, table)
+is_table(protocol, dataset, table)
 }
 \arguments{
 \item{table}{}

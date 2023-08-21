@@ -1,3 +1,3 @@
-﻿test,protocol,table,column_name,value
-categorical_values,diver-visual-survey,sample-metadata,RLS_trained,T
-categorical_values,diver-visual-survey,sample-metadata,RLS_trained,F
+protocol,level,dataset,table,test,column_name,value
+diver-visual-survey,2,standardized,fish-survey-metadata,categorical_values,RLS_trained,TRUE
+diver-visual-survey,2,standardized,fish-survey-metadata,categorical_values,RLS_trained,FALSE

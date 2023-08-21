@@ -1,13 +1,10 @@
-test,protocol,table,column_name,value
-categorical_values,seagrass-density,sample-metadata,cover_method,Braun-Blanquet
-categorical_values,seagrass-density,sample-metadata,cover_method,percent bins
-categorical_values,seagrass-density,sample-metadata,cover_method,point count
-categorical_values,seagrass-density,cover-sample-data,cover_code,A
-categorical_values,seagrass-density,cover-sample-data,cover_code,B
-categorical_values,seagrass-density,cover-sample-data,cover_code,C
-categorical_values,seagrass-density,cover-sample-data,cover_code,D
-categorical_values,seagrass-density,cover-sample-data,cover_code,E
-categorical_values,seagrass-density,cover-sample-data,cover_code,F
-categorical_values,seagrass-density,cover-sample-data,cover_code,G
-categorical_values,seagrass-density,cover-sample-data,sediment_type,sand
-categorical_values,seagrass-density,cover-sample-data,sediment_type,mud
+protocol,level,dataset,table,test,column_name,value
+seagrass-monitoring,2,standardized,cover,categorical_values,cover_code,A
+seagrass-monitoring,2,standardized,cover,categorical_values,cover_code,B
+seagrass-monitoring,2,standardized,cover,categorical_values,cover_code,C
+seagrass-monitoring,2,standardized,cover,categorical_values,cover_code,D
+seagrass-monitoring,2,standardized,cover,categorical_values,cover_code,E
+seagrass-monitoring,2,standardized,cover,categorical_values,cover_code,F
+seagrass-monitoring,2,standardized,cover,categorical_values,cover_code,G
+seagrass-monitoring,2,standardized,cover,categorical_values,sediment_type,sand
+seagrass-monitoring,2,standardized,cover,categorical_values,sediment_type,mud

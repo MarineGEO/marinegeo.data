@@ -8,9 +8,9 @@
 #' @export
 #'
 #' @examples
-get_column_order <- function(protocol, table){
+get_column_order <- function(protocol, table, dataset = "L2_standardized"){
 
-  protocol_data_structure <- marinegeo_schema$protocols[[protocol]]$tables[[table]]$columns
+  protocol_data_structure <- marinegeo_schema$protocols[[protocol]]$datasets[[dataset]][[table]]$columns
 
   column_order <- names(protocol_data_structure)
 
@@ -26,11 +26,17 @@ get_column_order <- function(protocol, table){
 #' @export
 #'
 #' @examples
-is_table <- function(protocol, table){
+is_table <- function(protocol, dataset, table){
 
   if(protocol %in% names(marinegeo_schema$protocols)){
-    if(table %in% names(marinegeo_schema$protocols[[protocol]]$tables)){
-      return(TRUE)
+
+    if(dataset %in% names(marinegeo_schema$protocols[[protocol]]$datasets)){
+
+      if(table %in% names(marinegeo_schema$protocols[[protocol]]$datasets[[dataset]])){
+        return(TRUE)
+      } else {
+        return(FALSE)
+      }
     } else {
       return(FALSE)
     }

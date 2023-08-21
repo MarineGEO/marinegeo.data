@@ -1,4 +1,3 @@
-test,protocol,table,column_name,minimum,maximum
-integer_range,seagrass-biomass,sample-metadata,transect,1,3
-integer_range,seagrass-biomass,sample-data,transect,1,3
-integer_range,seagrass-biomass,sample-data,quadrat,1,50
+protocol,level,dataset,table,test,column_name,minimum,maximum
+seagrass-monitoring,2,standardized,biomass,integer_range,transect,1,3
+seagrass-monitoring,2,standardized,biomass,integer_range,quadrat,1,50

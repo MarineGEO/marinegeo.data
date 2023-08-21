@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-run_qc_on_sample_event <- function(data_list){
+run_qc_on_sample_event <- function(data_list, dataset = "L2_standardized"){
 
   # Loop over each protocol and table
   # Bind summary dataframes together
@@ -18,10 +18,11 @@ run_qc_on_sample_event <- function(data_list){
         lapply(names(data_list[[protocol_name]]), function(table_name){
 
           run_qc_on_table(data_list[[protocol_name]][[table_name]],
-                       protocol_name, table_name) %>%
+                       protocol_name, table_name, dataset) %>%
             mutate(protocol = protocol_name,
-                   table = table_name) %>%
-            select(protocol, table, everything())
+                   table = table_name,
+                   dataset = !!dataset) %>%
+            select(protocol, table, dataset, everything())
 
         })
       )

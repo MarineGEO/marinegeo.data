@@ -1,7 +1,7 @@
-﻿test,protocol,table,column_name,minimum,maximum
-integer_range,predation-assay,sample-data,transect,1,3
-integer_range,predation-assay,sample-data,number_deployed,20,25
-integer_range,predation-assay,sample-data,bait_missing_1_hr,0,25
-integer_range,predation-assay,sample-data,stakes_missing_1_hr,0,25
-integer_range,predation-assay,sample-data,bait_missing_24_hr,0,25
-integer_range,predation-assay,sample-data,stakes_missing_24_hr,0,25
+protocol,level,dataset,table,test,column_name,minimum,maximum
+predation-assay,2,standardized,predation,integer_range,transect,1,3
+predation-assay,2,standardized,predation,integer_range,number_deployed,20,25
+predation-assay,2,standardized,predation,integer_range,bait_missing_1_hr,0,25
+predation-assay,2,standardized,predation,integer_range,stakes_missing_1_hr,0,25
+predation-assay,2,standardized,predation,integer_range,bait_missing_24_hr,0,25
+predation-assay,2,standardized,predation,integer_range,stakes_missing_24_hr,0,25

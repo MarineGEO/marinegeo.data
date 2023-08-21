@@ -1,4 +1,4 @@
-test,protocol,table,column_name,minimum,maximum,type
-numeric_range,sediment-organic-matter,sample-data,sediment_volume_ml,0,100000,exclusive
-numeric_range,sediment-organic-matter,sample-data,sediment_dry_mass_g,0,100000,exclusive
-numeric_range,sediment-organic-matter,sample-data,sediment_ash_free_dry_mass_g,0,100000,exclusive
+protocol,level,dataset,table,test,column_name,minimum,maximum,type
+sediment-organic-matter,2,standardized,data,numeric_range,sediment_volume_ml,0,100000,exclusive
+sediment-organic-matter,2,standardized,data,numeric_range,sediment_dry_mass_g,0,100000,exclusive
+sediment-organic-matter,2,standardized,data,numeric_range,sediment_ash_free_dry_mass_g,0,100000,exclusive

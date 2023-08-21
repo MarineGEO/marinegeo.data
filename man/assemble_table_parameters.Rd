@@ -4,7 +4,7 @@
 \alias{assemble_table_parameters}
 \title{Assemble Table Parameters}
 \usage{
-assemble_table_parameters(parameters, protocol, table)
+assemble_table_parameters(parameters, protocol, dataset, table)
 }
 \arguments{
 \item{table}{}

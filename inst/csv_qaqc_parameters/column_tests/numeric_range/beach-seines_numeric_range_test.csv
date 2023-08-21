@@ -1,2 +1,2 @@
-test,protocol,table,column_name,minimum,maximum,type
-numeric_range,beach-seines,length-data,length_mm,0,500,exclusive
+protocol,level,dataset,table,test,column_name,minimum,maximum,type
+beach-seines,2,standardized,length,numeric_range,length_mm,0,500,exclusive

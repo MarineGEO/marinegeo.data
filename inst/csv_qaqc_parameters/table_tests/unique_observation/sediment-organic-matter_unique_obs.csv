@@ -1,10 +1,6 @@
-﻿test,protocol,table,column_name
-unique_observation,sediment-organic-matter,sample-metadata,sample_event_id
-unique_observation,sediment-organic-matter,sample-metadata,observatory_code
-unique_observation,sediment-organic-matter,sample-metadata,location_name
-unique_observation,sediment-organic-matter,sample-metadata,transect
-unique_observation,sediment-organic-matter,sample-data,sample_event_id
-unique_observation,sediment-organic-matter,sample-data,observatory_code
-unique_observation,sediment-organic-matter,sample-data,location_name
-unique_observation,sediment-organic-matter,sample-data,transect
-unique_observation,sediment-organic-matter,sample-data,quadrat
+protocol,level,dataset,table,test,column_name
+sediment-organic-matter,2,standardized,data,unique_observation,sample_event_id
+sediment-organic-matter,2,standardized,data,unique_observation,observatory_code
+sediment-organic-matter,2,standardized,data,unique_observation,location_name
+sediment-organic-matter,2,standardized,data,unique_observation,transect
+sediment-organic-matter,2,standardized,data,unique_observation,quadrat

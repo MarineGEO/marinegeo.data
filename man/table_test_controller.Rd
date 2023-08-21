@@ -4,7 +4,7 @@
 \alias{table_test_controller}
 \title{Run QC tests on tables}
 \usage{
-table_test_controller(df, protocol, table)
+table_test_controller(df, protocol, table, dataset)
 }
 \arguments{
 \item{table}{}

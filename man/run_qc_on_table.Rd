@@ -4,7 +4,7 @@
 \alias{run_qc_on_table}
 \title{Title}
 \usage{
-run_qc_on_table(df, protocol, table)
+run_qc_on_table(df, protocol, table, dataset = "L2_standardized")
 }
 \arguments{
 \item{table}{}

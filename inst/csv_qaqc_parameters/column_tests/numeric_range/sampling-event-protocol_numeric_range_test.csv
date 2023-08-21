@@ -1,8 +1,8 @@
-test,protocol,table,column_name,minimum,maximum,type
-numeric_range,sampling-event-protocol,site-metadata,temperature_c,-10,50,exclusive
-numeric_range,sampling-event-protocol,transect-metadata,transect_begin_decimal_latitude,-180,180,exclusive
-numeric_range,sampling-event-protocol,transect-metadata,transect_begin_decimal_longitude,-180,180,exclusive
-numeric_range,sampling-event-protocol,transect-metadata,transect_end_decimal_latitude,-180,180,exclusive
-numeric_range,sampling-event-protocol,transect-metadata,transect_end_decimal_longitude,-180,180,exclusive
-numeric_range,sampling-event-protocol,transect-metadata,depth_min_m,-10,20,exclusive
-numeric_range,sampling-event-protocol,transect-metadata,depth_max_m,-10,20,exclusive
+protocol,level,dataset,table,test,column_name,minimum,maximum,type
+sampling-event-protocol,2,standardized,site-metadata,numeric_range,temperature_c,-10,50,exclusive
+sampling-event-protocol,2,standardized,transect-metadata,numeric_range,transect_begin_decimal_latitude,-180,180,exclusive
+sampling-event-protocol,2,standardized,transect-metadata,numeric_range,transect_begin_decimal_longitude,-180,180,exclusive
+sampling-event-protocol,2,standardized,transect-metadata,numeric_range,transect_end_decimal_latitude,-180,180,exclusive
+sampling-event-protocol,2,standardized,transect-metadata,numeric_range,transect_end_decimal_longitude,-180,180,exclusive
+sampling-event-protocol,2,standardized,transect-metadata,numeric_range,depth_min_m,-10,20,exclusive
+sampling-event-protocol,2,standardized,transect-metadata,numeric_range,depth_max_m,-10,20,exclusive

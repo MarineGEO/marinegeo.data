@@ -1,2 +1,2 @@
-test,protocol,table,column_name,minimum,maximum,type
-numeric_range,seagrass-density,macro-invert-sample-data,size_mm,0,100,exclusive
+protocol,level,dataset,table,test,column_name,minimum,maximum,type
+seagrass-monitoring,2,standardized,macroinvertebrates,numeric_range,size_mm,0,100,exclusive

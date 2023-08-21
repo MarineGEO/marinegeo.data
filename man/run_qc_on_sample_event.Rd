@@ -4,7 +4,7 @@
 \alias{run_qc_on_sample_event}
 \title{Run QC on sample event}
 \usage{
-run_qc_on_sample_event(data_list)
+run_qc_on_sample_event(data_list, dataset = "L2_standardized")
 }
 \arguments{
 \item{data_list}{}

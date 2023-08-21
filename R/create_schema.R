@@ -50,9 +50,20 @@ create_schema_list <- function(filepath_to_data_structure){
   ), show_col_types = F) %>%
     filter(level == 2)
 
+  # This can be removed once workflow is updated to rename columns before this step
+  data_structure <- data_structure %>%
+    rename(dataset_2 = dataset,
+           protocol_2 = protocol) %>%
+    rename(protocol = dataset_2,
+           dataset = protocol_2)
+
   # Create index of all protocol-tables
+  data_structure <- data_structure %>%
+    mutate(protocol = tolower(gsub(" ", "-", protocol)),
+           dataset = paste0("L", level, "_", dataset))
+
   protocol_index <- data_structure %>%
-    select(protocol, table) %>%
+    select(dataset, protocol, table) %>%
     distinct()
 
   protocols <- protocol_index %>%
@@ -65,50 +76,63 @@ create_schema_list <- function(filepath_to_data_structure){
       lapply(protocols, function(protocol){
 
         # print(protocol)
-
-        protocol_tables <- protocol_index %>%
+        dataset_names <- protocol_index %>%
           filter(protocol == !!protocol) %>%
-          count(table) %>%
-          pull(table)
+          count(dataset) %>%
+          pull(dataset)
 
-        # "Tables" level
         setNames(
           list(
 
-            # Protocol Table Level
             setNames(
-              lapply(protocol_tables, function(table){
+              lapply(dataset_names, function(dataset){
 
-                table_columns <- data_structure %>%
+                protocol_tables <- protocol_index %>%
                   filter(protocol == !!protocol,
-                         table == !!table,
-                         level == 2) %>%
-                  pull(column_name)
+                         dataset == !!dataset) %>%
+                  count(table) %>%
+                  pull(table)
 
-                # "Columns" Level
+
+                # Protocol Table Level
                 setNames(
-                  list(
+                  lapply(protocol_tables, function(table){
 
-                    # Table Columns Level
+                    table_columns <- data_structure %>%
+                      filter(protocol == !!protocol,
+                             table == !!table,
+                             level == 2) %>%
+                      pull(column_name)
+
+                    # "Columns" Level
                     setNames(
-                      lapply(table_columns, function(column){
+                      list(
+
+                        # Table Columns Level
+                        setNames(
+                          lapply(table_columns, function(column){
 
 
-                      }),
+                          }),
 
-                      table_columns
+                          table_columns
+                        )
+
+                      ),
+
+                      "columns"
                     )
 
-                  ),
-
-                  "columns"
+                  }),
+                  protocol_tables
                 )
 
               }),
-              protocol_tables
+              dataset_names
             )
           ),
-          "tables"
+          "datasets"
+
         )
 
       }), protocols)
@@ -127,7 +151,8 @@ populate_table_parameters <- function(schema){
 
     read_csv(list.files(
       directory, full.names = T
-    ), show_col_types = F)
+    ), show_col_types = F) %>%
+      mutate(dataset = paste0("L", level, "_", dataset))
 
   })
 
@@ -139,7 +164,7 @@ populate_table_parameters <- function(schema){
     lapply(param_list, function(df){
 
       df %>%
-        select(protocol, table, test) %>%
+        select(protocol, dataset, table, test) %>%
         distinct()
 
     })
@@ -154,40 +179,51 @@ populate_table_parameters <- function(schema){
     protocol_df <- table_inventory %>%
       filter(protocol == !!protocol)
 
-    tables <- protocol_df %>%
-      count(table) %>%
-      pull(table)
+    datasets <- protocol_df %>%
+      count(dataset) %>%
+      pull(dataset)
 
-    for(table in tables){
+    for(dataset in datasets){
 
-      tests <- protocol_df %>%
-        filter(table == !!table) %>%
-        count(test) %>%
-        pull(test)
+      dataset_df <- protocol_df %>%
+        filter(dataset == !!dataset)
 
-      table_list <- lapply(tests, function(test){
+      tables <- dataset_df %>%
+        count(table) %>%
+        pull(table)
 
-        result <- param_list[[test]] %>%
-          filter(protocol == !!protocol,
-                 table == !!table)
+      for(table in tables){
 
-        if(test == "unique_observation"){
+        tests <- dataset_df %>%
+          filter(table == !!table) %>%
+          count(test) %>%
+          pull(test)
 
-          list(
-            values = result$column_name
-          )
+        table_list <- lapply(tests, function(test){
 
-        } else {
-          NULL
-        }
+          result <- param_list[[test]] %>%
+            filter(protocol == !!protocol,
+                   dataset == !!dataset,
+                   table == !!table)
 
-      })
+          if(test == "unique_observation"){
 
-      names(table_list) <- tests
-      schema[[protocol]]$tables[[table]][["tests"]] <- table_list
+            list(
+              values = result$column_name
+            )
+
+          } else {
+            NULL
+          }
+
+        })
+
+        names(table_list) <- tests
+        schema[[protocol]]$datasets[[dataset]][[table]][["tests"]] <- table_list
+
+      }
 
     }
-
   }
 
   return(schema)
@@ -205,7 +241,8 @@ populate_column_parameters <- function(schema){
 
     read_csv(list.files(
       directory, full.names = T
-    ), show_col_types = F)
+    ), show_col_types = F) %>%
+      mutate(dataset = paste0("L", level, "_", dataset))
 
   })
 
@@ -217,7 +254,7 @@ populate_column_parameters <- function(schema){
     lapply(param_list, function(df){
 
       df %>%
-        select(protocol, table, column_name, test) %>%
+        select(protocol, dataset, table, column_name, test) %>%
         distinct()
 
     })
@@ -232,68 +269,78 @@ populate_column_parameters <- function(schema){
     protocol_df <- column_inventory %>%
       filter(protocol == !!protocol)
 
-    tables <- protocol_df %>%
-      count(table) %>%
-      pull(table)
+    datasets <- protocol_df %>%
+      count(dataset) %>%
+      pull(dataset)
 
-    for(table in tables){
+    for(dataset in datasets){
 
-      columns <- protocol_df %>%
-        filter(table == !!table) %>%
-        count(column_name) %>%
-        pull(column_name)
+      dataset_df <- protocol_df %>%
+        filter(dataset == !!dataset)
 
-      for(column_name in columns){
+      tables <- dataset_df %>%
+        count(table) %>%
+        pull(table)
 
-        tests <- protocol_df %>%
-          filter(table == !!table,
-                 column_name == !!column_name) %>%
-          count(test) %>%
-          pull(test)
+      for(table in tables){
 
-        column_list <- lapply(tests, function(test){
+        columns <- dataset_df %>%
+          filter(table == !!table) %>%
+          count(column_name) %>%
+          pull(column_name)
 
-          result <- param_list[[test]] %>%
-            filter(protocol == !!protocol,
-                   table == !!table,
-                   column_name == !!column_name)
+        for(column_name in columns){
 
-          if(test == "categorical_values"){
+          tests <- dataset_df %>%
+            filter(table == !!table,
+                   column_name == !!column_name) %>%
+            count(test) %>%
+            pull(test)
 
-            list(
-              values = result$value
-            )
+          column_list <- lapply(tests, function(test){
 
-          } else if(test == "missing_values"){
+            result <- param_list[[test]] %>%
+              filter(protocol == !!protocol,
+                     dataset == !!dataset,
+                     table == !!table,
+                     column_name == !!column_name)
 
-            list(value_required = TRUE)
+            if(test == "categorical_values"){
 
-          } else if(test == "integer_range"){
+              list(
+                values = result$value
+              )
 
-            list(fail_range = c(result$minimum, result$maximum))
+            } else if(test == "missing_values"){
 
-          } else if(test == "numeric_range"){
+              list(value_required = TRUE)
 
-            list(
-              fail_range = c(result$minimum, result$maximum),
-              type = result$type
-            )
+            } else if(test == "integer_range"){
 
-          } else {
-            NULL
-          }
+              list(fail_range = c(result$minimum, result$maximum))
 
-        })
+            } else if(test == "numeric_range"){
 
-        # browser()
+              list(
+                fail_range = c(result$minimum, result$maximum),
+                type = result$type
+              )
 
-        names(column_list) <- tests
-        # schema[[protocol]]$tables[[table]]$columns[[column_name]] <- column_list
-        schema[[protocol]]$tables[[table]]$columns[[column_name]][["tests"]] <- column_list
+            } else {
+              NULL
+            }
+
+          })
+
+          # browser()
+
+          names(column_list) <- tests
+          # schema[[protocol]]$tables[[table]]$columns[[column_name]] <- column_list
+          schema[[protocol]]$datasets[[dataset]][[table]]$columns[[column_name]][["tests"]] <- column_list
+        }
+
       }
-
     }
-
   }
 
   return(schema)
@@ -352,8 +399,8 @@ cross_protocol_tests <- function(){
 
       parameters = list(
         type = "transect",
-        protocols = c("seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass",
-                      "sediment-organic-matter"),
+        dataset = "L2_standardized",
+        protocols = c("seagrass-monitoring", "sediment-organic-matter"),
         columns = c("sample_event_id", "observatory_code","sample_collection_date", "location_name", "transect")
       )
     )#,

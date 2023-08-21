@@ -1,4 +1,3 @@
-test,protocol,table,column_name,minimum,maximum
-integer_range,sediment-organic-matter,sample-metadata,transect,1,3
-integer_range,sediment-organic-matter,sample-data,transect,1,3
-integer_range,sediment-organic-matter,sample-data,quadrat,1,50
+protocol,level,dataset,table,test,column_name,minimum,maximum
+sediment-organic-matter,2,standardized,data,integer_range,transect,1,3
+sediment-organic-matter,2,standardized,data,integer_range,quadrat,1,50

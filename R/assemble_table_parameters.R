@@ -8,9 +8,9 @@
 #' @export
 #'
 #' @examples
-assemble_table_parameters <- function(parameters, protocol, table){
+assemble_table_parameters <- function(parameters, protocol, dataset, table){
 
-  table_parameters <- parameters[["protocols"]][[protocol]]$tables[[table]]
+  table_parameters <- parameters[["protocols"]][[protocol]]$datasets[[dataset]][[table]]
 
   if("observatory_code" %in% names(table_parameters$columns)){
 

@@ -1,2 +1,2 @@
-﻿test,protocol,table,column_name,value
-categorical_values,predation-assay,sample-data,bait_type,squid
+protocol,level,dataset,table,test,column_name,value
+predation-assay,2,standardized,predation,categorical_values,bait_type,squid

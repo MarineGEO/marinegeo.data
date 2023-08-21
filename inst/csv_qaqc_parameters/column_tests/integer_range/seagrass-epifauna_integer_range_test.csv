@@ -1,7 +1,7 @@
-test,protocol,table,column_name,minimum,maximum
-integer_range,seagrass-epifauna,sample-metadata,transect,1,3
-integer_range,seagrass-epifauna,macrophyte-mass-data,transect,1,3
-integer_range,seagrass-epifauna,macrophyte-mass-data,quadrat,1,50
-integer_range,seagrass-epifauna,epifauna-data,transect,1,3
-integer_range,seagrass-epifauna,epifauna-data,quadrat,1,50
-integer_range,seagrass-epifauna,epifauna-data,count,1,500
+protocol,level,dataset,table,test,column_name,minimum,maximum
+seagrass-monitoring,2,standardized,epifauna-metadata,integer_range,transect,1,3
+seagrass-monitoring,2,standardized,macrophyte-mass,integer_range,transect,1,3
+seagrass-monitoring,2,standardized,macrophyte-mass,integer_range,quadrat,1,50
+seagrass-monitoring,2,standardized,epifauna-data,integer_range,transect,1,3
+seagrass-monitoring,2,standardized,epifauna-data,integer_range,quadrat,1,50
+seagrass-monitoring,2,standardized,epifauna-data,integer_range,count,1,500

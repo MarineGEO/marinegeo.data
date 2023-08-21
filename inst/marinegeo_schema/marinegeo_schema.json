@@ -1,2033 +1,1737 @@
 {
   "protocols": {
     "beach-seines": {
-      "tables": {
-        "abundance-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+      "datasets": {
+        "L2_standardized": {
+          "abundance": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "taxonomic_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "taxonomic_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "species_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "species_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "abundance": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 100]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "abundance": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 100]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
+              },
+              "abundance_notes": {}
             },
-            "abundance_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "scientific_name", "taxonomic_id", "species_id"]
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "scientific_name", "taxonomic_id", "species_id"]
+              }
             }
-          }
-        },
-        "length-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "species_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "length_mm": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 500],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "length_notes": {}
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "seine_mesh_size_mm": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "seine_width_m": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "seine_height_m": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "seine_distance_m": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_metadata_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+          "length": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "species_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "length_mm": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 500],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "length_notes": {}
+            }
+          },
+          "seine-metadata": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "seine_mesh_size_mm": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "seine_width_m": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "seine_height_m": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "seine_distance_m": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_metadata_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+              }
             }
           }
         }
       }
     },
     "diver-visual-survey": {
-      "tables": {
-        "fish-survey-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+      "datasets": {
+        "L2_standardized": {
+          "fish-survey-data": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "block": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 2]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "block": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 2]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "method": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 2]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "method": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 2]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "taxonomic_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "taxonomic_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "fish_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "fish_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "size_class": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "size_class": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "abundance": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 100]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "abundance": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 100]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
+              },
+              "fish_survey_notes": {}
             },
-            "fish_survey_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "sample_collection_date", "block", "method", "scientific_name", "taxonomic_id", "fish_id", "size_class"]
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "sample_collection_date", "block", "method", "scientific_name", "taxonomic_id", "fish_id", "size_class"]
+              }
             }
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_time": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "direction": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "RLS_trained": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["T", "F"]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_metadata_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "sample_collection_date"]
+          "fish-survey-metadata": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_time": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "direction": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "RLS_trained": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["TRUE", "FALSE"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_metadata_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "sample_collection_date"]
+              }
             }
           }
         }
       }
     },
     "predation-assay": {
-      "tables": {
-        "sample-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+      "datasets": {
+        "L2_standardized": {
+          "predation": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_deployment_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_deployment_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_deployment_time": {},
-            "number_deployed": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [20, 25]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_deployment_time": {},
+              "number_deployed": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [20, 25]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "bait_type": {
-              "tests": {
-                "categorical_values": {
-                  "values": "squid"
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "bait_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": "squid"
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "bait_missing_1_hr": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 25]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "bait_missing_1_hr": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 25]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "stakes_missing_1_hr": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 25]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "stakes_missing_1_hr": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 25]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "bait_missing_24_hr": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 25]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "bait_missing_24_hr": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 25]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "stakes_missing_24_hr": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 25]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "stakes_missing_24_hr": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 25]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
+              },
+              "sample_check_time_1_hr": {},
+              "sample_check_date_24_hr": {},
+              "sample_check_time_24_hr": {},
+              "sample_data_notes": {}
             },
-            "sample_check_time_1_hr": {},
-            "sample_check_date_24_hr": {},
-            "sample_check_time_24_hr": {},
-            "sample_data_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+              }
             }
           }
         }
       }
     },
     "sampling-event-protocol": {
-      "tables": {
-        "site-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+      "datasets": {
+        "L2_standardized": {
+          "site-metadata": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "visibility_m": {},
-            "habitat_type": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["seagrass", "coral reef", "oyster reef", "rocky reef", "mangrove", "salt marsh", "artificial"]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "visibility_m": {},
+              "habitat_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["seagrass", "coral reef", "oyster reef", "rocky reef", "mangrove", "salt marsh", "artificial"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "event_type": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["deployment", "retrieval", "collection", "calibration"]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "event_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["deployment", "retrieval", "collection", "calibration"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "temperature_c": {
-              "tests": {
-                "numeric_range": {
-                  "fail_range": [-10, 50],
-                  "type": "exclusive"
+              },
+              "temperature_c": {
+                "tests": {
+                  "numeric_range": {
+                    "fail_range": [-10, 50],
+                    "type": "exclusive"
+                  }
                 }
-              }
+              },
+              "salinity_ppt": {},
+              "dissolved_oxygen": {},
+              "dissolved_oxygen_unit": {},
+              "site_notes": {}
             },
-            "salinity_ppt": {},
-            "dissolved_oxygen": {},
-            "dissolved_oxygen_unit": {},
-            "site_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name"]
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name"]
+              }
             }
-          }
-        },
-        "transect-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "protocol_id": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["seagrass", "predation-assay", "beach-seines", "diver-visual-survey"]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect_begin_decimal_latitude": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [-180, 180],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "transect_begin_decimal_longitude": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [-180, 180],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "transect_end_decimal_latitude": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [-180, 180],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "transect_end_decimal_longitude": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [-180, 180],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "depth_min_m": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [-10, 20],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "depth_max_m": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [-10, 20],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "transect_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "protocol_id"]
-            }
-          }
-        }
-      }
-    },
-    "seagrass-biomass": {
-      "tables": {
-        "sample-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+          "transect-metadata": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "protocol_id": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["seagrass", "predation-assay", "beach-seines", "diver-visual-survey"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect_begin_decimal_latitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect_begin_decimal_longitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "identification_notes": {},
-            "tin_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 5000],
-                  "type": "exclusive"
+              },
+              "transect_end_decimal_latitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "tin_sample_dry_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 5000],
-                  "type": "exclusive"
+              },
+              "transect_end_decimal_longitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "sample_data_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
-            }
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "depth_min_m": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-10, 20],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "depth_max_m": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-10, 20],
+                    "type": "exclusive"
+                  }
                 }
-              }
+              },
+              "transect_notes": {}
             },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "protocol_id"]
               }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_dimensions": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_processing_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "corer_dimensions": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_metadata_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
             }
           }
         }
       }
     },
-    "seagrass-density": {
-      "tables": {
-        "cover-sample-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+    "seagrass-monitoring": {
+      "datasets": {
+        "L2_standardized": {
+          "biomass": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "taxonomic_id": {},
-            "cover_code": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["A", "B", "C", "D", "E", "F", "G"]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "identification_notes": {},
+              "tin_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 5000],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "sediment_type": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["sand", "mud"]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "tin_sample_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 5000],
+                    "type": "exclusive"
+                  }
                 }
-              }
+              },
+              "corer_dimensions": {},
+              "sample_data_notes": {}
             },
-            "cover_sample_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
+              }
             }
-          }
-        },
-        "macro-invert-sample-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {},
-            "macro_invert_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "size_mm": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 100],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "macro_invert_sample_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "macro_invert_id"]
+          "blade-measurements": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {},
+              "blade_rank": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 10]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "blade_length_mm": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 500],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "blade_width_mm": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 500],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "blade_measurement_data_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name", "blade_rank"]
+              }
             }
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "cover_method": {
-              "tests": {
-                "categorical_values": {
-                  "values": ["Braun-Blanquet", "percent bins", "point count"]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "cover_quadrat_dimensions": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "density_quadrat_dimensions": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "points_in_quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [5, 1000]
-                }
-              }
-            },
-            "sample_metadata_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+          "cover": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {},
+              "cover_code": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["A", "B", "C", "D", "E", "F", "G"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sediment_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["sand", "mud"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "cover_quadrat_dimensions": {},
+              "cover_sample_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
+              }
             }
-          }
-        },
-        "shoot-count-sample-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {},
-            "shoots_count": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 500]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "flowers_count": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 500]
-                }
-              }
-            },
-            "fruits_count": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 500]
-                }
-              }
-            },
-            "shoot_count_sample_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
+          "epifauna-data": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {},
+              "epifauna_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "size_class": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 500]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "epifauna_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "epifauna_id", "size_class"]
+              }
             }
-          }
-        }
-      }
-    },
-    "seagrass-epifauna": {
-      "tables": {
-        "epifauna-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {},
-            "epifauna_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "size_class": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "count": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 500]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "epifauna_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "epifauna_id", "size_class"]
+          "epifauna-metadata": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "mesh_bag_length": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "mesh_bag_width": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "mesh_size": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "sample_processing_date": {},
+              "sample_metadata_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+              }
             }
-          }
-        },
-        "macrophyte-mass-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {},
-            "macrophyte_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_dry_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 5000],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "macrophyte_mass_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "macrophyte_id"]
+          "macroalgae": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {},
+              "macroalgae_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "tin_mass_macroalgae_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 5000],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "tin_and_macroalgae_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 5000],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "sample_data_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name", "macroalgae_id"]
+              }
             }
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "mesh_bag_length": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 100],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "mesh_bag_width": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 100],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "mesh_size": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 100],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "sample_processing_date": {},
-            "sample_metadata_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+          "macroinvertebrates": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {},
+              "macro_invert_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "size_mm": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "macro_invert_sample_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "macro_invert_id"]
+              }
             }
-          }
-        }
-      }
-    },
-    "seagrass-macroalgae": {
-      "tables": {
-        "sample-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {},
-            "macroalgae_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "tin_mass_macroalgae_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 5000],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "tin_and_macroalgae_dry_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 5000],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "sample_data_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name", "macroalgae_id"]
+          "macrophyte-mass": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {},
+              "macrophyte_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 5000],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "macrophyte_mass_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "macrophyte_id"]
+              }
             }
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_processing_date": {},
-            "sample_metadata_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+          "sheath-and-epibiont-data": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {},
+              "sheath_length_mm": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 500],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "number_grazing_scars": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 100]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "epibiont_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 10000],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "blades_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 10000],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "sheath_and_epibiont_data_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
+              }
             }
-          }
-        }
-      }
-    },
-    "seagrass-shoots": {
-      "tables": {
-        "blade-measurement-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {},
-            "blade_rank": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 10]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "blade_length_mm": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 500],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "blade_width_mm": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 500],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "blade_measurement_data_notes": {}
           },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name", "blade_rank"]
-            }
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+          "shoot-count": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sample_processing_date": {},
-            "sample_metadata_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
-            }
-          }
-        },
-        "sheath-and-epibiont-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "taxonomic_id": {},
+              "shoots_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 500]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "flowers_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 500]
+                  }
                 }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "fruits_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 500]
+                  }
                 }
-              }
+              },
+              "density_quadrat_dimensions": {},
+              "shoot_count_sample_notes": {}
             },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
               }
-            },
-            "scientific_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "taxonomic_id": {},
-            "sheath_length_mm": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 500],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "number_grazing_scars": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [0, 100]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "epibiont_dry_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 10000],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "blades_dry_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 10000],
-                  "type": "exclusive"
-                }
-              }
-            },
-            "sheath_and_epibiont_data_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
             }
           }
         }
       }
     },
     "sediment-organic-matter": {
-      "tables": {
-        "sample-data": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+      "datasets": {
+        "L2_standardized": {
+          "data": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 1, 3, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "quadrat": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 50]
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 50]
+                  }
                 }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
                 }
-              }
-            },
-            "sediment_volume_ml": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 100000],
-                  "type": "exclusive"
+              },
+              "sediment_volume_ml": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100000],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "sediment_dry_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 100000],
-                  "type": "exclusive"
+              },
+              "sediment_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100000],
+                    "type": "exclusive"
+                  }
                 }
-              }
-            },
-            "sediment_ash_free_dry_mass_g": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                },
-                "numeric_range": {
-                  "fail_range": [0, 100000],
-                  "type": "exclusive"
+              },
+              "sediment_ash_free_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100000],
+                    "type": "exclusive"
+                  }
                 }
-              }
+              },
+              "sample_data_notes": {}
             },
-            "sample_data_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat"]
-            }
-          }
-        },
-        "sample-metadata": {
-          "columns": {
-            "sample_event_id": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat"]
               }
-            },
-            "observatory_code": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "location_name": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "transect": {
-              "tests": {
-                "integer_range": {
-                  "fail_range": [1, 3]
-                },
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_collection_date": {
-              "tests": {
-                "missing_values": {
-                  "value_required": true
-                }
-              }
-            },
-            "sample_processing_date": {},
-            "sample_metadata_notes": {}
-          },
-          "tests": {
-            "unique_observation": {
-              "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
             }
           }
         }
@@ -2234,7 +1938,8 @@
       "grouping": "seagrass",
       "parameters": {
         "type": "transect",
-        "protocols": ["seagrass-density", "seagrass-shoots", "seagrass-epifauna", "seagrass-macroalgae", "seagrass-biomass", "sediment-organic-matter"],
+        "dataset": "L2_standardized",
+        "protocols": ["seagrass-monitoring", "sediment-organic-matter"],
         "columns": ["sample_event_id", "observatory_code", "sample_collection_date", "location_name", "transect"]
       }
     }

@@ -10,14 +10,16 @@
 #' @export
 #'
 #' @examples
-run_qc_on_table <- function(df, protocol, table){
+run_qc_on_table <- function(df, protocol, table, dataset = "L2_standardized"){
 
   # Test if table exists
-  if(!is_table(protocol, table)){
+  if(!is_table(protocol, dataset, table)){
     return(tibble(result = "Unknown table"))
 
   } else {
-    output <- table_test_controller(df, protocol, table)
+    output <- table_test_controller(df, protocol, table, dataset)
+
+    # browser()
 
     summary <- create_quality_control_summary(output)
 
@@ -35,11 +37,11 @@ run_qc_on_table <- function(df, protocol, table){
 #' @export
 #'
 #' @examples
-table_test_controller <- function(df, protocol, table){
+table_test_controller <- function(df, protocol, table, dataset){
 
   # Assemble parameters by injecting knowledge hub vars into table params
   # and removing all other protocol-table combos
-  table_parameters <- assemble_table_parameters(marinegeo_schema, protocol, table)
+  table_parameters <- assemble_table_parameters(marinegeo_schema, protocol, dataset, table)
 
   # Run QC tests
   # Value tests run on the values associated with one or more column in a dataframe
