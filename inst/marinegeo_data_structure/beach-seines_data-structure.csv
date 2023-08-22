@@ -1,4 +1,4 @@
-﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+﻿protocol,database_table,level,dataset,table,column_name,data_type,version
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,sample_event_id,STRING,1
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,observatory_code,STRING,1
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,location_name,STRING,1

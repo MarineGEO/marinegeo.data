@@ -1,4 +1,4 @@
-﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+﻿protocol,database_table,level,dataset,table,column_name,data_type,version
 Seagrass Monitoring,seagrass_monitoring_l2_standardized_biomass,2,standardized,biomass,sample_event_id,STRING,1
 Seagrass Monitoring,seagrass_monitoring_l2_standardized_biomass,2,standardized,biomass,observatory_code,STRING,1
 Seagrass Monitoring,seagrass_monitoring_l2_standardized_biomass,2,standardized,biomass,location_name,STRING,1

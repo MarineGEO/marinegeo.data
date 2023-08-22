@@ -1,4 +1,4 @@
-﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+﻿protocol,database_table,level,dataset,table,column_name,data_type,version
 Sediment Organic Matter,sediment_organic_matter_l2_standardized_data,2,standardized,data,sample_event_id,STRING,1
 Sediment Organic Matter,sediment_organic_matter_l2_standardized_data,2,standardized,data,observatory_code,STRING,1
 Sediment Organic Matter,sediment_organic_matter_l2_standardized_data,2,standardized,data,location_name,STRING,1

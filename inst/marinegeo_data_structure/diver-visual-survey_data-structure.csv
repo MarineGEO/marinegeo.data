@@ -1,4 +1,4 @@
-﻿dataset,database_table,level,protocol,table,column_name,data_type,version
+﻿protocol,database_table,level,dataset,table,column_name,data_type,version
 Diver Visual Survey,diver_visual_survey_l2_standardized_fish_survey_metadata,2,standardized,fish-survey-metadata,sample_event_id,STRING,1
 Diver Visual Survey,diver_visual_survey_l2_standardized_fish_survey_metadata,2,standardized,fish-survey-metadata,observatory_code,STRING,1
 Diver Visual Survey,diver_visual_survey_l2_standardized_fish_survey_metadata,2,standardized,fish-survey-metadata,location_name,STRING,1
