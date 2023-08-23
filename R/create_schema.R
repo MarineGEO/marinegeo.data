@@ -50,13 +50,6 @@ create_schema_list <- function(filepath_to_data_structure){
   ), show_col_types = F) %>%
     filter(level == 2)
 
-  # This can be removed once workflow is updated to rename columns before this step
-  data_structure <- data_structure %>%
-    rename(dataset_2 = dataset,
-           protocol_2 = protocol) %>%
-    rename(protocol = dataset_2,
-           dataset = protocol_2)
-
   # Create index of all protocol-tables
   data_structure <- data_structure %>%
     mutate(protocol = tolower(gsub(" ", "-", protocol)),
