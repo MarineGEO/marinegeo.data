@@ -1242,17 +1242,8 @@
                   }
                 }
               },
-              "tin_mass_macroalgae_g": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  },
-                  "numeric_range": {
-                    "fail_range": [0, 5000],
-                    "type": "exclusive"
-                  }
-                }
-              },
+              "macroalgae_dry_mass_g": {},
+              "sample_data_notes": {},
               "tin_and_macroalgae_dry_mass_g": {
                 "tests": {
                   "missing_values": {
@@ -1264,7 +1255,17 @@
                   }
                 }
               },
-              "sample_data_notes": {}
+              "tin_mass_macroalgae_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 5000],
+                    "type": "exclusive"
+                  }
+                }
+              }
             },
             "tests": {
               "unique_observation": {
