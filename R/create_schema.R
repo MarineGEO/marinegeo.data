@@ -15,7 +15,9 @@
 
 create_schema <- function(){
 
-  empty_schema <- create_schema_list("./inst/marinegeo_data_structure/")
+  data_structure_location <- "./inst/marinegeo_data_structure/"
+  # evaluate_data_structure(data_structure_location)
+  empty_schema <- create_schema_list(data_structure_location)
   schema_table_tests <- populate_table_parameters(empty_schema)
   output <- populate_column_parameters(schema_table_tests)
   knowledge_hub_list <- create_knowledge_hub_list()
@@ -29,6 +31,83 @@ create_schema <- function(){
 
   return(schema)
 }
+
+# evaluate_data_structure <- function(filepath_to_data_structure){
+#
+#   browser()
+#
+#   # Ensure that columns defined in QAQC CSVs are also defined in data structure
+#   # Load CSV data structure files
+#   data_structure <- read_csv(list.files(
+#     filepath_to_data_structure,
+#     full.names = T
+#   ), show_col_types = F) %>%
+#     filter(level == 2)
+#
+#   # Create index of all protocol-tables
+#   data_structure <- data_structure %>%
+#     mutate(protocol = tolower(gsub(" ", "-", protocol)),
+#            dataset = paste0("L", level, "_", dataset))
+#
+#   # Table Tests
+#   # Load QC parameters CSVs to list
+#   directory_path <- "./inst/csv_qaqc_parameters/table_tests/"
+#   test_names_dirs <- list.dirs(directory_path)[list.dirs(directory_path) != directory_path]
+#   test_names <- basename(test_names_dirs)
+#
+#   param_list <- lapply(test_names_dirs, function(directory){
+#
+#     read_csv(list.files(
+#       directory, full.names = T
+#     ), show_col_types = F) %>%
+#       mutate(dataset = paste0("L", level, "_", dataset))
+#
+#   })
+#
+#   names(param_list) <- test_names
+#
+#   # Create dataframe of protocol - table - tests
+#   # This will be iterated on to fill out parameters in schema
+#   table_inventory <- bind_rows(
+#     lapply(param_list, function(df){
+#
+#       df %>%
+#         select(protocol, dataset, table, test) %>%
+#         distinct()
+#
+#     })
+#   )
+#
+#   # Column Tests
+#   # Load QC parameters CSVs to list
+#   directory_path <- "./inst/csv_qaqc_parameters/column_tests/"
+#   test_names_dirs <- list.dirs(directory_path)[list.dirs(directory_path) != directory_path]
+#   test_names <- basename(test_names_dirs)
+#
+#   param_list <- lapply(test_names_dirs, function(directory){
+#
+#     read_csv(list.files(
+#       directory, full.names = T
+#     ), show_col_types = F) %>%
+#       mutate(dataset = paste0("L", level, "_", dataset))
+#
+#   })
+#
+#   names(param_list) <- test_names
+#
+#   # Create dataframe of protocol - table - tests
+#   # This will be iterated on to fill out parameters in schema
+#   column_inventory <- bind_rows(
+#     lapply(param_list, function(df){
+#
+#       df %>%
+#         select(protocol, dataset, table, column_name, test) %>%
+#         distinct()
+#
+#     })
+#   )
+#
+# }
 
 write_schema <- function(schema){
 
