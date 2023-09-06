@@ -5,3 +5,4 @@ seagrass-monitoring,2,standardized,biomass,unique_observation,location_name
 seagrass-monitoring,2,standardized,biomass,unique_observation,transect
 seagrass-monitoring,2,standardized,biomass,unique_observation,quadrat
 seagrass-monitoring,2,standardized,biomass,unique_observation,scientific_name
+seagrass-monitoring,2,standardized,biomass,unique_observation,biomass_type

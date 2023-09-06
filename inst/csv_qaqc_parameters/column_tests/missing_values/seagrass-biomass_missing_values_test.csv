@@ -6,5 +6,4 @@ seagrass-monitoring,2,standardized,biomass,missing_values,transect
 seagrass-monitoring,2,standardized,biomass,missing_values,quadrat
 seagrass-monitoring,2,standardized,biomass,missing_values,sample_collection_date
 seagrass-monitoring,2,standardized,biomass,missing_values,scientific_name
-seagrass-monitoring,2,standardized,biomass,missing_values,tin_mass_g
-seagrass-monitoring,2,standardized,biomass,missing_values,tin_sample_dry_mass_g
+seagrass-monitoring,2,standardized,biomass,missing_values,sample_dry_mass_g
