@@ -789,22 +789,8 @@
                 }
               },
               "identification_notes": {},
-              "tin_mass_g": {
+              "sample_dry_mass_g": {
                 "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  },
-                  "numeric_range": {
-                    "fail_range": [0, 5000],
-                    "type": "exclusive"
-                  }
-                }
-              },
-              "tin_sample_dry_mass_g": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  },
                   "numeric_range": {
                     "fail_range": [0, 5000],
                     "type": "exclusive"
@@ -812,7 +798,21 @@
                 }
               },
               "corer_dimensions": {},
-              "sample_data_notes": {}
+              "sample_data_notes": {},
+              "tin_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "tin_sample_dry_mass_g": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              }
             },
             "tests": {
               "unique_observation": {
