@@ -1,3 +1,2 @@
 protocol,level,dataset,table,test,column_name,minimum,maximum,type
-seagrass-monitoring,2,standardized,biomass,numeric_range,tin_mass_g,0,5000,exclusive
-seagrass-monitoring,2,standardized,biomass,numeric_range,tin_sample_dry_mass_g,0,5000,exclusive
+seagrass-monitoring,2,standardized,biomass,numeric_range,sample_dry_mass_g,0,5000,exclusive
