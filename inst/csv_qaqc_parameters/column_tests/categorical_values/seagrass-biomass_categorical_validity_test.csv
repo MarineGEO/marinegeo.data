@@ -1,1 +1,3 @@
 protocol,level,dataset,table,test,column_name,value
+seagrass-monitoring,2,standardized,biomass,categorical_values,biomass_type,aboveground
+seagrass-monitoring,2,standardized,biomass,categorical_values,biomass_type,belowground

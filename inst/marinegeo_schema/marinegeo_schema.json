@@ -789,6 +789,13 @@
                 }
               },
               "identification_notes": {},
+              "biomass_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["aboveground", "belowground"]
+                  }
+                }
+              },
               "sample_dry_mass_g": {
                 "tests": {
                   "numeric_range": {
