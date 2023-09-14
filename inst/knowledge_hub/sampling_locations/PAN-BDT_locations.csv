@@ -3,7 +3,10 @@ PAN-BDT,STRI Seagrass,seagrass
 PAN-BDT,Almirante Seagrass,seagrass
 PAN-BDT,Juan Point Seagrass,seagrass
 PAN-BDT,STRI Tower,
-PAN-BDT,Almirante Coral,coral_reef
-PAN-BDT,Crawl Cay Coral,coral_reef
-PAN-BDT,Juan Point Coral,coral_reef
-PAN-BDT,STRI Coral,coral_reef
+PAN-BDT,Almirante Coral,coral reef
+PAN-BDT,Crawl Cay Coral,coral reef
+PAN-BDT,Juan Point Coral,coral reef
+PAN-BDT,STRI Coral,coral reef
+PAN-BDT,Bocas del Toro Dock,artificial
+PAN-BDT,Bastimentos Dock,artificial
+PAN-BDT,Tranquilo Bay Dock,artificial

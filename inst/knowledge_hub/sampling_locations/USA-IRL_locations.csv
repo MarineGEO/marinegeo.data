@@ -1,10 +1,11 @@
 ﻿observatory_code,location_name,habitat
-USA-IRL,Jack Island Oyster,oyster_reef
-USA-IRL,Wildcat 1 Oyster,oyster_reef
-USA-IRL,Wildcat 2 Oyster,oyster_reef
+USA-IRL,Jack Island Oyster,oyster reef
+USA-IRL,Wildcat 1 Oyster,oyster reef
+USA-IRL,Wildcat 2 Oyster,oyster reef
 USA-IRL,Harbor Branch Seagrass,seagrass
 USA-IRL,Round Island Seagrass,seagrass
 USA-IRL,Bear Point Seagrass,seagrass
 USA-IRL,Wildcat Artificial,artificial
-USA-IRL,FC_CC,artificial
-USA-IRL,FC_IN,artificial
+USA-IRL,Causeway Cove Artificial ,artificial
+USA-IRL,Inlet Artifical,artificial
+USA-IRL,SMS Dock,artificial

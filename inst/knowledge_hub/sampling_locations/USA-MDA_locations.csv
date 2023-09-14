@@ -1,10 +1,20 @@
 ﻿observatory_code,location_name,habitat
-USA-MDA,Cadle Creek Seagrass,seagrass
-USA-MDA,Canninghouse Bay Seagrass,seagrass
-USA-MDA,Sellman Creek Seagrass,seagrass
-USA-MDA,GCREW Marsh,salt_marsh
-USA-MDA,Sellman Creek Marsh,salt_marsh
-USA-MDA,Rhode River Marsh,salt_marsh
-USA-MDA,Glebe Bay Oyster,oyster_reef
-USA-MDA,Severn River Oyster,oyster_reef
-USA-MDA,West River Oyster,oyster_reef
+USA-MDA,Big Island BS,bare sediment
+USA-MDA,Big Island CWD,coarse woody debris
+USA-MDA,Cadle Creek SAV,SAV
+USA-MDA,Canninghouse Bay BS,bare sediment
+USA-MDA,Canninghouse Bay CWD,coarse woody debris
+USA-MDA,Canninghouse Bay SAV,SAV
+USA-MDA,Fox Point BS,bare sediment
+USA-MDA,Fox Point CWD,coarse woody debris
+USA-MDA,GCREW Marsh,salt marsh
+USA-MDA,Glebe Bay Oyster,oyster reef
+USA-MDA,Rhode River Marsh,salt marsh
+USA-MDA,Sellman Creek BS,bare sediment
+USA-MDA,Sellman Creek CWD,coarse woody debris
+USA-MDA,Sellman Creek Marsh,salt marsh
+USA-MDA,Sellman Creek SAV,SAV
+USA-MDA,SERC Dock,artificial
+USA-MDA,SERC Tower,
+USA-MDA,Severn River Oyster,oyster reef
+USA-MDA,West River Oyster,oyster reef
