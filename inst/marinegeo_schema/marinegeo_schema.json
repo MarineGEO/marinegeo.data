@@ -1751,6 +1751,38 @@
       "location_name": {
         "values": [
           {
+            "observatory_code": "CAN-BCC",
+            "location_name": "Koeye Rocky Reef"
+          },
+          {
+            "observatory_code": "CAN-BCC",
+            "location_name": "Koeye Seagrass"
+          },
+          {
+            "observatory_code": "CAN-BCC",
+            "location_name": "Pruth Bay Seagrass"
+          },
+          {
+            "observatory_code": "CAN-BCC",
+            "location_name": "Choked Pass Seagrass"
+          },
+          {
+            "observatory_code": "CAN-BCC",
+            "location_name": "Triquet Kelp"
+          },
+          {
+            "observatory_code": "CAN-BCC",
+            "location_name": "Ratatouille Kelp"
+          },
+          {
+            "observatory_code": "CAN-BCC",
+            "location_name": "Triquetta Kelp"
+          },
+          {
+            "observatory_code": "CAN-BCQ",
+            "location_name": "Quadrat Island Dock"
+          },
+          {
             "observatory_code": "PAN-BDT",
             "location_name": "STRI Seagrass"
           },
@@ -1783,6 +1815,18 @@
             "location_name": "STRI Coral"
           },
           {
+            "observatory_code": "PAN-BDT",
+            "location_name": "Bocas del Toro Dock"
+          },
+          {
+            "observatory_code": "PAN-BDT",
+            "location_name": "Bastimentos Dock"
+          },
+          {
+            "observatory_code": "PAN-BDT",
+            "location_name": "Tranquilo Bay Dock"
+          },
+          {
             "observatory_code": "PER-CCP",
             "location_name": "CC Jetty"
           },
@@ -1793,6 +1837,26 @@
           {
             "observatory_code": "POR-MAD",
             "location_name": "Quinta do Lorde Seagrass"
+          },
+          {
+            "observatory_code": "USA-VAS",
+            "location_name": "UVACRC Dock"
+          },
+          {
+            "observatory_code": "USA-SBC",
+            "location_name": "Santa Barbara Dock"
+          },
+          {
+            "observatory_code": "USA-MWH",
+            "location_name": "Woods Hole Dock"
+          },
+          {
+            "observatory_code": "USA-CBB",
+            "location_name": "Bodega Harbor Dock"
+          },
+          {
+            "observatory_code": "USA-HIK",
+            "location_name": "HIMB Dock"
           },
           {
             "observatory_code": "USA-ALD",
@@ -1817,6 +1881,18 @@
           {
             "observatory_code": "USA-ALD",
             "location_name": "West Point aux Pins Seagrass"
+          },
+          {
+            "observatory_code": "USA-ALD",
+            "location_name": "Rabbit Island Panels"
+          },
+          {
+            "observatory_code": "USA-ALD",
+            "location_name": "Dauphin Island Pier"
+          },
+          {
+            "observatory_code": "USA-ALD",
+            "location_name": "Point Aux Pins Panels"
           },
           {
             "observatory_code": "USA-IRL",
@@ -1848,23 +1924,51 @@
           },
           {
             "observatory_code": "USA-IRL",
-            "location_name": "FC_CC"
+            "location_name": "Causeway Cove Artificial"
           },
           {
             "observatory_code": "USA-IRL",
-            "location_name": "FC_IN"
+            "location_name": "Inlet Artifical"
+          },
+          {
+            "observatory_code": "USA-IRL",
+            "location_name": "SMS Dock"
+          },
+          {
+            "observatory_code": "USA-LIS",
+            "location_name": "Stony Brook Dock"
           },
           {
             "observatory_code": "USA-MDA",
-            "location_name": "Cadle Creek Seagrass"
+            "location_name": "Big Island BS"
           },
           {
             "observatory_code": "USA-MDA",
-            "location_name": "Canninghouse Bay Seagrass"
+            "location_name": "Big Island CWD"
           },
           {
             "observatory_code": "USA-MDA",
-            "location_name": "Sellman Creek Seagrass"
+            "location_name": "Cadle Creek SAV"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Canninghouse Bay BS"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Canninghouse Bay CWD"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Canninghouse Bay SAV"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Fox Point BS"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Fox Point CWD"
           },
           {
             "observatory_code": "USA-MDA",
@@ -1872,7 +1976,7 @@
           },
           {
             "observatory_code": "USA-MDA",
-            "location_name": "Sellman Creek Marsh"
+            "location_name": "Glebe Bay Oyster"
           },
           {
             "observatory_code": "USA-MDA",
@@ -1880,7 +1984,27 @@
           },
           {
             "observatory_code": "USA-MDA",
-            "location_name": "Glebe Bay Oyster"
+            "location_name": "Sellman Creek BS"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Sellman Creek CWD"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Sellman Creek Marsh"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "Sellman Creek SAV"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "SERC Dock"
+          },
+          {
+            "observatory_code": "USA-MDA",
+            "location_name": "SERC Tower"
           },
           {
             "observatory_code": "USA-MDA",
@@ -1907,24 +2031,60 @@
             "location_name": "Richardson Bay Restored Seagrass"
           },
           {
-            "observatory_code": "USA-TMA",
+            "observatory_code": "USA-SFB",
+            "location_name": "Marina District Dock"
+          },
+          {
+            "observatory_code": "USA-TXS",
             "location_name": "Egery Flats Marsh"
           },
           {
-            "observatory_code": "USA-TMA",
+            "observatory_code": "USA-TXS",
             "location_name": "Goose Island Oyster"
           },
           {
-            "observatory_code": "USA-TMA",
+            "observatory_code": "USA-TXS",
             "location_name": "Harbor Island Mangrove"
           },
           {
-            "observatory_code": "USA-TMA",
+            "observatory_code": "USA-TXS",
             "location_name": "Swan Lake Seagrass"
           },
           {
-            "observatory_code": "USA-TMA",
+            "observatory_code": "USA-TXS",
             "location_name": "St Charles Bay Oyster"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "UTMSI Dock"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "Mud Island Mangrove"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "Redfish Bay Oyster"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "Goose Island Marsh"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "Mud Island Marsh"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "Redfish Bay Seagrass"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "San Jose Seagrass"
+          },
+          {
+            "observatory_code": "USA-WAS",
+            "location_name": "Friday Harbor Dock"
           }
         ]
       }
