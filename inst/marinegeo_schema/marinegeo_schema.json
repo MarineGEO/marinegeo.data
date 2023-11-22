@@ -420,6 +420,728 @@
         }
       }
     },
+    "oyster-reef-monitoring": {
+      "datasets": {
+        "L2_standardized": {
+          "biobox-data": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {},
+              "biobox_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "biobox_deployment_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "species_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "biobox_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 200]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "biobox_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "reef_id", "biobox_id", "species_id"]
+              }
+            }
+          },
+          "composition-canopy-taxa": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {},
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 5]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "canopy_taxa_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "canopy_taxa_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 81]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "canopy_taxa_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "reef_id", "transect", "quadrat", "canopy_taxa_id"]
+              }
+            }
+          },
+          "excavation-count": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 5]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "oyster_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["live", "box"]
+                  }
+                }
+              },
+              "oyster_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 100]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_frequency_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "reef_id", "transect", "quadrat", "taxonomic_id", "oyster_type"]
+              }
+            }
+          },
+          "excavation-length": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {},
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 5]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "scientific_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "taxonomic_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "oyster_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["live", "box"]
+                  }
+                }
+              },
+              "height_mm": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 200],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "sample_height_notes": {}
+            }
+          },
+          "primary-substrate-composition": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {},
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "box_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 81]
+                  }
+                }
+              },
+              "cultch_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 81]
+                  }
+                }
+              },
+              "live_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 81]
+                  }
+                }
+              },
+              "sediment_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 81]
+                  }
+                }
+              },
+              "other_type": {},
+              "other_count": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [0, 81]
+                  }
+                }
+              },
+              "primary_substrate_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat"]
+              }
+            }
+          },
+          "reef-area-data": {
+            "columns": {
+              "sample_event_id": {},
+              "observatory_code": {},
+              "location_name": {},
+              "reef_id": {},
+              "sample_collection_date": {},
+              "reef_area_sq_m": {},
+              "reef_area_method": {},
+              "reef_area_notes": {}
+            }
+          },
+          "reef-height-data": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {},
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "point": {},
+              "reef_height": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "compass_direction": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["N", "S", "W", "E"]
+                  }
+                }
+              },
+              "unit": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["cm", "m"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              }
+            }
+          },
+          "rugosity": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {},
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "quadrat": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "pre_chain_length": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [90, 110],
+                    "type": "inclusive"
+                  }
+                }
+              },
+              "post_chain_length": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 110],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "rugosity_notes": {}
+            }
+          },
+          "sample-metadata": {
+            "columns": {
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "reef_id": {},
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect_begin_decimal_latitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "transect_begin_decimal_longitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "transect_end_decimal_latitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "transect_end_decimal_longitude": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-180, 180],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "depth_min_m": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-10, 20],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "depth_max_m": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [-10, 20],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "reef_type": {
+                "tests": {
+                  "categorical_values": {
+                    "values": ["subtidal", "intertidal"]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_metadata_notes": {}
+            },
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+              }
+            }
+          }
+        }
+      }
+    },
     "predation-assay": {
       "datasets": {
         "L2_standardized": {
@@ -1751,6 +2473,62 @@
       "location_name": {
         "values": [
           {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Carrie Bow Patch Reef"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Carrie Bow Reef"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "House Reef"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "South Reef"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Tobacco Reef"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Blueground Mangrove"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Carrie Bow Sand"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "CBC Seagrass"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Curlew Patch Reef"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Curlew Sand"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Curlew Seagrass"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Tobacco Mangrove"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Twin Cays Mangrove"
+          },
+          {
+            "observatory_code": "BLZ-CBC",
+            "location_name": "Twin Cays Seagrass"
+          },
+          {
             "observatory_code": "CAN-BCC",
             "location_name": "Koeye Rocky Reef"
           },
@@ -1781,6 +2559,14 @@
           {
             "observatory_code": "CAN-BCQ",
             "location_name": "Quadrat Island Dock"
+          },
+          {
+            "observatory_code": "IRL-KYF",
+            "location_name": "Cuan Eamonn Seagrass"
+          },
+          {
+            "observatory_code": "IRL-KYF",
+            "location_name": "Fenit Island Tombolo Seagrass"
           },
           {
             "observatory_code": "PAN-BDT",
@@ -2015,6 +2801,10 @@
             "location_name": "West River Oyster"
           },
           {
+            "observatory_code": "USA-MDA",
+            "location_name": "South River Oyster"
+          },
+          {
             "observatory_code": "USA-SFB",
             "location_name": "Marin Seagrass"
           },
@@ -2081,6 +2871,39 @@
           {
             "observatory_code": "USA-TXS",
             "location_name": "San Jose Seagrass"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "Laguna Madre Seagrass"
+          },
+          {
+            "observatory_code": "USA-TXS",
+            "location_name": "Oso Bay Seagrass"
+          },
+          {},
+          {
+            "observatory_code": "USA-VAY",
+            "location_name": "Hill Crest Oyster"
+          },
+          {
+            "observatory_code": "USA-VAY",
+            "location_name": "Running Channel Oyster"
+          },
+          {
+            "observatory_code": "USA-VAY",
+            "location_name": "Man and Boy Oyster"
+          },
+          {
+            "observatory_code": "USA-VAY",
+            "location_name": "Ware Point South Seagrass"
+          },
+          {
+            "observatory_code": "USA-VAY",
+            "location_name": "Allens Island Seagrass"
+          },
+          {
+            "observatory_code": "USA-VAY",
+            "location_name": "Guinea Marsh Seagrass"
           },
           {
             "observatory_code": "USA-WAS",

@@ -4,7 +4,7 @@
 \alias{get_column_order}
 \title{Get Column Order for table}
 \usage{
-get_column_order(protocol, table)
+get_column_order(protocol, table, dataset = "L2_standardized")
 }
 \arguments{
 \item{level}{}

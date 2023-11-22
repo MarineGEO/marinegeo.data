@@ -1,0 +1,10 @@
+protocol,level,dataset,table,test,column_name,minimum,maximum,type
+oyster-reef-monitoring,2,standardized,sample-metadata,numeric_range,transect_begin_decimal_latitude,-180,180,exclusive
+oyster-reef-monitoring,2,standardized,sample-metadata,numeric_range,transect_begin_decimal_longitude,-180,180,exclusive
+oyster-reef-monitoring,2,standardized,sample-metadata,numeric_range,transect_end_decimal_latitude,-180,180,exclusive
+oyster-reef-monitoring,2,standardized,sample-metadata,numeric_range,transect_end_decimal_longitude,-180,180,exclusive
+oyster-reef-monitoring,2,standardized,sample-metadata,numeric_range,depth_min_m,-10,20,exclusive
+oyster-reef-monitoring,2,standardized,sample-metadata,numeric_range,depth_max_m,-10,20,exclusive
+oyster-reef-monitoring,2,standardized,rugosity,numeric_range,pre_chain_length,90,110,inclusive
+oyster-reef-monitoring,2,standardized,rugosity,numeric_range,post_chain_length,0,110,exclusive
+oyster-reef-monitoring,2,standardized,excavation-length,numeric_range,height_mm,0,200,exclusive

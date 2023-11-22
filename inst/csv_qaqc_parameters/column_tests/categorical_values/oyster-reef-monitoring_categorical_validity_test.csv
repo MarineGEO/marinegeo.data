@@ -1,0 +1,13 @@
+protocol,level,dataset,table,test,column_name,value
+oyster-reef-monitoring,2,standardized,reef-height-data,categorical_values,compass_direction,N
+oyster-reef-monitoring,2,standardized,reef-height-data,categorical_values,compass_direction,S
+oyster-reef-monitoring,2,standardized,reef-height-data,categorical_values,compass_direction,W
+oyster-reef-monitoring,2,standardized,reef-height-data,categorical_values,compass_direction,E
+oyster-reef-monitoring,2,standardized,reef-height-data,categorical_values,unit,cm
+oyster-reef-monitoring,2,standardized,reef-height-data,categorical_values,unit,m
+oyster-reef-monitoring,2,standardized,sample-metadata,categorical_values,reef_type,subtidal
+oyster-reef-monitoring,2,standardized,sample-metadata,categorical_values,reef_type,intertidal
+oyster-reef-monitoring,2,standardized,excavation-length,categorical_values,oyster_type,live
+oyster-reef-monitoring,2,standardized,excavation-length,categorical_values,oyster_type,box
+oyster-reef-monitoring,2,standardized,excavation-count,categorical_values,oyster_type,live
+oyster-reef-monitoring,2,standardized,excavation-count,categorical_values,oyster_type,box
