@@ -433,17 +433,13 @@ create_knowledge_hub_list <- function(){
 
       scientific_name = list(
         values = unique(
-          read_csv(list.files(
-            "./inst/knowledge_hub/taxonomy/", full.names = T
-          ), show_col_types = F)$scientific_name
+          read_csv("./inst/knowledge_hub/taxonomy/taxonomic_inventory.csv", show_col_types = F)$scientific_name
         )
       ),
 
       taxonomic_id = list(
         values = unique(
-          read_csv(list.files(
-            "./inst/knowledge_hub/taxonomy/", full.names = T
-          ), show_col_types = F)$taxonomic_id
+          read_csv("./inst/knowledge_hub/taxonomy/taxonomic_inventory.csv", show_col_types = F)$taxonomic_id
         )
       )
     ),

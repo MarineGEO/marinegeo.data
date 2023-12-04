@@ -1813,88 +1813,6 @@
               }
             }
           },
-          "epifauna-metadata": {
-            "columns": {
-              "sample_event_id": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  }
-                }
-              },
-              "observatory_code": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  }
-                }
-              },
-              "location_name": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  }
-                }
-              },
-              "transect": {
-                "tests": {
-                  "integer_range": {
-                    "fail_range": [1, 3]
-                  },
-                  "missing_values": {
-                    "value_required": true
-                  }
-                }
-              },
-              "sample_collection_date": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  }
-                }
-              },
-              "mesh_bag_length": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  },
-                  "numeric_range": {
-                    "fail_range": [0, 100],
-                    "type": "exclusive"
-                  }
-                }
-              },
-              "mesh_bag_width": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  },
-                  "numeric_range": {
-                    "fail_range": [0, 100],
-                    "type": "exclusive"
-                  }
-                }
-              },
-              "mesh_size": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  },
-                  "numeric_range": {
-                    "fail_range": [0, 100],
-                    "type": "exclusive"
-                  }
-                }
-              },
-              "sample_processing_date": {},
-              "sample_metadata_notes": {}
-            },
-            "tests": {
-              "unique_observation": {
-                "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
-              }
-            }
-          },
           "macroalgae": {
             "columns": {
               "sample_event_id": {
@@ -2159,6 +2077,25 @@
               }
             }
           },
+          "seagrass-metadata": {
+            "columns": {
+              "sample_event_id": {},
+              "observatory_code": {},
+              "location_name": {},
+              "transect": {},
+              "sample_collection_date": {},
+              "transect_begin_decimal_latitude": {},
+              "transect_begin_decimal_longitude": {},
+              "transect_end_decimal_latitude": {},
+              "transect_end_decimal_longitude": {},
+              "depth_min_m": {},
+              "depth_max_m": {},
+              "epifauna_mesh_bag_length": {},
+              "epifauna_mesh_bag_width": {},
+              "epifauna_mesh_size": {},
+              "sample_metadata_notes": {}
+            }
+          },
           "sheath-and-epibiont-data": {
             "columns": {
               "sample_event_id": {
@@ -2358,6 +2295,86 @@
                 "values": ["sample_event_id", "observatory_code", "location_name", "transect", "quadrat", "scientific_name"]
               }
             }
+          },
+          "epifauna-metadata": {
+            "tests": {
+              "unique_observation": {
+                "values": ["sample_event_id", "observatory_code", "location_name", "transect"]
+              }
+            },
+            "columns": {
+              "location_name": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "mesh_bag_length": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "mesh_bag_width": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "mesh_size": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  },
+                  "numeric_range": {
+                    "fail_range": [0, 100],
+                    "type": "exclusive"
+                  }
+                }
+              },
+              "observatory_code": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "sample_event_id": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              },
+              "transect": {
+                "tests": {
+                  "integer_range": {
+                    "fail_range": [1, 3]
+                  },
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -2463,10 +2480,10 @@
         "values": ["PER-CCP", "USA-LJC", "BLZ-CBC", "PAN-BDT", "USA-ALD", "USA-IRL", "USA-LIS", "USA-MDA", "USA-VAY", "CAN-BCC", "USA-TXS", "POR-MAD", "AUS-COR", "AUS-FNQ", "AUS-PRB", "AUS-SEQ", "AUS-USC", "CHL-CQB", "CHL-CQB", "FIN-GOF", "FRA-SUD", "HRV-ZAD", "IDN-SIR", "IRL-DUB", "KOR-DDB", "MDG-RGN", "MDV-OIL", "MEX-ENS", "MEX-PUM", "NOR-ROV", "PHL-PBT", "POR-MAD", "SWE-KAT", "USA-AKA", "USA-HAT", "USA-NCC", "USA-NCT", "USA-ORC", "USA-VAS", "USA-WAR", "VEN-LCO", "USA-SFB"]
       },
       "scientific_name": {
-        "values": ["Gnatholepis thompsoni", "Hypoplectrus puella", "Lytechinus variegatus", "Chaetodon capistratus", "Halichoeres bivittatus", "Haemulon plumierii", "Condylactis gigantea", "Cassiopea andromeda", "Coryphopterus eidolon", "Lutjanus", "Holothuria", "Chordata", "Clupeidae", "Syringodium filiforme", "Thalassia testudinum", "Halimeda", "Dictyota", "Paguristes", "Gastropoda", "Chlorophyta", "Phaeophyceae", "Dissonidae", "Mollusca", "Cystiscidae", "Modulidae", "Polychaeta", "Caridea", "Fissurellidae", "Smaragdia viridis", "Phasianellidae", "Bivalvia", "Amphipoda", "Polyplacophora", "Cypraeidae", "Isopoda", "Lytechinus", "Rhodophyta", "Halimeda opuntia", "Cheloniidae", "Mullus surmuletus", "Xyrichtys novacula", "Sphoeroides marmoratus", "Canthigaster capistrata", "Pagellus erythrinus", "Astropecten aranciacus", "Cryptosoma cristatum", "Heteroconger longissimus", "Hippocampus", "Sparisoma cretense", "Spondyliosoma cantharus", "Cymodocea nodosa", "Caulerpa", "Didemnum", "Diplosoma listerianum", "Diplosoma spongiforme", "Cirripedia", "Bugula neritina", "Sabellidae", "Clavelina oblonga", "Ascidia curvata", "Schizoporella pungens", "Hippopodina feegeensis", "Phallusia nigra", "Caulibugula armata", "Savignyella lafontii", "Hydroides", "Botrylloides niger", "Hydrozoa", "Didemnum psammatodes", "Symplegma rubra", "Herdmania pallida", "Cradoscrupocellaria bertholletii", "Catenicella uberrima", "Parasmittina nitida", "Porifera", "Polyclinum constellatum", "Perophora viridis", "Symplegma brakenhielmi", "Diplosoma glandulosum", "Botryllus planus", "Ascidia sydneiensis", "Styela plicata", "Molgula manhattensis", "Hippopodina indicata", "Amathia verticillata", "Watersipora subtorquata", "Crepidula", "Amphibalanus eburneus", "Branchiomma bairdi", "Celleporaria brunnea", "Eudistoma olivaceum", "Musculus lateralis", "Parasabella", "Pinctada longisquamosa", "Polydora cornuta", "Amphibalanus reticulatus", "Ascidia", "Distaplia bermudensis", "Herdmania momus", "Petaloconchus", "Sycon ciliatum", "Terebellida", "Amathia alternata", "Hydroides dianthus", "Spirorbidae", "Bugulina stolonifera", "Clathria", "Barentsia", "Cirriformia", "Monocorophium acherusicum", "Sabellida", "Actiniaria", "Anomia simplex", "Eudistoma", "Microcosmus exasperatus", "Clavelina picta", "Hydroides dirampha", "Polyandrocarpa zorritensis", "Hippoporina indica", "Victorella pavida", "Licornia regularis", "Balanus trigonus", "Amphibalanus venustus", "Cradoscrupocellaria atlantica", "Mycale microsigmatosa", "Botryllus", "Halichondria magniconulosa", "Nolella stipata", "Terebellidae", "Amathia vidovici", "Ecteinascidia turbinata", "Styela canopus", "Mycale (Carmia) microsigmatosa", "Ericthonius brasiliensis", "Crassostrea virginica", "Brachidontes exustus", "Micropanope", "Mithrax", "Libinia", "Eurypanopeus depressus", "Panopeus occidentalis", "Panopeus herbstii", "Alpheus heterochaelis", "Boonea impressa", "Cerithium muscarum", "Goniopsis cruentata", "Menippe mercenaria", "Petrolisthes armatus", "Isognomon alatus", "Ischadium recurvum", "Hippolyte pleuracantha", "Arthropoda", "Hargeria rapax", "Decapoda", "Tanaidacea", "Orbiniidae", "Halophila decipiens", "Hypnea spinella", "Hypnea musciformis", "Crassiphycus usneoides", "Erichsonella attenuata", "Harrieta faxoni", "Bittiolum varium", "Deutella incerta", "Nassarius acutus", "Ceratonereis mirabilis", "Cerithium litteratum", "Cerapus cudjoe", "Aonides mayaguezensis", "Crepidula convexa", "Haminoea antillarum", "Acteocina canaliculata", "Lembos unifasciatus", "Caecum floridanum", "Grandidierella bonnieroides", "Turbonilla dalli", "Bulla striata", "Hippolyte zostericola", "Lembos websteri", "Paracerceis caudata", "Parvanachis obesa", "Rhithropanopeus harrisii", "Pyrgocythara plicosa", "Dulichiella appendiculata", "Cerithium lutosum", "Lysianopsis alba", "Paracaprella tenuis", "Prunum apicinum", "Epitonium candeanum", "Ampelisca verrilli", "Hexapanopeus paulensis", "Granulina ovuliformis", "Marshallora nigrocincta", "Astyris lunata", "Cymadusa compta", "Photis", "Prionospio", "Capitella", "Nereida", "Ampithoe longimana", "Cumacea", "Megalops", "Cuapetes americanus", "Sipuncula", "Pycnogonida", "Phrontis vibex", "Nudibranchia", "Palaemon pugio", "Corophium", "Unciola", "Amphithrax hemphilli", "Quadrimaera quadrimana", "Melphidippidae", "Gracilaria", "Halodule wrightii", "Acanthophora spicifera", "Caulerpa sertularioides", "Halophila engelmannii", "Halophila ovalis", "Ulothrix speciosa", "Alpheus paracrinitus", "Phascolion", "Nanoplax xanthiformis", "Chelicorophium spinulosum", "Exogone dispar", "Costoanachis avara", "Vitta virginea", "Perinereis monterea", "Libinia dubia", "Japonactaeon punctostriatus", "Mysida", "Turbonilla toyatani", "Photis spasskii", "Cerithium atratum", "Ampithoe ramondi", "Mediomastus californiensis", "Haminoea petitii", "Glycera brevicirris", "Callinectes", "Palaemon", "Aster subulatus", "Phragmites australis", "Hydrocotyle umbellata", "Schoenoplectus americanus", "Spartina alterniflora", "Typha angustifolia", "Morella cerifera", "Lonicera japonica", "Symphyotrichum tenuifolium", "Baccharis halimifolia", "Pluchea odorata", "Spartina cynosuroides", "Hibiscus moscheutos", "Sagittaria latifolia", "Amaranthus cannabinus", "Distichlis spicata", "Spartina patens", "Parthenocissus quinquefolia", "Ilex", "Solidago", "Solidago sempervirens", "Panicum virgatum", "Convolvulus arvensis", "Atriplex patula", "Schoenoplectus robustus", "Polygonum hydropiperoides", "Juniperus virginiana", "Iva frutescens", "Kosteletzkya virginica", "Morone americana", "Fundulus majalis", "Menidia menidia", "Esox niger", "Menidia beryllina", "Leiostomus xanthurus", "Anchoa mitchilli", "Micropogonias undulatus", "Syngnathus fuscus", "Fundulus heteroclitus", "Zannichellia palustris"]
+        "values": ["Callinectes sapidus", "Cyprinodon variegatus", "Fundulus diaphanus", "Fundulus heteroclitus", "Gobiosoma bosc", "Menidia beryllina", "Menidia menidia", "Palaemon pugio", "Syngnathus fuscus", "Trinectes maculatus", "Anchoa mitchilli", "Brevoortia tyrannus", "Esox niger", "Fundulus majalis", "Gambusia holbrooki", "Leiostomus xanthurus", "Lucania parva", "Micropogonias undulatus", "Morone americana", "Astropecten aranciacus", "Canthigaster capistrata", "Cryptosoma cristatum", "Halichoeres bivittatus", "Heteroconger longissimus", "Hippocampus", "Holothuria", "Lutjanus", "Lytechinus variegatus", "Sparisoma cretense", "Sphoeroides marmoratus", "Spondyliosoma cantharus", "Xyrichtys novacula", "Cassiopea andromeda", "Chaetodon capistratus", "Chordata", "Clupeidae", "Condylactis gigantea", "Hypoplectrus puella", "Mullus surmuletus", "Pagellus erythrinus", "Crassostrea virginica", "Isognomon alatus", "Macoma balthica", "Mytilopsis leucophaeata", "Brachidontes exustus", "Ischadium recurvum", "Amphibalanus improvisus", "Victorella pavida", "Alitta succinea", "Alpheus", "Alpheus heterochaelis", "Alpheus viridari", "Aratus pisonii", "Chasmodes bosquianus", "Crepidula maculosa", "Diodora sayi", "Elasmopus levis", "Excorallana tricornis", "Gastropoda", "Gonodactylus chiragra", "Lepidoptera", "Libinia", "Melita nitida", "Pachygrapsus transversus", "Palaemon", "Panopeus herbstii", "Panopeus occidentalis", "Parhyale hawaiensis", "Phrontis vibex", "Pyrgocythara plicosa", "Rhithropanopeus harrisii", "Amphipoda", "Anguilla rostrata", "Boonea impressa", "Cerithium muscarum", "Crepidula fornicata", "Decapoda", "Dyspanopeus sayi", "Eurypanopeus abbreviatus", "Eurypanopeus depressus", "Gobiesox strumosus", "Goniopsis cruentata", "Hargeria rapax", "Hexapanopeus angustifrons", "Hippolyte", "Lysianassidae", "Menippe mercenaria", "Micropanope", "Mithrax", "Opsanus tau", "Pachygrapsus gracilis", "Palaemon vulgaris", "Petrolisthes armatus", "Polychaeta", "Urosalpinx cinerea", "Caulerpa sertularioides", "Chlorophyta", "Cymodocea nodosa", "Dictyota", "Halodule wrightii", "Halophila ovalis", "Syringodium filiforme", "Zannichellia palustris", "Acanthophora spicifera", "Caulerpa", "Halimeda", "Halophila engelmannii", "Phaeophyceae", "Thalassia testudinum", "Ulothrix speciosa", "Lytechinus williamsi", "Echinoidea", "Paguristes", "Crassiphycus usneoides", "Gracilaria", "Halimeda opuntia", "Halophila decipiens", "Hypnea musciformis", "Hypnea spinella", "Rhodophyta", "Acteocina canaliculata", "Alpheus paracrinitus", "Ampithoe longimana", "Ampithoe ramondi", "Arthropoda", "Astyris lunata", "Bivalvia", "Capitella", "Cerapus cudjoe", "Cerithium lutosum", "Costoanachis avara", "Cumacea", "Cymadusa compta", "Cypraeidae", "Cystiscidae", "Deutella incerta", "Ericthonius brasiliensis", "Fissurellidae", "Grandidierella bonnieroides", "Granulina ovuliformis", "Harrieta faxoni", "Hippolyte zostericola", "Ichnopus", "Lembos websteri", "Libinia dubia", "Lytechinus", "Marshallora nigrocincta", "Mediomastus californiensis", "Mysida", "Nereididae", "Nereis", "Nudibranchia", "Ophiactis savignyi", "Ophiuroidea", "Orbiniidae", "Paracaprella tenuis", "Paracerceis caudata", "Parvanachis obesa", "Phascolion", "Photis", "Prionospio", "Prunum apicinum", "Tanaidacea", "Turbonilla dalli", "Ampelisca verrilli", "Amphithrax hemphilli", "Aonides mayaguezensis", "Bittiolum varium", "Bulla striata", "Caecum floridanum", "Callinectes", "Caridea", "Ceratonereis mirabilis", "Cerithium atratum", "Cerithium litteratum", "Corophium", "Crepidula convexa", "Cuapetes americanus", "Dissonidae", "Dulichiella appendiculata", "Epitonium candeanum", "Erichsonella attenuata", "Exogone dispar", "Haminoea antillarum", "Haminoea petitii", "Hexapanopeus paulensis", "Hippolyte pleuracantha", "Isopoda", "Japonactaeon punctostriatus", "Lembos unifasciatus", "Lysianopsis alba", "Megalops", "Melphidippidae", "Modulidae", "Mollusca", "Nanoplax xanthiformis", "Nassarius acutus", "Pectinidae", "Phasianellidae", "Polyplacophora", "Pycnogonida", "Quadrimaera quadrimana", "Sipuncula", "Smaragdia", "Smaragdia viridis", "Turbonilla toyatani", "Unciola", "Vitta virginea"]
       },
       "taxonomic_id": {
-        "values": [277493, 281120, 367850, 159661, 158815, 158808, 283419, 135295, 276426, 159791, 123456, 1821, 125464, 374715, 374720, 143820, 144086, 106844, 101, 801, 830, 346012, 51, 23023, 196285, 883, 106674, 111, 140570, 151267, 105, 1135, 55, 23022, 1131, 240777, 852, 144482, 136999, 126986, 126971, 127416, 234105, 127060, 123856, 107272, 126288, 126224, 231441, 127066, 145793, 143816, 103456, 103579, 103582, 1082, 111158, 985, 103554, 249981, 422363, 111389, 103725, 448282, 111512, 129566, 252289, 1337, 252853, 212500, 250697, 738973, 422314, 422348, 558, 215891, 103761, 251435, 250134, 215992, 215940, 103936, 103788, 1403980, 851581, 111592, 137722, 421138, 421070, 394868, 250236, 420707, 325958, 420734, 131143, 421140, 103483, 103604, 103830, 138650, 132251, 900, 422418, 131000, 1021266, 834018, 131868, 111795, 129245, 225814, 901, 1360, 156737, 103465, 103838, 250323, 131001, 103895, 469112, 111673, 760385, 106223, 421142, 738972, 192555, 103529, 191436, 111636, 982, 111663, 103756, 103926, 168590, 102401, 140657, 397026, 246346, 158428, 106906, 158416, 422086, 158436, 158348, 420437, 419523, 422187, 422070, 396707, 420736, 156861, 158360, 1065, 247538, 1130, 1133, 902, 145713, 145635, 145634, 1327608, 157887, 260565, 160174, 421581, 160395, 130372, 216687, 421589, 157179, 160228, 420524, 160065, 422677, 419588, 211405, 420483, 138940, 158361, 102033, 261817, 160440, 107414, 160476, 421504, 419522, 158036, 160028, 420149, 419806, 158023, 422081, 532891, 160363, 160102, 158082, 101563, 129620, 129211, 394039, 158026, 1137, 125726, 514508, 1268, 1302, 877061, 1762, 932401, 101489, 101474, 1258715, 421523, 101398, 144188, 208925, 211768, 144474, 374722, 208930, 145930, 210522, 136025, 422113, 431340, 333453, 160222, 865834, 334445, 107335, 420514, 149668, 160091, 254754, 224572, 102000, 157483, 532293, 328104, 106921, 107032, 1096320, 416209, 1491603, 577501, 234072, 1415753, 1492216, 1491747, 418793, 578001, 418788, 418820, 418727, 1435889, 418655, 1433670, 395045, 418650, 415505, 415991, 418790, 418816, "NA", 1492694, 418784, 418730, 151177, 159308, 159228, 888530, 159227, 159322, 158699, 151158, 159451, 159306, 416222]
+        "values": [107379, 159285, 159296, 159306, 159767, 159227, 159228, 932401, 159451, 159271, 158699, 158691, 888530, 159308, 276134, 159322, 159310, 151158, 151177, 123856, 234105, 107272, 158815, 126288, 126224, 123456, 159791, 367850, 231441, 127416, 127066, 126971, 135295, 159661, 1821, 125464, 283419, 281120, 126986, 127060, 140657, 420736, 141579, 156887, 397026, 156861, 421139, 111673, 234850, 106978, 158348, 421744, 422190, 159598, 419704, 419347, 421508, 260378, 101, 210242, 989022, 106906, 146922, 107457, 107032, 158436, 422086, 221362, 877061, 160476, 107414, 1135, 158562, 420437, 419523, 138963, 1130, 107412, 422075, 158416, 158787, 422187, 247538, 158424, 106987, 101395, 422070, 246346, 158428, 158782, 241200, 932406, 396707, 883, 140429, 144474, 801, 145793, 144086, 208925, 208930, 374715, 416222, 211768, 143816, 143820, 374722, 830, 374720, 145930, 422489, 123082, 106844, 1327608, 144188, 144482, 145713, 145634, 145635, 852, 160065, 210522, 158026, 102000, 1065, 160102, 105, 129211, 421589, 419522, 160222, 1137, 158082, 23022, 23023, 421581, 102401, 111, 211405, 532891, 260565, 158361, 101614, 102033, 107335, 240777, 160363, 157483, 149668, 22496, 129379, 1762, 125122, 123084, 902, 160028, 261817, 160440, 136025, 101563, 129620, 420149, 1133, 420483, 158023, 1258715, 157179, 160174, 138940, 419588, 106921, 106674, 130372, 224572, 216687, 101489, 160228, 514508, 346012, 421504, 419806, 157887, 333453, 420524, 532293, 422081, 158360, 1131, 420514, 422677, 158036, 125726, 101398, 196285, 51, 422113, 160395, 213, 151267, 55, 1302, 421523, 1268, 138255, 140570, 160091, 101474, 865834]
       }
     },
     "location_names": {
