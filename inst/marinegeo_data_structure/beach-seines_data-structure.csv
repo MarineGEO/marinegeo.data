@@ -1,4 +1,5 @@
 ﻿protocol,database_table,level,dataset,table,column_name,data_type,version
+Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,observation_id,INT64,1
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,sample_event_id,STRING,1
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,observatory_code,STRING,1
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,location_name,STRING,1
@@ -9,6 +10,7 @@ Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-me
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,seine_height_m,DOUBLE,1
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,seine_distance_m,DOUBLE,1
 Beach Seines,beach_seines_l2_standardized_seine_metadata,2,standardized,seine-metadata,sample_metadata_notes,STRING,1
+Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,observation_id,INT64,1
 Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,sample_event_id,STRING,1
 Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,observatory_code,STRING,1
 Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,location_name,STRING,1
@@ -19,6 +21,7 @@ Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,tax
 Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,species_id,STRING,1
 Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,abundance,INT,1
 Beach Seines,beach_seines_l2_standardized_abundance,2,standardized,abundance,abundance_notes,STRING,1
+Beach Seines,beach_seines_l2_standardized_length,2,standardized,length,observation_id,INT64,1
 Beach Seines,beach_seines_l2_standardized_length,2,standardized,length,sample_event_id,STRING,1
 Beach Seines,beach_seines_l2_standardized_length,2,standardized,length,observatory_code,STRING,1
 Beach Seines,beach_seines_l2_standardized_length,2,standardized,length,location_name,STRING,1

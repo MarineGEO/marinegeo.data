@@ -5,6 +5,7 @@
         "L2_standardized": {
           "abundance": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -84,6 +85,7 @@
           },
           "length": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -159,6 +161,7 @@
           },
           "seine-metadata": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -241,6 +244,7 @@
         "L2_standardized": {
           "fish-survey-data": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -347,6 +351,7 @@
           },
           "fish-survey-metadata": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1147,6 +1152,7 @@
         "L2_standardized": {
           "predation": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1249,6 +1255,8 @@
               "sample_check_time_1_hr": {},
               "sample_check_date_24_hr": {},
               "sample_check_time_24_hr": {},
+              "predation_rate_1_hr": {},
+              "predation_rate_24_hr": {},
               "sample_data_notes": {}
             },
             "tests": {
@@ -1455,6 +1463,7 @@
         "L2_standardized": {
           "biomass": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1540,6 +1549,7 @@
           },
           "blade-measurements": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1638,6 +1648,7 @@
           },
           "cover": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1704,6 +1715,8 @@
                   }
                 }
               },
+              "cover_method": {},
+              "percent_cover": {},
               "sediment_type": {
                 "tests": {
                   "categorical_values": {
@@ -1725,6 +1738,7 @@
           },
           "epifauna-data": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1815,6 +1829,7 @@
           },
           "macroalgae": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1911,6 +1926,7 @@
           },
           "macroinvertebrates": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -1995,6 +2011,7 @@
           },
           "macrophyte-mass": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -2098,6 +2115,7 @@
           },
           "sheath-and-epibiont-data": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -2207,6 +2225,7 @@
           },
           "shoot-count": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
@@ -2384,6 +2403,7 @@
         "L2_standardized": {
           "data": {
             "columns": {
+              "observation_id": {},
               "sample_event_id": {
                 "tests": {
                   "missing_values": {
