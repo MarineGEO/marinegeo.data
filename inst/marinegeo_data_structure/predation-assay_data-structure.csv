@@ -18,3 +18,9 @@ Predation Assay,predation-monitoring-v1,2,standardized,predation,sample_check_ti
 Predation Assay,predation-monitoring-v1,2,standardized,predation,predation_rate_1_hr,DOUBLE,1
 Predation Assay,predation-monitoring-v1,2,standardized,predation,predation_rate_24_hr,DOUBLE,1
 Predation Assay,predation-monitoring-v1,2,standardized,predation,sample_data_notes,STRING,1
+Predation Assay,predation-monitoring-v1,2,standardized,predation,transect_begin_decimal_latitude,DOUBLE,1
+Predation Assay,predation-monitoring-v1,2,standardized,predation,transect_begin_decimal_longitude,DOUBLE,1
+Predation Assay,predation-monitoring-v1,2,standardized,predation,transect_end_decimal_latitude,DOUBLE,1
+Predation Assay,predation-monitoring-v1,2,standardized,predation,transect_end_decimal_longitude,DOUBLE,1
+Predation Assay,predation-monitoring-v1,2,standardized,predation,depth_min_m,DOUBLE,1
+Predation Assay,predation-monitoring-v1,2,standardized,predation,depth_max_m,DOUBLE,1
