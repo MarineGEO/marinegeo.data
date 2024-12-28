@@ -193,13 +193,6 @@
                   }
                 }
               },
-              "sample_collection_date": {
-                "tests": {
-                  "missing_values": {
-                    "value_required": true
-                  }
-                }
-              },
               "seine_mesh_size_mm": {
                 "tests": {
                   "missing_values": {
@@ -232,7 +225,14 @@
               "transect_begin_decimal_longitude": {},
               "transect_end_decimal_latitude": {},
               "transect_end_decimal_longitude": {},
-              "sample_metadata_notes": {}
+              "sample_metadata_notes": {},
+              "sample_collection_date": {
+                "tests": {
+                  "missing_values": {
+                    "value_required": true
+                  }
+                }
+              }
             },
             "tests": {
               "unique_observation": {

@@ -4,7 +4,6 @@ Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,sample_e
 Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,observatory_code,STRING,1
 Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,location_name,STRING,1
 Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,transect,TINYINT,1
-Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,sample_collection_date,DATE,1
 Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,seine_mesh_size_mm,DOUBLE,1
 Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,seine_width_m,DOUBLE,1
 Beach Seines,seine-metadata-monitoring-v1,2,standardized,seine-metadata,seine_height_m,DOUBLE,1
